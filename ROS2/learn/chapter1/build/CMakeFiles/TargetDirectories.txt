@@ -1,0 +1,3 @@
+/home/emmm/Desktop/ROS2/fishros/chapter1/build/CMakeFiles/learn_cmake.dir
+/home/emmm/Desktop/ROS2/fishros/chapter1/build/CMakeFiles/edit_cache.dir
+/home/emmm/Desktop/ROS2/fishros/chapter1/build/CMakeFiles/rebuild_cache.dir

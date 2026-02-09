@@ -1,0 +1,7 @@
+[01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/src/example_topic/src/one_message_publisher.cpp:[m[K In constructor ‘[01m[KTopicPublisher::TopicPublisher(std::string)[m[K’:
+[01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/src/example_topic/src/one_message_publisher.cpp:8:62:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KTopicPublisher[m[K’ does not have any field named ‘[01m[Kmessage_published_[m[K’
+    8 |     TopicPublisher(std::string node_name) : Node(node_name), [01;31m[Kmessage_published_[m[K(false) {
+      |                                                              [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/one_message_publisher.dir/build.make:76: CMakeFiles/one_message_publisher.dir/src/one_message_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/one_message_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,26 @@
+[0.011s] Invoking command in '/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/build/opencv_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/build/opencv_video -- -j12 -l12
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target video_publisher[0m
+[0.073s] [ 50%] [32mBuilding CXX object CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o[0m
+[2.425s] [100%] [32m[1mLinking CXX executable video_publisher[0m
+[2.729s] [100%] Built target video_publisher
+[2.747s] Invoked command in '/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/build/opencv_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/build/opencv_video -- -j12 -l12
+[2.760s] Invoking command in '/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/build/opencv_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/build/opencv_video
+[2.772s] -- Install configuration: ""
+[2.772s] -- Installing: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/lib/opencv_video/video_publisher
+[2.773s] -- Set runtime path of "/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/lib/opencv_video/video_publisher" to ""
+[2.773s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/share/ament_index/resource_index/package_run_dependencies/opencv_video
+[2.774s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/share/ament_index/resource_index/parent_prefix_path/opencv_video
+[2.774s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/share/opencv_video/environment/ament_prefix_path.sh
+[2.774s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/share/opencv_video/environment/ament_prefix_path.dsv
+[2.774s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/share/opencv_video/environment/path.sh
+[2.774s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/share/opencv_video/environment/path.dsv
+[2.774s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/share/opencv_video/local_setup.bash
+[2.774s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/share/opencv_video/local_setup.sh
+[2.774s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/share/opencv_video/local_setup.zsh
+[2.775s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/share/opencv_video/local_setup.dsv
+[2.775s] -- Installing: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/share/opencv_video/package.dsv
+[2.775s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/share/ament_index/resource_index/packages/opencv_video
+[2.775s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/share/opencv_video/cmake/opencv_videoConfig.cmake
+[2.775s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/share/opencv_video/cmake/opencv_videoConfig-version.cmake
+[2.775s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/share/opencv_video/package.xml
+[2.777s] Invoked command in '/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/build/opencv_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/build/opencv_video

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-20784b1cbc0d980bbd1e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "example_interfaces_rclcpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "example_interfaces_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_interfaces_control-81b7ef306dc900480d4a.json",
+					"name" : "example_interfaces_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_interfaces_rclcpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_interfaces_rclcpp_uninstall-e5a52d95f5bdceac6c95.json",
+					"name" : "example_interfaces_rclcpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_interfaces_robot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_interfaces_robot-3e152fe8a6b34d344949.json",
+					"name" : "example_interfaces_robot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8c6bae26bc503036bc53.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_interfaces_rclcpp",
+		"source" : "/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/src/example_interfaces_rclcpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

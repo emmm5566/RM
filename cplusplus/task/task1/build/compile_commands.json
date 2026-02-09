@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task1/build",
+  "command": "/usr/bin/g++  -I/home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task1/head -g -std=gnu++11 -o CMakeFiles/cplusplus.dir/source/add.cpp.o -c /home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task1/source/add.cpp",
+  "file": "/home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task1/source/add.cpp"
+},
+{
+  "directory": "/home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task1/build",
+  "command": "/usr/bin/g++  -I/home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task1/head -g -std=gnu++11 -o CMakeFiles/cplusplus.dir/source/ball.cpp.o -c /home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task1/source/ball.cpp",
+  "file": "/home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task1/source/ball.cpp"
+},
+{
+  "directory": "/home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task1/build",
+  "command": "/usr/bin/g++  -I/home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task1/head -g -std=gnu++11 -o CMakeFiles/cplusplus.dir/source/main.cpp.o -c /home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task1/source/main.cpp",
+  "file": "/home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task1/source/main.cpp"
+}
+]

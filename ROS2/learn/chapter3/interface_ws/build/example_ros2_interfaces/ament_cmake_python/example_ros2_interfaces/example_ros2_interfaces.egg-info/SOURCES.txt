@@ -1,0 +1,11 @@
+setup.py
+example_ros2_interfaces/__init__.py
+example_ros2_interfaces.egg-info/PKG-INFO
+example_ros2_interfaces.egg-info/SOURCES.txt
+example_ros2_interfaces.egg-info/dependency_links.txt
+example_ros2_interfaces.egg-info/top_level.txt
+example_ros2_interfaces/msg/__init__.py
+example_ros2_interfaces/msg/_robot_pose.py
+example_ros2_interfaces/msg/_robot_status.py
+example_ros2_interfaces/srv/__init__.py
+example_ros2_interfaces/srv/_move_robot.py

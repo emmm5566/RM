@@ -1,0 +1,17 @@
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/lib/add_service/add_server
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/lib/add_service/add_client
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/share/ament_index/resource_index/package_run_dependencies/add_service
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/share/ament_index/resource_index/parent_prefix_path/add_service
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/share/add_service/environment/ament_prefix_path.sh
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/share/add_service/environment/ament_prefix_path.dsv
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/share/add_service/environment/path.sh
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/share/add_service/environment/path.dsv
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/share/add_service/local_setup.bash
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/share/add_service/local_setup.sh
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/share/add_service/local_setup.zsh
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/share/add_service/local_setup.dsv
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/share/add_service/package.dsv
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/share/ament_index/resource_index/packages/add_service
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/share/add_service/cmake/add_serviceConfig.cmake
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/share/add_service/cmake/add_serviceConfig-version.cmake
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/share/add_service/package.xml

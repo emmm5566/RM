@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/emmm/Desktop/rm/cplusplus/test_build/cmake_build/build",
+  "command": "/usr/bin/g++  -I/home/emmm/Desktop/rm/cplusplus/test_build/cmake_build/include -g -o CMakeFiles/main.dir/src/main.cpp.o -c /home/emmm/Desktop/rm/cplusplus/test_build/cmake_build/src/main.cpp",
+  "file": "/home/emmm/Desktop/rm/cplusplus/test_build/cmake_build/src/main.cpp"
+},
+{
+  "directory": "/home/emmm/Desktop/rm/cplusplus/test_build/cmake_build/build",
+  "command": "/usr/bin/g++  -I/home/emmm/Desktop/rm/cplusplus/test_build/cmake_build/include -g -o CMakeFiles/main.dir/src/helloworld.cpp.o -c /home/emmm/Desktop/rm/cplusplus/test_build/cmake_build/src/helloworld.cpp",
+  "file": "/home/emmm/Desktop/rm/cplusplus/test_build/cmake_build/src/helloworld.cpp"
+},
+{
+  "directory": "/home/emmm/Desktop/rm/cplusplus/test_build/cmake_build/build",
+  "command": "/usr/bin/g++  -I/home/emmm/Desktop/rm/cplusplus/test_build/cmake_build/include -g -o CMakeFiles/main.dir/src/sum.cpp.o -c /home/emmm/Desktop/rm/cplusplus/test_build/cmake_build/src/sum.cpp",
+  "file": "/home/emmm/Desktop/rm/cplusplus/test_build/cmake_build/src/sum.cpp"
+}
+]

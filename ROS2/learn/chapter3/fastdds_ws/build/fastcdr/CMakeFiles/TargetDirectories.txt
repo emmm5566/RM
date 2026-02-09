@@ -1,0 +1,15 @@
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/fastcdr/CMakeFiles/test.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/fastcdr/CMakeFiles/edit_cache.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/fastcdr/CMakeFiles/rebuild_cache.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/fastcdr/CMakeFiles/list_install_components.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/fastcdr/CMakeFiles/install.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/fastcdr/CMakeFiles/install/local.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/fastcdr/CMakeFiles/install/strip.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/fastcdr/src/cpp/CMakeFiles/fastcdr.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/fastcdr/src/cpp/CMakeFiles/test.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/fastcdr/src/cpp/CMakeFiles/edit_cache.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/fastcdr/src/cpp/CMakeFiles/rebuild_cache.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/fastcdr/src/cpp/CMakeFiles/list_install_components.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/fastcdr/src/cpp/CMakeFiles/install.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/fastcdr/src/cpp/CMakeFiles/install/local.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/fastcdr/src/cpp/CMakeFiles/install/strip.dir

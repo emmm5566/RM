@@ -1,0 +1,234 @@
+[0.008s] Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/build/service_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/src/service_interfaces -DCMAKE_INSTALL_PREFIX=/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces
+[0.122s] -- The C compiler identification is GNU 11.4.0
+[0.189s] -- The CXX compiler identification is GNU 11.4.0
+[0.197s] -- Detecting C compiler ABI info
+[0.256s] -- Detecting C compiler ABI info - done
+[0.261s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.261s] -- Detecting C compile features
+[0.262s] -- Detecting C compile features - done
+[0.264s] -- Detecting CXX compiler ABI info
+[0.337s] -- Detecting CXX compiler ABI info - done
+[0.347s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.347s] -- Detecting CXX compile features
+[0.348s] -- Detecting CXX compile features - done
+[0.350s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.483s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.550s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.554s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.559s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.590s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.812s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.967s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.196s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.225s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.227s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.252s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.252s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.252s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.252s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.279s] -- Found PythonExtra: .so  
+[1.318s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.340s] -- Added test 'lint_cmake' to check CMake code style
+[1.341s] -- Added test 'xmllint' to check XML markup files
+[1.344s] -- Configuring done
+[1.362s] -- Generating done
+[1.368s] -- Build files have been written to: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/build/service_interfaces
+[1.372s] Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/build/service_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/src/service_interfaces -DCMAKE_INSTALL_PREFIX=/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces
+[1.374s] Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/build/service_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/build/service_interfaces -- -j12 -l12
+[1.419s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.431s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.442s] [  6%] Built target ament_cmake_python_copy_service_interfaces
+[1.748s] [  6%] Built target service_interfaces__cpp
+[1.761s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.761s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.761s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.790s] running egg_info
+[1.791s] creating service_interfaces.egg-info
+[1.791s] writing service_interfaces.egg-info/PKG-INFO
+[1.791s] writing dependency_links to service_interfaces.egg-info/dependency_links.txt
+[1.792s] writing top-level names to service_interfaces.egg-info/top_level.txt
+[1.792s] writing manifest file 'service_interfaces.egg-info/SOURCES.txt'
+[1.795s] reading manifest file 'service_interfaces.egg-info/SOURCES.txt'
+[1.796s] writing manifest file 'service_interfaces.egg-info/SOURCES.txt'
+[1.843s] [ 16%] Built target ament_cmake_python_build_service_interfaces_egg
+[1.859s] [ 19%] [32mBuilding C object CMakeFiles/service_interfaces__rosidl_generator_c.dir/rosidl_generator_c/service_interfaces/srv/detail/patrol__functions.c.o[0m
+[1.928s] [ 22%] [32m[1mLinking C shared library libservice_interfaces__rosidl_generator_c.so[0m
+[1.969s] [ 22%] Built target service_interfaces__rosidl_generator_c
+[1.980s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.980s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.980s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.128s] [ 35%] [32mBuilding CXX object CMakeFiles/service_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/service_interfaces/srv/patrol__type_support.cpp.o[0m
+[2.157s] [ 38%] [32mBuilding CXX object CMakeFiles/service_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/service_interfaces/srv/detail/patrol__type_support.cpp.o[0m
+[2.170s] [ 41%] [32mBuilding CXX object CMakeFiles/service_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/service_interfaces/srv/detail/dds_fastrtps/patrol__type_support.cpp.o[0m
+[2.279s] [ 45%] [32mBuilding CXX object CMakeFiles/service_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/service_interfaces/srv/patrol__type_support.cpp.o[0m
+[2.317s] [ 48%] [32m[1mLinking CXX shared library libservice_interfaces__rosidl_typesupport_c.so[0m
+[2.361s] [ 48%] Built target service_interfaces__rosidl_typesupport_c
+[2.386s] [ 51%] [32mBuilding CXX object CMakeFiles/service_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/service_interfaces/srv/detail/patrol__type_support_c.cpp.o[0m
+[2.418s] [ 54%] [32mBuilding C object CMakeFiles/service_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/service_interfaces/srv/detail/patrol__type_support.c.o[0m
+[2.461s] [ 58%] [32m[1mLinking C shared library libservice_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.468s] [ 61%] [32m[1mLinking CXX shared library libservice_interfaces__rosidl_typesupport_cpp.so[0m
+[2.497s] [ 61%] Built target service_interfaces__rosidl_typesupport_introspection_c
+[2.518s] [ 61%] Built target service_interfaces__rosidl_typesupport_cpp
+[2.530s] [ 64%] [32m[1mLinking CXX shared library libservice_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.553s] [ 67%] [32m[1mLinking CXX shared library libservice_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.604s] [ 67%] Built target service_interfaces__rosidl_typesupport_introspection_cpp
+[2.634s] [ 67%] Built target service_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.666s] [ 70%] [32m[1mLinking CXX shared library libservice_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.756s] [ 70%] Built target service_interfaces__rosidl_typesupport_fastrtps_c
+[2.780s] [ 70%] Built target service_interfaces
+[2.804s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.207s] [ 74%] Built target service_interfaces__py
+[3.232s] [ 77%] [32mBuilding C object CMakeFiles/service_interfaces__rosidl_generator_py.dir/rosidl_generator_py/service_interfaces/srv/_patrol_s.c.o[0m
+[3.360s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/service_interfaces/libservice_interfaces__rosidl_generator_py.so[0m
+[3.401s] [ 80%] Built target service_interfaces__rosidl_generator_py
+[3.426s] [ 83%] [32mBuilding C object CMakeFiles/service_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/service_interfaces/_service_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.429s] [ 87%] [32mBuilding C object CMakeFiles/service_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/service_interfaces/_service_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.431s] [ 90%] [32mBuilding C object CMakeFiles/service_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/service_interfaces/_service_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.498s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/service_interfaces/service_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.501s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/service_interfaces/service_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.520s] [100%] [32m[1mLinking C shared library rosidl_generator_py/service_interfaces/service_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.530s] [100%] Built target service_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.537s] [100%] Built target service_interfaces__rosidl_typesupport_c__pyext
+[3.557s] [100%] Built target service_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.568s] Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/build/service_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/build/service_interfaces -- -j12 -l12
+[3.570s] Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/build/service_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/build/service_interfaces
+[3.579s] -- Install configuration: ""
+[3.579s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/ament_index/resource_index/rosidl_interfaces/service_interfaces
+[3.579s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces
+[3.579s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/srv
+[3.579s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/srv/patrol.h
+[3.579s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/srv/detail
+[3.579s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/srv/detail/patrol__functions.h
+[3.580s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/srv/detail/patrol__type_support.h
+[3.580s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/srv/detail/patrol__functions.c
+[3.580s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/srv/detail/patrol__struct.h
+[3.580s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/msg
+[3.580s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.580s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/environment/library_path.sh
+[3.580s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/environment/library_path.dsv
+[3.580s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/lib/libservice_interfaces__rosidl_generator_c.so
+[3.580s] -- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/lib/libservice_interfaces__rosidl_generator_c.so" to ""
+[3.580s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces
+[3.581s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/srv
+[3.581s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/srv/detail
+[3.581s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/srv/detail/patrol__rosidl_typesupport_fastrtps_c.h
+[3.581s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/msg
+[3.581s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.581s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/lib/libservice_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.581s] -- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/lib/libservice_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.581s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces
+[3.581s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/srv
+[3.581s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/srv/detail
+[3.581s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/srv/detail/patrol__rosidl_typesupport_introspection_c.h
+[3.581s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/srv/detail/patrol__type_support.c
+[3.581s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/msg
+[3.581s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.581s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/lib/libservice_interfaces__rosidl_typesupport_introspection_c.so
+[3.581s] -- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/lib/libservice_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.581s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/lib/libservice_interfaces__rosidl_typesupport_c.so
+[3.581s] -- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/lib/libservice_interfaces__rosidl_typesupport_c.so" to ""
+[3.581s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces
+[3.581s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/srv
+[3.581s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/srv/patrol.hpp
+[3.581s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/srv/detail
+[3.581s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/srv/detail/patrol__builder.hpp
+[3.582s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/srv/detail/patrol__type_support.hpp
+[3.582s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/srv/detail/patrol__traits.hpp
+[3.582s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/srv/detail/patrol__struct.hpp
+[3.582s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/msg
+[3.582s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.582s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces
+[3.582s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/srv
+[3.582s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/srv/detail
+[3.582s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/srv/detail/patrol__rosidl_typesupport_fastrtps_cpp.hpp
+[3.582s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/srv/detail/dds_fastrtps
+[3.582s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/msg
+[3.582s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.582s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/lib/libservice_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.582s] -- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/lib/libservice_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.582s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces
+[3.582s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/srv
+[3.582s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/srv/detail
+[3.582s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/srv/detail/patrol__rosidl_typesupport_introspection_cpp.hpp
+[3.582s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/include/service_interfaces/service_interfaces/srv/detail/patrol__type_support.cpp
+[3.582s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/lib/libservice_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.582s] -- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/lib/libservice_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.582s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/lib/libservice_interfaces__rosidl_typesupport_cpp.so
+[3.582s] -- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/lib/libservice_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.582s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/environment/pythonpath.sh
+[3.582s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/environment/pythonpath.dsv
+[3.582s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/local/lib/python3.10/dist-packages/service_interfaces-0.0.0-py3.10.egg-info
+[3.583s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/local/lib/python3.10/dist-packages/service_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.583s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/local/lib/python3.10/dist-packages/service_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.583s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/local/lib/python3.10/dist-packages/service_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.583s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/local/lib/python3.10/dist-packages/service_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.583s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/local/lib/python3.10/dist-packages/service_interfaces
+[3.583s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/local/lib/python3.10/dist-packages/service_interfaces/_service_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.583s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/local/lib/python3.10/dist-packages/service_interfaces/_service_interfaces_s.ep.rosidl_typesupport_c.c
+[3.583s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/local/lib/python3.10/dist-packages/service_interfaces/srv
+[3.583s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/local/lib/python3.10/dist-packages/service_interfaces/srv/_patrol.py
+[3.583s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/local/lib/python3.10/dist-packages/service_interfaces/srv/__init__.py
+[3.583s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/local/lib/python3.10/dist-packages/service_interfaces/srv/_patrol_s.c
+[3.583s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/local/lib/python3.10/dist-packages/service_interfaces/service_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.583s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/local/lib/python3.10/dist-packages/service_interfaces/_service_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.583s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/local/lib/python3.10/dist-packages/service_interfaces/libservice_interfaces__rosidl_generator_py.so
+[3.583s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/local/lib/python3.10/dist-packages/service_interfaces/service_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.583s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/local/lib/python3.10/dist-packages/service_interfaces/__init__.py
+[3.583s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/local/lib/python3.10/dist-packages/service_interfaces/service_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.617s] Listing '/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/local/lib/python3.10/dist-packages/service_interfaces'...
+[3.617s] Compiling '/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/local/lib/python3.10/dist-packages/service_interfaces/__init__.py'...
+[3.617s] Listing '/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/local/lib/python3.10/dist-packages/service_interfaces/srv'...
+[3.617s] Compiling '/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/local/lib/python3.10/dist-packages/service_interfaces/srv/__init__.py'...
+[3.617s] Compiling '/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/local/lib/python3.10/dist-packages/service_interfaces/srv/_patrol.py'...
+[3.621s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/local/lib/python3.10/dist-packages/service_interfaces/service_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.621s] -- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/local/lib/python3.10/dist-packages/service_interfaces/service_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.621s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/local/lib/python3.10/dist-packages/service_interfaces/service_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.621s] -- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/local/lib/python3.10/dist-packages/service_interfaces/service_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.621s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/local/lib/python3.10/dist-packages/service_interfaces/service_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.621s] -- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/local/lib/python3.10/dist-packages/service_interfaces/service_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.621s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/lib/libservice_interfaces__rosidl_generator_py.so
+[3.622s] -- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/lib/libservice_interfaces__rosidl_generator_py.so" to ""
+[3.622s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/srv/Patrol.idl
+[3.622s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/srv/Patrol.srv
+[3.622s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/srv/Patrol_Request.msg
+[3.622s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/srv/Patrol_Response.msg
+[3.622s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/ament_index/resource_index/package_run_dependencies/service_interfaces
+[3.622s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/ament_index/resource_index/parent_prefix_path/service_interfaces
+[3.622s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/environment/ament_prefix_path.sh
+[3.622s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/environment/ament_prefix_path.dsv
+[3.622s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/environment/path.sh
+[3.623s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/environment/path.dsv
+[3.623s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/local_setup.bash
+[3.623s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/local_setup.sh
+[3.623s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/local_setup.zsh
+[3.623s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/local_setup.dsv
+[3.623s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/package.dsv
+[3.623s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/ament_index/resource_index/packages/service_interfaces
+[3.623s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/cmake/export_service_interfaces__rosidl_generator_cExport.cmake
+[3.623s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/cmake/export_service_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.624s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/cmake/export_service_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.624s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/cmake/export_service_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.624s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/cmake/service_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.624s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/cmake/service_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.624s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/cmake/service_interfaces__rosidl_typesupport_cExport.cmake
+[3.624s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/cmake/service_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.624s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/cmake/export_service_interfaces__rosidl_generator_cppExport.cmake
+[3.624s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/cmake/export_service_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.624s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/cmake/export_service_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.624s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/cmake/service_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.624s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/cmake/service_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.625s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/cmake/service_interfaces__rosidl_typesupport_cppExport.cmake
+[3.625s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/cmake/service_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.625s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/cmake/export_service_interfaces__rosidl_generator_pyExport.cmake
+[3.625s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/cmake/export_service_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.625s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.625s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.625s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.625s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.625s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.625s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.625s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.625s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/cmake/service_interfacesConfig.cmake
+[3.626s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/cmake/service_interfacesConfig-version.cmake
+[3.626s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/service_interfaces/share/service_interfaces/package.xml
+[3.627s] Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/build/service_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/build/service_interfaces

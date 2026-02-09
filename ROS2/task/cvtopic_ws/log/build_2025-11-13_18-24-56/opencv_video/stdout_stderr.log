@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target video_subscriber[0m
+[ 50%] Built target video_publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/video_subscriber.dir/src/video_subscriber.cpp.o[0m
+[100%] [32m[1mLinking CXX executable video_subscriber[0m
+[100%] Built target video_subscriber
+-- Install configuration: ""
+-- Installing: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/lib/opencv_video/video_publisher
+-- Set runtime path of "/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/lib/opencv_video/video_publisher" to ""
+-- Installing: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/lib/opencv_video/video_subscriber
+-- Set runtime path of "/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/lib/opencv_video/video_subscriber" to ""
+-- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/share/ament_index/resource_index/package_run_dependencies/opencv_video
+-- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/share/ament_index/resource_index/parent_prefix_path/opencv_video
+-- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/share/opencv_video/environment/ament_prefix_path.sh
+-- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/share/opencv_video/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/share/opencv_video/environment/path.sh
+-- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/share/opencv_video/environment/path.dsv
+-- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/share/opencv_video/local_setup.bash
+-- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/share/opencv_video/local_setup.sh
+-- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/share/opencv_video/local_setup.zsh
+-- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/share/opencv_video/local_setup.dsv
+-- Installing: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/share/opencv_video/package.dsv
+-- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/share/ament_index/resource_index/packages/opencv_video
+-- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/share/opencv_video/cmake/opencv_videoConfig.cmake
+-- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/share/opencv_video/cmake/opencv_videoConfig-version.cmake
+-- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/install/opencv_video/share/opencv_video/package.xml

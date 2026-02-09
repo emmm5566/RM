@@ -1,0 +1,5 @@
+/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/install/livox_sdk2/lib/liblivox_lidar_sdk_static.a
+/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/install/livox_sdk2/include/livox_lidar_def.h
+/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/install/livox_sdk2/include/livox_lidar_api.h
+/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/install/livox_sdk2/include/livox_lidar_cfg.h
+/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/install/livox_sdk2/lib/liblivox_lidar_sdk_shared.so

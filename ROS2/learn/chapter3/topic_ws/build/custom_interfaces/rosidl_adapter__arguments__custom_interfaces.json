@@ -1,0 +1,6 @@
+{
+  "package_name": "custom_interfaces",
+  "non_idl_tuples": [
+    "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/src/custom_interfaces:msg/MyMessage.msg"
+  ]
+}

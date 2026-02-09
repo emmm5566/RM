@@ -1,0 +1,47 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            //"program": "enter program name, for example ${workspaceFolder}/a.out",
+            // 更改启动路径，刚才在task.json文件中将执行文件生成在了bin文件目录下
+            "program": "${workspaceFolder}/bin/main",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ],
+
+            // 执行前先执行task进行编译, 确保launch最新代码结果，也可以不加
+            "preLaunchTask": "C/C++: g++ build active file"
+        }
+
+    ]
+}
+
+
+
+// Run -> Add Configuration -> C++(GDB/LLDB) -> Add Configuration: (gdb) Launch
+
+//launch.json 文件用于配置调试器（Debugger）的启动配置
+//通常，launch.json 文件用于配置如何启动和调试你的代码，例如调试 C++ 程序、Node.js 应用程序、Python 脚本等
+
+//总的来说，task.json 用于配置任务，而 launch.json 用于配置调试器启动配置

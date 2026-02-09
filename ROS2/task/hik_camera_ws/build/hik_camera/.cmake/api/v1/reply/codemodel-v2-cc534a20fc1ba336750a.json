@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4bc5d0ac83509df1d362.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "hik_camera",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "hik_camera::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hik_camera-c8f0c672ab9c2a56f050.json",
+					"name" : "hik_camera",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hik_camera_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hik_camera_node-d382d71e2cdee0a67aac.json",
+					"name" : "hik_camera_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hik_camera_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hik_camera_uninstall-cd51de5c9956d9946dda.json",
+					"name" : "hik_camera_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f753cf676c9b07a6e8dd.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/emmm/Desktop/scnu_rm/ROS2/task/hik_camera_ws/build/hik_camera",
+		"source" : "/home/emmm/Desktop/scnu_rm/ROS2/task/hik_camera_ws/src/ros2_hik_camera"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

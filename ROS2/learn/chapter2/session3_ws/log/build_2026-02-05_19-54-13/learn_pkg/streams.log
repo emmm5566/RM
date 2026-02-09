@@ -1,0 +1,77 @@
+[0.009s] Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/build/learn_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/build/learn_pkg -- -j12 -l12
+[0.031s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.131s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.149s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.150s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.154s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.162s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.170s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.191s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.191s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.270s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.303s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.370s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.370s] -- Configured cppcheck include dirs: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/src/learn_pkg/include
+[0.370s] -- Configured cppcheck exclude dirs and/or files: 
+[0.371s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.372s] -- Added test 'lint_cmake' to check CMake code style
+[0.373s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.377s] -- Added test 'uncrustify' to check C / C++ code style
+[0.377s] -- Configured uncrustify additional arguments: 
+[0.377s] -- Added test 'xmllint' to check XML markup files
+[0.378s] -- Configuring done
+[0.388s] -- Generating done
+[0.393s] -- Build files have been written to: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/build/learn_pkg
+[0.422s] [35m[1mConsolidate compiler generated dependencies of target learn_thread[0m
+[0.428s] [35m[1mConsolidate compiler generated dependencies of target learn_auto[0m
+[0.429s] [35m[1mConsolidate compiler generated dependencies of target learn_shared_ptr[0m
+[0.430s] [35m[1mConsolidate compiler generated dependencies of target learn_lambda[0m
+[0.433s] [35m[1mConsolidate compiler generated dependencies of target learn_functional[0m
+[0.457s] [ 20%] Built target learn_auto
+[0.458s] [ 40%] Built target learn_shared_ptr
+[0.461s] [ 50%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[0.462s] [ 70%] Built target learn_functional
+[0.464s] [ 90%] Built target learn_lambda
+[3.879s] [100%] [32m[1mLinking CXX executable learn_thread[0m
+[4.023s] /usr/bin/ld: CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o: in function `httplib::detail::ssl_delete(std::mutex&, ssl_st*, bool)':
+[4.023s] learn_thread.cpp:(.text._ZN7httplib6detail10ssl_deleteERSt5mutexP6ssl_stb[_ZN7httplib6detail10ssl_deleteERSt5mutexP6ssl_stb]+0x37): undefined reference to `SSL_shutdown'
+[4.024s] /usr/bin/ld: learn_thread.cpp:(.text._ZN7httplib6detail10ssl_deleteERSt5mutexP6ssl_stb[_ZN7httplib6detail10ssl_deleteERSt5mutexP6ssl_stb]+0x56): undefined reference to `SSL_free'
+[4.024s] /usr/bin/ld: CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o: in function `httplib::detail::SSLInit::SSLInit()':
+[4.024s] learn_thread.cpp:(.text._ZN7httplib6detail7SSLInitC2Ev[_ZN7httplib6detail7SSLInitC5Ev]+0x1b): undefined reference to `OPENSSL_init_ssl'
+[4.024s] /usr/bin/ld: CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o: in function `httplib::detail::SSLSocketStream::SSLSocketStream(int, ssl_st*, long, long, long, long)':
+[4.024s] learn_thread.cpp:(.text._ZN7httplib6detail15SSLSocketStreamC2EiP6ssl_stllll[_ZN7httplib6detail15SSLSocketStreamC5EiP6ssl_stllll]+0x9b): undefined reference to `SSL_ctrl'
+[4.024s] /usr/bin/ld: CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o: in function `httplib::detail::SSLSocketStream::read(char*, unsigned long)':
+[4.024s] learn_thread.cpp:(.text._ZN7httplib6detail15SSLSocketStream4readEPcm[_ZN7httplib6detail15SSLSocketStream4readEPcm]+0x33): undefined reference to `SSL_pending'
+[4.025s] /usr/bin/ld: learn_thread.cpp:(.text._ZN7httplib6detail15SSLSocketStream4readEPcm[_ZN7httplib6detail15SSLSocketStream4readEPcm]+0x59): undefined reference to `SSL_read'
+[4.025s] /usr/bin/ld: learn_thread.cpp:(.text._ZN7httplib6detail15SSLSocketStream4readEPcm[_ZN7httplib6detail15SSLSocketStream4readEPcm]+0x9c): undefined reference to `SSL_read'
+[4.025s] /usr/bin/ld: learn_thread.cpp:(.text._ZN7httplib6detail15SSLSocketStream4readEPcm[_ZN7httplib6detail15SSLSocketStream4readEPcm]+0xbe): undefined reference to `SSL_get_error'
+[4.025s] /usr/bin/ld: learn_thread.cpp:(.text._ZN7httplib6detail15SSLSocketStream4readEPcm[_ZN7httplib6detail15SSLSocketStream4readEPcm]+0xdd): undefined reference to `SSL_pending'
+[4.025s] /usr/bin/ld: learn_thread.cpp:(.text._ZN7httplib6detail15SSLSocketStream4readEPcm[_ZN7httplib6detail15SSLSocketStream4readEPcm]+0x103): undefined reference to `SSL_read'
+[4.025s] /usr/bin/ld: learn_thread.cpp:(.text._ZN7httplib6detail15SSLSocketStream4readEPcm[_ZN7httplib6detail15SSLSocketStream4readEPcm]+0x168): undefined reference to `SSL_read'
+[4.025s] /usr/bin/ld: learn_thread.cpp:(.text._ZN7httplib6detail15SSLSocketStream4readEPcm[_ZN7httplib6detail15SSLSocketStream4readEPcm]+0x18d): undefined reference to `SSL_get_error'
+[4.025s] /usr/bin/ld: CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o: in function `httplib::detail::SSLSocketStream::write(char const*, unsigned long)':
+[4.025s] learn_thread.cpp:(.text._ZN7httplib6detail15SSLSocketStream5writeEPKcm[_ZN7httplib6detail15SSLSocketStream5writeEPKcm]+0x80): undefined reference to `SSL_write'
+[4.025s] /usr/bin/ld: learn_thread.cpp:(.text._ZN7httplib6detail15SSLSocketStream5writeEPKcm[_ZN7httplib6detail15SSLSocketStream5writeEPKcm]+0xa2): undefined reference to `SSL_get_error'
+[4.026s] /usr/bin/ld: learn_thread.cpp:(.text._ZN7httplib6detail15SSLSocketStream5writeEPKcm[_ZN7httplib6detail15SSLSocketStream5writeEPKcm]+0x10c): undefined reference to `SSL_write'
+[4.026s] /usr/bin/ld: learn_thread.cpp:(.text._ZN7httplib6detail15SSLSocketStream5writeEPKcm[_ZN7httplib6detail15SSLSocketStream5writeEPKcm]+0x131): undefined reference to `SSL_get_error'
+[4.026s] /usr/bin/ld: CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o: in function `httplib::SSLServer::~SSLServer()':
+[4.026s] learn_thread.cpp:(.text._ZN7httplib9SSLServerD2Ev[_ZN7httplib9SSLServerD5Ev]+0x3d): undefined reference to `SSL_CTX_free'
+[4.026s] /usr/bin/ld: CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o: in function `httplib::SSLServer::process_and_close_socket(int)::{lambda(ssl_st*)#1}::operator()(ssl_st*) const':
+[4.026s] learn_thread.cpp:(.text._ZZN7httplib9SSLServer24process_and_close_socketEiENKUlP6ssl_stE_clES2_[_ZZN7httplib9SSLServer24process_and_close_socketEiENKUlP6ssl_stE_clES2_]+0x42): undefined reference to `SSL_accept'
+[4.026s] /usr/bin/ld: CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o: in function `httplib::SSLClient::~SSLClient()':
+[4.026s] learn_thread.cpp:(.text._ZN7httplib9SSLClientD2Ev[_ZN7httplib9SSLClientD5Ev]+0x3d): undefined reference to `SSL_CTX_free'
+[4.026s] /usr/bin/ld: CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o: in function `bool httplib::detail::ssl_connect_or_accept_nonblocking<int (*)(ssl_st*)>(int, ssl_st*, int (*)(ssl_st*), long, long)':
+[4.027s] learn_thread.cpp:(.text._ZN7httplib6detail33ssl_connect_or_accept_nonblockingIPFiP6ssl_stEEEbiS3_T_ll[_ZN7httplib6detail33ssl_connect_or_accept_nonblockingIPFiP6ssl_stEEEbiS3_T_ll]+0x35): undefined reference to `SSL_get_error'
+[4.027s] /usr/bin/ld: CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o: in function `ssl_st* httplib::detail::ssl_new<httplib::SSLServer::process_and_close_socket(int)::{lambda(ssl_st*)#1}, httplib::SSLServer::process_and_close_socket(int)::{lambda(ssl_st*)#2}>(int, ssl_ctx_st*, std::mutex&, httplib::SSLServer::process_and_close_socket(int)::{lambda(ssl_st*)#1}, httplib::SSLServer::process_and_close_socket(int)::{lambda(ssl_st*)#2})':
+[4.027s] learn_thread.cpp:(.text._ZN7httplib6detail7ssl_newIZNS_9SSLServer24process_and_close_socketEiEUlP6ssl_stE_ZNS2_24process_and_close_socketEiEUlS4_E0_EES4_iP10ssl_ctx_stRSt5mutexT_T0_[_ZN7httplib6detail7ssl_newIZNS_9SSLServer24process_and_close_socketEiEUlP6ssl_stE_ZNS2_24process_and_close_socketEiEUlS4_E0_EES4_iP10ssl_ctx_stRSt5mutexT_T0_]+0x5b): undefined reference to `SSL_new'
+[4.027s] /usr/bin/ld: learn_thread.cpp:(.text._ZN7httplib6detail7ssl_newIZNS_9SSLServer24process_and_close_socketEiEUlP6ssl_stE_ZNS2_24process_and_close_socketEiEUlS4_E0_EES4_iP10ssl_ctx_stRSt5mutexT_T0_[_ZN7httplib6detail7ssl_newIZNS_9SSLServer24process_and_close_socketEiEUlP6ssl_stE_ZNS2_24process_and_close_socketEiEUlS4_E0_EES4_iP10ssl_ctx_stRSt5mutexT_T0_]+0x94): undefined reference to `BIO_new_socket'
+[4.027s] /usr/bin/ld: learn_thread.cpp:(.text._ZN7httplib6detail7ssl_newIZNS_9SSLServer24process_and_close_socketEiEUlP6ssl_stE_ZNS2_24process_and_close_socketEiEUlS4_E0_EES4_iP10ssl_ctx_stRSt5mutexT_T0_[_ZN7httplib6detail7ssl_newIZNS_9SSLServer24process_and_close_socketEiEUlP6ssl_stE_ZNS2_24process_and_close_socketEiEUlS4_E0_EES4_iP10ssl_ctx_stRSt5mutexT_T0_]+0xb3): undefined reference to `BIO_ctrl'
+[4.027s] /usr/bin/ld: learn_thread.cpp:(.text._ZN7httplib6detail7ssl_newIZNS_9SSLServer24process_and_close_socketEiEUlP6ssl_stE_ZNS2_24process_and_close_socketEiEUlS4_E0_EES4_iP10ssl_ctx_stRSt5mutexT_T0_[_ZN7httplib6detail7ssl_newIZNS_9SSLServer24process_and_close_socketEiEUlP6ssl_stE_ZNS2_24process_and_close_socketEiEUlS4_E0_EES4_iP10ssl_ctx_stRSt5mutexT_T0_]+0xca): undefined reference to `SSL_set_bio'
+[4.027s] /usr/bin/ld: learn_thread.cpp:(.text._ZN7httplib6detail7ssl_newIZNS_9SSLServer24process_and_close_socketEiEUlP6ssl_stE_ZNS2_24process_and_close_socketEiEUlS4_E0_EES4_iP10ssl_ctx_stRSt5mutexT_T0_[_ZN7httplib6detail7ssl_newIZNS_9SSLServer24process_and_close_socketEiEUlP6ssl_stE_ZNS2_24process_and_close_socketEiEUlS4_E0_EES4_iP10ssl_ctx_stRSt5mutexT_T0_]+0x11b): undefined reference to `SSL_shutdown'
+[4.027s] /usr/bin/ld: learn_thread.cpp:(.text._ZN7httplib6detail7ssl_newIZNS_9SSLServer24process_and_close_socketEiEUlP6ssl_stE_ZNS2_24process_and_close_socketEiEUlS4_E0_EES4_iP10ssl_ctx_stRSt5mutexT_T0_[_ZN7httplib6detail7ssl_newIZNS_9SSLServer24process_and_close_socketEiEUlP6ssl_stE_ZNS2_24process_and_close_socketEiEUlS4_E0_EES4_iP10ssl_ctx_stRSt5mutexT_T0_]+0x13a): undefined reference to `SSL_free'
+[4.027s] /usr/bin/ld: learn_thread.cpp:(.text._ZN7httplib6detail7ssl_newIZNS_9SSLServer24process_and_close_socketEiEUlP6ssl_stE_ZNS2_24process_and_close_socketEiEUlS4_E0_EES4_iP10ssl_ctx_stRSt5mutexT_T0_[_ZN7httplib6detail7ssl_newIZNS_9SSLServer24process_and_close_socketEiEUlP6ssl_stE_ZNS2_24process_and_close_socketEiEUlS4_E0_EES4_iP10ssl_ctx_stRSt5mutexT_T0_]+0x177): undefined reference to `BIO_ctrl'
+[4.041s] collect2: error: ld returned 1 exit status
+[4.042s] gmake[2]: *** [CMakeFiles/learn_thread.dir/build.make:151: learn_thread] Error 1
+[4.043s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/learn_thread.dir/all] Error 2
+[4.043s] gmake: *** [Makefile:146: all] Error 2
+[4.045s] Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/build/learn_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/build/learn_pkg -- -j12 -l12

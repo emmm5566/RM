@@ -1,0 +1,43 @@
+[0.010s] Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/example_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/example_topic -- -j12 -l12
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target one_message_publisher[0m
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target one_message_subscribe[0m
+[0.074s] [ 50%] Built target topic_publisher
+[0.075s] [ 50%] Built target one_message_publisher
+[0.077s] [ 75%] Built target topic_subscribe
+[0.082s] [ 87%] [32mBuilding CXX object CMakeFiles/one_message_subscribe.dir/src/one_message_subscribe.cpp.o[0m
+[1.554s] [01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/src/example_topic/src/one_message_subscribe.cpp:[m[K In constructor ‘[01m[KTopicSubsribe::TopicSubsribe(std::string)[m[K’:
+[1.555s] [01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/src/example_topic/src/one_message_subscribe.cpp:7:58:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >::Subscription()[m[K’
+[1.555s]     7 |     TopicSubsribe(std::string node_name) : Node(node_name[01;31m[K)[m[K {
+[1.555s]       |                                                          [01;31m[K^[m[K
+[1.555s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[1.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.556s]                  from [01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/src/example_topic/src/one_message_subscribe.cpp:1[m[K:
+[1.556s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:130:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::Subscription(rclcpp::node_interfaces::NodeBaseInterface*, const rosidl_message_type_support_t&, const string&, const rclcpp::QoS&, rclcpp::AnySubscriptionCallback<CallbackMessageT, AllocatorT>, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::SubscriptionTopicStatisticsSharedPtr) [with MessageT = std_msgs::msg::String_<std::allocator<void> >; AllocatorT = std::allocator<void>; SubscribedT = std_msgs::msg::String_<std::allocator<void> >; ROSMessageT = std_msgs::msg::String_<std::allocator<void> >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> >; rosidl_message_type_support_t = rosidl_message_type_support_t; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> > >; rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::SubscriptionTopicStatisticsSharedPtr = std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<std_msgs::msg::String_<std::allocator<void> > > >][m[K’
+[1.556s]   130 |   [01;36m[KSubscription[m[K(
+[1.556s]       |   [01;36m[K^~~~~~~~~~~~[m[K
+[1.566s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:130:3:[m[K [01;36m[Knote: [m[K  candidate expects 8 arguments, 0 provided
+[1.573s] [01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/src/example_topic/src/one_message_subscribe.cpp:11:85:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >[m[K’ and ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > > >[m[K’)
+[1.573s]    11 |             std::bind(&TopicSubsribe::command_callback, this, std::placeholders::_1)[01;31m[K)[m[K;;
+[1.573s]       |                                                                                     [01;31m[K^[m[K
+[1.573s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:35[m[K,
+[1.573s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:34[m[K,
+[1.574s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.574s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.574s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.574s]                  from [01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/src/example_topic/src/one_message_subscribe.cpp:1[m[K:
+[1.574s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:423:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>& rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::operator=(const rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>&) [with MessageT = std_msgs::msg::String_<std::allocator<void> >; AllocatorT = std::allocator<void>; SubscribedT = std_msgs::msg::String_<std::allocator<void> >; ROSMessageT = std_msgs::msg::String_<std::allocator<void> >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> >][m[K’ (deleted)
+[1.574s]   423 |   [01;36m[KRCLCPP_DISABLE_COPY[m[K(Subscription)
+[1.574s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.574s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:423:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > > >[m[K’ to ‘[01m[Kconst rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >&[m[K’
+[1.574s]   423 |   [01;36m[KRCLCPP_DISABLE_COPY[m[K(Subscription)
+[1.574s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.007s] gmake[2]: *** [CMakeFiles/one_message_subscribe.dir/build.make:76: CMakeFiles/one_message_subscribe.dir/src/one_message_subscribe.cpp.o] Error 1
+[3.007s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/one_message_subscribe.dir/all] Error 2
+[3.007s] gmake: *** [Makefile:146: all] Error 2
+[3.010s] Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/example_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/example_topic -- -j12 -l12

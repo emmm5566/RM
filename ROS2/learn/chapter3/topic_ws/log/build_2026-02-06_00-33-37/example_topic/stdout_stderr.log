@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target one_message_publisher[0m
+[ 25%] Built target topic_publisher
+[ 50%] Built target one_message_subscribe
+[ 75%] Built target topic_subscribe
+[ 87%] [32mBuilding CXX object CMakeFiles/one_message_publisher.dir/src/one_message_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable one_message_publisher[0m
+[100%] Built target one_message_publisher
+-- Install configuration: ""
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/lib/example_topic/topic_publisher
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/lib/example_topic/topic_subscribe
+-- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/lib/example_topic/one_message_publisher
+-- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/lib/example_topic/one_message_publisher" to ""
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/lib/example_topic/one_message_subscribe
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/share/ament_index/resource_index/package_run_dependencies/example_topic
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/share/ament_index/resource_index/parent_prefix_path/example_topic
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/share/example_topic/environment/ament_prefix_path.sh
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/share/example_topic/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/share/example_topic/environment/path.sh
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/share/example_topic/environment/path.dsv
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/share/example_topic/local_setup.bash
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/share/example_topic/local_setup.sh
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/share/example_topic/local_setup.zsh
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/share/example_topic/local_setup.dsv
+-- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/share/example_topic/package.dsv
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/share/ament_index/resource_index/packages/example_topic
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/share/example_topic/cmake/example_topicConfig.cmake
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/share/example_topic/cmake/example_topicConfig-version.cmake
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/share/example_topic/package.xml

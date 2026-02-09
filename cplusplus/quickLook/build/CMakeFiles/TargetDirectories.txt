@@ -1,0 +1,5 @@
+/home/emmm/Desktop/scnu_rm/cpluscplus/quickLook/build/CMakeFiles/template.dir
+/home/emmm/Desktop/scnu_rm/cpluscplus/quickLook/build/CMakeFiles/designatedInit.dir
+/home/emmm/Desktop/scnu_rm/cpluscplus/quickLook/build/CMakeFiles/lambda.dir
+/home/emmm/Desktop/scnu_rm/cpluscplus/quickLook/build/CMakeFiles/edit_cache.dir
+/home/emmm/Desktop/scnu_rm/cpluscplus/quickLook/build/CMakeFiles/rebuild_cache.dir

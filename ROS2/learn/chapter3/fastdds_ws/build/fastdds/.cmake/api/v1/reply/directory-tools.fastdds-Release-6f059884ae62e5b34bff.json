@@ -1,0 +1,79 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"tools/fastdds/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/install/fastdds/tools/fastdds",
+			"paths" : 
+			[
+				{
+					"from" : "tools/fastdds",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/install/fastdds/bin",
+			"paths" : 
+			[
+				""
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/install/fastdds/bin",
+			"paths" : 
+			[
+				"tools/fastdds/fastdds",
+				"tools/fastdds/ros-discovery"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tools/fastdds",
+		"source" : "tools/fastdds"
+	}
+}

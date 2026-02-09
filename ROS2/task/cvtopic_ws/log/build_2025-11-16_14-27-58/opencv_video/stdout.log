@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target video_subscriber[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/video_subscriber.dir/src/video_subscriber.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable video_publisher[0m
+[ 75%] Built target video_publisher

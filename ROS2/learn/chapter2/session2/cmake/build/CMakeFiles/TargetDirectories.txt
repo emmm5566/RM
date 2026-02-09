@@ -1,0 +1,6 @@
+/home/emmm/Desktop/rm/ROS2/learn/chapter2/session2/cmake/build/CMakeFiles/ros2_cpp_node.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter2/session2/cmake/build/CMakeFiles/uninstall.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter2/session2/cmake/build/CMakeFiles/ros2_cpp_uninstall.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter2/session2/cmake/build/CMakeFiles/test.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter2/session2/cmake/build/CMakeFiles/edit_cache.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter2/session2/cmake/build/CMakeFiles/rebuild_cache.dir

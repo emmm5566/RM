@@ -1,0 +1,108 @@
+Info    2025-11-16 16:02:19  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(Manager.cpp-L0097)     Description:Current dynamic library path[/home/emmm/Desktop/scnu_rm/ROS2/task/hik_camera_ws/install/hik_camera/lib/libMvUsb3vTL.so]     Solution:
+Info    2025-11-16 16:02:19  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(Manager.cpp-L0100)     Description:U3V_Version: 3.2.1.0     Solution:
+Info    2025-11-16 16:02:19  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(Manager.cpp-L0101)     Description:U3V_Description: BaseLine Build 20211203     Solution:
+Info    2025-11-16 16:02:19  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0419)     Description:device speed: [0x4]     Solution:
+Info    2025-11-16 16:02:19  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(Manager.cpp-L0368)     Description:[IsSupportEvent]     Solution:
+Info    2025-11-16 16:02:19  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(EventProcess.cpp-L0706)     Description:U3V EventSendThread Start     Solution:
+Info    2025-11-16 16:02:19  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(EventProcess.cpp-L0280)     Description:U3V EventRecvThread Start     Solution:
+Info    2025-11-16 16:02:19  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(StreamProcess.cpp-L1003)     Description:U3V RecvThread Start     Solution:
+Info    2025-11-16 16:02:19  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DeviceControl.cpp-L1275)     Description:AcquisitionStart Execute Success     Solution:
+Error   2025-11-16 16:02:20  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:21  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:22  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:23  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:24  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:25  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:26  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:27  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:28  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:29  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:30  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:31  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:32  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:33  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:34  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:35  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:36  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:37  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:38  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:39  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:40  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:41  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:42  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:43  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:44  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:45  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:46  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:47  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:48  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:49  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:50  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:51  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:52  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:53  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:54  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:55  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:56  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:57  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:58  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:02:59  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:00  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:01  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:02  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:03  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:04  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:05  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:06  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:07  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:08  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:09  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:10  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:11  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:12  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:13  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:14  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:15  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:16  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:17  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:18  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:19  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:20  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:21  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:22  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:23  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:24  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:25  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:26  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:27  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:28  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:29  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:30  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:31  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:32  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Error   2025-11-16 16:03:33  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Warning 2025-11-16 16:03:34  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(StreamProcess.cpp-L1144)     Description:Get an abnormal image !£¬ nRet = 0x8000000b
+     Solution:
+Info    2025-11-16 16:03:34  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DeviceControl.cpp-L1315)     Description:AcquisitionStop Execute Success     Solution:
+Error   2025-11-16 16:03:34  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(StreamProcess.cpp-L1065)     Description:[ReadAsync] error code is:[3],i = [0], errno[11], Halt Total Count[1]     Solution:
+Warning 2025-11-16 16:03:34  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(StreamProcess.cpp-L1101)     Description:[ReadAsync] Async Canceled error,i = [0]     Solution:
+Warning 2025-11-16 16:03:34  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(StreamProcess.cpp-L1144)     Description:Get an abnormal image !£¬ nRet = 0x8000000b
+     Solution:
+Error   2025-11-16 16:03:34  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(StreamProcess.cpp-L1065)     Description:[ReadAsync] error code is:[3],i = [0], errno[11], Halt Total Count[2]     Solution:
+Warning 2025-11-16 16:03:34  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(StreamProcess.cpp-L1101)     Description:[ReadAsync] Async Canceled error,i = [0]     Solution:
+Warning 2025-11-16 16:03:34  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(StreamProcess.cpp-L1144)     Description:Get an abnormal image !£¬ nRet = 0x8000000b
+     Solution:
+Error   2025-11-16 16:03:34  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(StreamProcess.cpp-L1065)     Description:[ReadAsync] error code is:[3],i = [0], errno[11], Halt Total Count[3]     Solution:
+Warning 2025-11-16 16:03:34  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(StreamProcess.cpp-L1101)     Description:[ReadAsync] Async Canceled error,i = [0]     Solution:
+Warning 2025-11-16 16:03:34  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(StreamProcess.cpp-L1144)     Description:Get an abnormal image !£¬ nRet = 0x8000000b
+     Solution:
+Error   2025-11-16 16:03:34  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(StreamProcess.cpp-L1065)     Description:[ReadAsync] error code is:[3],i = [0], errno[11], Halt Total Count[4]     Solution:
+Warning 2025-11-16 16:03:34  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(StreamProcess.cpp-L1101)     Description:[ReadAsync] Async Canceled error,i = [0]     Solution:
+Warning 2025-11-16 16:03:34  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(StreamProcess.cpp-L1144)     Description:Get an abnormal image !£¬ nRet = 0x8000000b
+     Solution:
+Info    2025-11-16 16:03:34  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(StreamProcess.cpp-L1192)     Description:RecvThread process exit     Solution:
+Info    2025-11-16 16:03:34  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(StreamProcess.cpp-L0530)     Description:getfcnt [4442], getfcntsucceed[4442], totalRecv[4442]     Solution:
+Error   2025-11-16 16:03:34  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Info    2025-11-16 16:03:35  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(EventProcess.cpp-L0708)     Description:U3V EventSendThread End     Solution:
+Error   2025-11-16 16:03:35  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(DriverLayer.cpp-L0785)     Description:timesOut, num_iso_packets: ff     Solution:
+Info    2025-11-16 16:03:35  DevID:MV-CS060-10UC-PRO(DA2467911)  Source-Line:libMvUsb3vTL.so(EventProcess.cpp-L0282)     Description:U3V EventRecvThread End     Solution:

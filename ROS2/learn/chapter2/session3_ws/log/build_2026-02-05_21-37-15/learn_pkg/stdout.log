@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target learn_thread[0m
+[ 20%] Built target learn_functional
+[ 40%] Built target learn_auto
+[ 60%] Built target learn_shared_ptr
+[ 80%] Built target learn_lambda
+[ 90%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m

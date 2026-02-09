@@ -1,0 +1,32 @@
+[0.010s] Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_interfaces_rclcpp': CMAKE_PREFIX_PATH=/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces:/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_interfaces_rclcpp -- -j12 -l12
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target example_interfaces_robot[0m
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target example_interfaces_control[0m
+[0.072s] [ 25%] [32mBuilding CXX object CMakeFiles/example_interfaces_robot.dir/src/example_interfaces_robot.cpp.o[0m
+[0.072s] [ 50%] [32mBuilding CXX object CMakeFiles/example_interfaces_control.dir/src/example_interfaces_control.cpp.o[0m
+[3.354s] [ 75%] [32m[1mLinking CXX executable example_interfaces_robot[0m
+[3.548s] [ 75%] Built target example_interfaces_robot
+[5.900s] [100%] [32m[1mLinking CXX executable example_interfaces_control[0m
+[6.197s] [100%] Built target example_interfaces_control
+[6.212s] Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_interfaces_rclcpp' returned '0': CMAKE_PREFIX_PATH=/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces:/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_interfaces_rclcpp -- -j12 -l12
+[6.213s] Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_interfaces_rclcpp': CMAKE_PREFIX_PATH=/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces:/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp:/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_interfaces_rclcpp
+[6.218s] -- Install configuration: ""
+[6.218s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/lib/example_interfaces_rclcpp/example_interfaces_robot
+[6.219s] -- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/lib/example_interfaces_rclcpp/example_interfaces_robot" to ""
+[6.219s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/lib/example_interfaces_rclcpp/example_interfaces_control
+[6.222s] -- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/lib/example_interfaces_rclcpp/example_interfaces_control" to ""
+[6.222s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_interfaces_rclcpp
+[6.222s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_interfaces_rclcpp
+[6.222s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/environment/ament_prefix_path.sh
+[6.222s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/environment/ament_prefix_path.dsv
+[6.222s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/environment/path.sh
+[6.222s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/environment/path.dsv
+[6.222s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/local_setup.bash
+[6.222s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/local_setup.sh
+[6.222s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/local_setup.zsh
+[6.223s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/local_setup.dsv
+[6.223s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/package.dsv
+[6.223s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/ament_index/resource_index/packages/example_interfaces_rclcpp
+[6.223s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/cmake/example_interfaces_rclcppConfig.cmake
+[6.223s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/cmake/example_interfaces_rclcppConfig-version.cmake
+[6.223s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/package.xml
+[6.225s] Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_interfaces_rclcpp' returned '0': CMAKE_PREFIX_PATH=/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces:/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp:/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_interfaces_rclcpp

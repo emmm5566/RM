@@ -1,0 +1,18 @@
+[0.008s] Invoking command in '/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/build/opencv_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/build/opencv_video -- -j12 -l12
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target video_subscriber[0m
+[0.057s] [ 50%] Built target video_publisher
+[0.069s] [ 75%] [32mBuilding CXX object CMakeFiles/video_subscriber.dir/src/video_subscriber.cpp.o[0m
+[1.701s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/src/opencv_video/src/video_subscriber.cpp:[m[K In member function ‘[01m[Kvoid VideoSubscriberNode::[01;32m[Kimg_callback[m[K(const sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&)[m[K’:
+[1.701s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/src/opencv_video/src/video_subscriber.cpp:77:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kimg[m[K’ was not declared in this scope
+[1.701s]    77 |                     cv::line([01;31m[Kimg[m[K, vertices[i], vertices[(i+1)%4], cv::Scalar(0,255,0), 3);
+[1.701s]       |                              [01;31m[K^~~[m[K
+[1.702s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/src/opencv_video/src/video_subscriber.cpp:92:26:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<cv::RotatedRect>, cv::RotatedRect>::value_type[m[K’ {aka ‘[01m[Kclass cv::RotatedRect[m[K’} has no member named ‘[01m[Krect[m[K’
+[1.703s]    92 |             lightBars[0].[01;31m[Krect[m[K.points(leftVertices);
+[1.703s]       |                          [01;31m[K^~~~[m[K
+[1.703s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/src/opencv_video/src/video_subscriber.cpp:95:26:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<cv::RotatedRect>, cv::RotatedRect>::value_type[m[K’ {aka ‘[01m[Kclass cv::RotatedRect[m[K’} has no member named ‘[01m[Krect[m[K’
+[1.703s]    95 |             lightBars[1].[01;31m[Krect[m[K.points(rightVertices);
+[1.703s]       |                          [01;31m[K^~~~[m[K
+[2.219s] gmake[2]: *** [CMakeFiles/video_subscriber.dir/build.make:76: CMakeFiles/video_subscriber.dir/src/video_subscriber.cpp.o] Error 1
+[2.219s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/video_subscriber.dir/all] Error 2
+[2.219s] gmake: *** [Makefile:146: all] Error 2
+[2.222s] Invoked command in '/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/build/opencv_video' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/build/opencv_video -- -j12 -l12

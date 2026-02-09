@@ -1,0 +1,67 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"thirdparty/optionparser/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "libraries",
+			"destination" : "include/fastdds/thirdparty",
+			"paths" : 
+			[
+				"thirdparty/optionparser"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "libraries",
+			"destination" : "share/fastdds/cmake",
+			"exportName" : "optionparser-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "optionparser::@a6234134e866f576675b",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"thirdparty/optionparser/CMakeFiles/Export/share/fastdds/cmake/optionparser-targets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "thirdparty/optionparser",
+		"source" : "thirdparty/optionparser"
+	}
+}

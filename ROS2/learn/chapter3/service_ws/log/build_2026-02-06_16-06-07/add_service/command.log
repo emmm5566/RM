@@ -1,0 +1,2 @@
+Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/build/add_service': /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/build/add_service -- -j12 -l12
+Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/build/add_service' returned '2': /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/build/add_service -- -j12 -l12

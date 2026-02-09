@@ -1,0 +1,2 @@
+source;share/custom_msg_nodes/environment/ament_prefix_path.sh
+source;share/custom_msg_nodes/environment/path.sh

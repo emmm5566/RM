@@ -1,0 +1,32 @@
+[0.008s] Invoking command in '/home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/build/example_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/build/example_topic -- -j12 -l12
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target topic_publisher[0m
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target topic_subscribe[0m
+[0.062s] [ 25%] [32mBuilding CXX object CMakeFiles/topic_publisher.dir/src/topic_publisher.cpp.o[0m
+[0.063s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_subscribe.dir/src/topic_subscribe.cpp.o[0m
+[2.585s] [ 75%] [32m[1mLinking CXX executable topic_publisher[0m
+[2.705s] [ 75%] Built target topic_publisher
+[4.805s] [100%] [32m[1mLinking CXX executable topic_subscribe[0m
+[5.033s] [100%] Built target topic_subscribe
+[5.049s] Invoked command in '/home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/build/example_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/build/example_topic -- -j12 -l12
+[5.062s] Invoking command in '/home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/build/example_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/build/example_topic
+[5.074s] -- Install configuration: ""
+[5.074s] -- Installing: /home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/install/example_topic/lib/example_topic/topic_publisher
+[5.076s] -- Set runtime path of "/home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/install/example_topic/lib/example_topic/topic_publisher" to ""
+[5.076s] -- Installing: /home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/install/example_topic/lib/example_topic/topic_subscribe
+[5.079s] -- Set runtime path of "/home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/install/example_topic/lib/example_topic/topic_subscribe" to ""
+[5.079s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/install/example_topic/share/ament_index/resource_index/package_run_dependencies/example_topic
+[5.079s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/install/example_topic/share/ament_index/resource_index/parent_prefix_path/example_topic
+[5.079s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/install/example_topic/share/example_topic/environment/ament_prefix_path.sh
+[5.080s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/install/example_topic/share/example_topic/environment/ament_prefix_path.dsv
+[5.080s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/install/example_topic/share/example_topic/environment/path.sh
+[5.080s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/install/example_topic/share/example_topic/environment/path.dsv
+[5.080s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/install/example_topic/share/example_topic/local_setup.bash
+[5.080s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/install/example_topic/share/example_topic/local_setup.sh
+[5.081s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/install/example_topic/share/example_topic/local_setup.zsh
+[5.081s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/install/example_topic/share/example_topic/local_setup.dsv
+[5.081s] -- Installing: /home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/install/example_topic/share/example_topic/package.dsv
+[5.082s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/install/example_topic/share/ament_index/resource_index/packages/example_topic
+[5.082s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/install/example_topic/share/example_topic/cmake/example_topicConfig.cmake
+[5.083s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/install/example_topic/share/example_topic/cmake/example_topicConfig-version.cmake
+[5.083s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/install/example_topic/share/example_topic/package.xml
+[5.083s] Invoked command in '/home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/build/example_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/build/example_topic

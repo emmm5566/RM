@@ -1,0 +1,51 @@
+[0.010s] Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/build/demo_cpp_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/build/demo_cpp_tf -- -j12 -l12
+[0.038s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.145s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.165s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.167s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.173s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.179s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.187s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.208s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.209s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.283s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.321s] -- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.385s] -- Found tf2_geometry_msgs: 0.25.18 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.387s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.388s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.390s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.439s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.439s] -- Configured cppcheck include dirs: 
+[0.439s] -- Configured cppcheck exclude dirs and/or files: 
+[0.440s] -- Added test 'lint_cmake' to check CMake code style
+[0.440s] -- Added test 'uncrustify' to check C / C++ code style
+[0.440s] -- Configured uncrustify additional arguments: 
+[0.440s] -- Added test 'xmllint' to check XML markup files
+[0.441s] -- Configuring done
+[0.450s] -- Generating done
+[0.454s] -- Build files have been written to: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/build/demo_cpp_tf
+[0.479s] [35m[1mConsolidate compiler generated dependencies of target static_tf_broadcaster[0m
+[0.487s] [ 25%] [32mBuilding CXX object CMakeFiles/dynamic_tf_broadcaster.dir/src/dynamic_tf_broadcaster.cpp.o[0m
+[0.498s] [ 50%] [32mBuilding CXX object CMakeFiles/static_tf_broadcaster.dir/src/static_tf_broadcaster.cpp.o[0m
+[2.172s] [01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/src/demo_cpp_tf/src/dynamic_tf_broadcaster.cpp:17:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+[2.173s]    17 | [01;31m[Kpublic[m[K:
+[2.173s]       | [01;31m[K^~~~~~[m[K
+[2.173s] [01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/src/demo_cpp_tf/src/dynamic_tf_broadcaster.cpp:15:34:[m[K [01;31m[Kerror: [m[Kbit-field ‘[01m[Ktimer_[m[K’ with non-integral type ‘[01m[Krclcpp::TimerBase::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::TimerBase>[m[K’}
+[2.173s]    15 |     rclcpp::TimerBase::SharedPtr [01;31m[Ktimer_[m[K:
+[2.173s]       |                                  [01;31m[K^~~~~~[m[K
+[2.173s] [01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/src/demo_cpp_tf/src/dynamic_tf_broadcaster.cpp:15:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.173s]    15 |     rclcpp::TimerBase::SharedPtr timer_[01;31m[K:[m[K
+[2.173s]       |                                        [01;31m[K^[m[K
+[2.173s]       |                                         [32m[K;[m[K
+[2.176s] [01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/src/demo_cpp_tf/src/dynamic_tf_broadcaster.cpp:[m[K In constructor ‘[01m[KTFBroadcaster::TFBroadcaster()[m[K’:
+[2.177s] [01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/src/demo_cpp_tf/src/dynamic_tf_broadcaster.cpp:23:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[2.177s]    23 |         [01;31m[Ktimer_[m[K = this->create_wall_timer(100ms, std::bind(&TFBroadcaster::publish_tf, this));
+[2.177s]       |         [01;31m[K^~~~~~[m[K
+[2.177s]       |         [32m[Ktimer_t[m[K
+[2.707s] gmake[2]: *** [CMakeFiles/dynamic_tf_broadcaster.dir/build.make:76: CMakeFiles/dynamic_tf_broadcaster.dir/src/dynamic_tf_broadcaster.cpp.o] Error 1
+[2.707s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/dynamic_tf_broadcaster.dir/all] Error 2
+[2.707s] gmake[1]: *** Waiting for unfinished jobs....
+[3.328s] [ 75%] [32m[1mLinking CXX executable static_tf_broadcaster[0m
+[3.478s] [ 75%] Built target static_tf_broadcaster
+[3.479s] gmake: *** [Makefile:146: all] Error 2
+[3.482s] Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/build/demo_cpp_tf' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/build/demo_cpp_tf -- -j12 -l12

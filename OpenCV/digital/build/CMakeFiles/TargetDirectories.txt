@@ -1,0 +1,14 @@
+/home/emmm/Desktop/scnu_rm/OpenCV/digital/build/CMakeFiles/demo.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/digital/build/CMakeFiles/demo1.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/digital/build/CMakeFiles/demo2.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/digital/build/CMakeFiles/learn_Mat.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/digital/build/CMakeFiles/channel_demo.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/digital/build/CMakeFiles/gray.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/digital/build/CMakeFiles/binary.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/digital/build/CMakeFiles/morphology.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/digital/build/CMakeFiles/contours.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/digital/build/CMakeFiles/RotatedRect.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/digital/build/CMakeFiles/approxPolyDP.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/digital/build/CMakeFiles/API.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/digital/build/CMakeFiles/edit_cache.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/digital/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,17 @@
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/demo_turtlesim/lib/demo_turtlesim/turtle_circle
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/demo_turtlesim/lib/demo_turtlesim/turtle_control
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/demo_turtlesim/share/ament_index/resource_index/package_run_dependencies/demo_turtlesim
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/demo_turtlesim/share/ament_index/resource_index/parent_prefix_path/demo_turtlesim
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/demo_turtlesim/share/demo_turtlesim/environment/ament_prefix_path.sh
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/demo_turtlesim/share/demo_turtlesim/environment/ament_prefix_path.dsv
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/demo_turtlesim/share/demo_turtlesim/environment/path.sh
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/demo_turtlesim/share/demo_turtlesim/environment/path.dsv
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/demo_turtlesim/share/demo_turtlesim/local_setup.bash
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/demo_turtlesim/share/demo_turtlesim/local_setup.sh
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/demo_turtlesim/share/demo_turtlesim/local_setup.zsh
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/demo_turtlesim/share/demo_turtlesim/local_setup.dsv
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/demo_turtlesim/share/demo_turtlesim/package.dsv
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/demo_turtlesim/share/ament_index/resource_index/packages/demo_turtlesim
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/demo_turtlesim/share/demo_turtlesim/cmake/demo_turtlesimConfig.cmake
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/demo_turtlesim/share/demo_turtlesim/cmake/demo_turtlesimConfig-version.cmake
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/demo_turtlesim/share/demo_turtlesim/package.xml

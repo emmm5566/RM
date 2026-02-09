@@ -1,0 +1,17 @@
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/custom_msg_nodes/lib/custom_msg_nodes/publisher
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/custom_msg_nodes/lib/custom_msg_nodes/subscriber
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/custom_msg_nodes/share/ament_index/resource_index/package_run_dependencies/custom_msg_nodes
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/custom_msg_nodes/share/ament_index/resource_index/parent_prefix_path/custom_msg_nodes
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/custom_msg_nodes/share/custom_msg_nodes/environment/ament_prefix_path.sh
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/custom_msg_nodes/share/custom_msg_nodes/environment/ament_prefix_path.dsv
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/custom_msg_nodes/share/custom_msg_nodes/environment/path.sh
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/custom_msg_nodes/share/custom_msg_nodes/environment/path.dsv
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/custom_msg_nodes/share/custom_msg_nodes/local_setup.bash
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/custom_msg_nodes/share/custom_msg_nodes/local_setup.sh
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/custom_msg_nodes/share/custom_msg_nodes/local_setup.zsh
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/custom_msg_nodes/share/custom_msg_nodes/local_setup.dsv
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/custom_msg_nodes/share/custom_msg_nodes/package.dsv
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/custom_msg_nodes/share/ament_index/resource_index/packages/custom_msg_nodes
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/custom_msg_nodes/share/custom_msg_nodes/cmake/custom_msg_nodesConfig.cmake
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/custom_msg_nodes/share/custom_msg_nodes/cmake/custom_msg_nodesConfig-version.cmake
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/custom_msg_nodes/share/custom_msg_nodes/package.xml

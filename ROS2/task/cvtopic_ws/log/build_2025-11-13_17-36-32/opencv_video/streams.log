@@ -1,0 +1,14 @@
+[0.010s] Invoking command in '/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/build/opencv_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/build/opencv_video -- -j12 -l12
+[0.056s] [ 25%] [32mBuilding CXX object CMakeFiles/video_subscriber.dir/src/video_subscriber.cpp.o[0m
+[0.069s] [ 75%] Built target video_publisher
+[1.694s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/src/opencv_video/src/video_subscriber.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[1.694s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/src/opencv_video/src/video_subscriber.cpp:25:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Krclcpp[m[K’
+[1.694s]    25 |     rclcpp::spin(node)
+[1.694s]       |                       [01;31m[K^[m[K
+[1.694s]       |                       [32m[K;[m[K
+[1.694s]    26 |     [32m[Krclcpp[m[K::shutdown();
+[1.694s]       |     [32m[K~~~~~~[m[K             
+[2.169s] gmake[2]: *** [CMakeFiles/video_subscriber.dir/build.make:76: CMakeFiles/video_subscriber.dir/src/video_subscriber.cpp.o] Error 1
+[2.169s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/video_subscriber.dir/all] Error 2
+[2.169s] gmake: *** [Makefile:146: all] Error 2
+[2.172s] Invoked command in '/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/build/opencv_video' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/build/opencv_video -- -j12 -l12

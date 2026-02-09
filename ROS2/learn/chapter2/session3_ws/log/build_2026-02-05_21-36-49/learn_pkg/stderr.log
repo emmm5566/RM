@@ -1,0 +1,10 @@
+[01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/src/learn_pkg/src/learn_thread.cpp:[m[K In member function ‘[01m[Kvoid Download::start_download(const string&, const string&, std::function<void(const std::__cxx11::basic_string<char>&, const std::__cxx11::basic_string<char>&)>)[m[K’:
+[01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/src/learn_pkg/src/learn_thread.cpp:30:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Khost[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   30 |     void start_download([01;35m[Kconst std::string& host[m[K, const std::string& path,
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/src/learn_pkg/src/learn_thread.cpp:30:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpath[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   30 |     void start_download(const std::string& host, [01;35m[Kconst std::string& path[m[K,
+      |                                                  [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/src/learn_pkg/src/learn_thread.cpp:31:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcallback_word_count[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   31 |         [01;35m[Kconst std::function<void(const std::string&, const std::string&)> callback_word_count[m[K)
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K

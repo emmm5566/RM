@@ -1,0 +1,17 @@
+/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/lib/example_action_rclcpp/action_robot
+/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/lib/example_action_rclcpp/action_control
+/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_action_rclcpp
+/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_action_rclcpp
+/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/environment/ament_prefix_path.sh
+/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/environment/ament_prefix_path.dsv
+/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/environment/path.sh
+/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/environment/path.dsv
+/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/local_setup.bash
+/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/local_setup.sh
+/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/local_setup.zsh
+/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/local_setup.dsv
+/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/package.dsv
+/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/ament_index/resource_index/packages/example_action_rclcpp
+/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/cmake/example_action_rclcppConfig.cmake
+/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/cmake/example_action_rclcppConfig-version.cmake
+/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/package.xml

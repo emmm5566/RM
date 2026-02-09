@@ -1,0 +1,153 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/cpp/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 276,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 286,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 292,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 300,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 322,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 389,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "headers",
+			"destination" : "include",
+			"paths" : 
+			[
+				"include/fastdds"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "headers",
+			"destination" : "include/fastdds",
+			"paths" : 
+			[
+				"/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/fastdds/include/fastdds/config.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/fastdds",
+			"paths" : 
+			[
+				"include/fastdds/statistics"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/cpp/libfastdds.so.3.4.1.0",
+				"src/cpp/libfastdds.so.3.4"
+			],
+			"targetId" : "fastdds::@75938a602bfe1332d7ce",
+			"targetIndex" : 29,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/cpp/libfastdds.so"
+			],
+			"targetId" : "fastdds::@75938a602bfe1332d7ce",
+			"targetIndex" : 29,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "cmake",
+			"destination" : "share/fastdds/cmake",
+			"exportName" : "fastdds-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "fastdds::@75938a602bfe1332d7ce",
+					"index" : 29
+				},
+				{
+					"id" : "eProsima_atomic::@75938a602bfe1332d7ce",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"src/cpp/CMakeFiles/Export/share/fastdds/cmake/fastdds-shared-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "cmake",
+			"destination" : "share/fastdds/cmake",
+			"paths" : 
+			[
+				"/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/fastdds/cmake/config/fastdds-config.cmake",
+				"/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/fastdds/cmake/config/fastdds-config-version.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/cpp",
+		"source" : "src/cpp"
+	}
+}

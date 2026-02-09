@@ -1,0 +1,7 @@
+{
+  "package_name": "livox_ros_driver2",
+  "non_idl_tuples": [
+    "/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/livox_ros_driver2:msg/CustomPoint.msg",
+    "/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/livox_ros_driver2:msg/CustomMsg.msg"
+  ]
+}

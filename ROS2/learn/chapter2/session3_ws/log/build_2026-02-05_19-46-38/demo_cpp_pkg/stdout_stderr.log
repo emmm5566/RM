@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target person_node[0m
+[35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable cpp_node[0m
+[100%] [32m[1mLinking CXX executable person_node[0m
+[100%] Built target cpp_node
+[100%] Built target person_node
+-- Install configuration: ""
+-- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node
+-- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node" to ""
+-- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node
+-- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node" to ""
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+-- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml

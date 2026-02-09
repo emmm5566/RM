@@ -1,0 +1,33 @@
+[0.013s] Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/build/learn_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/build/learn_pkg -- -j12 -l12
+[0.092s] [ 20%] Built target learn_shared_ptr
+[0.092s] [ 40%] Built target learn_lambda
+[0.093s] [ 60%] Built target learn_functional
+[0.093s] [ 80%] Built target learn_auto
+[0.097s] [ 90%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[3.247s] [100%] [32m[1mLinking CXX executable learn_thread[0m
+[3.408s] [100%] Built target learn_thread
+[3.422s] Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/build/learn_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/build/learn_pkg -- -j12 -l12
+[3.425s] Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/build/learn_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/build/learn_pkg
+[3.431s] -- Install configuration: ""
+[3.431s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/learn_pkg/lib/learn_pkg/learn_auto
+[3.432s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/learn_pkg/lib/learn_pkg/learn_shared_ptr
+[3.432s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/learn_pkg/lib/learn_pkg/learn_lambda
+[3.432s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/learn_pkg/lib/learn_pkg/learn_functional
+[3.432s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/learn_pkg/lib/learn_pkg/learn_thread
+[3.434s] -- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/learn_pkg/lib/learn_pkg/learn_thread" to ""
+[3.434s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/learn_pkg/share/ament_index/resource_index/package_run_dependencies/learn_pkg
+[3.434s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/learn_pkg/share/ament_index/resource_index/parent_prefix_path/learn_pkg
+[3.434s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/learn_pkg/share/learn_pkg/environment/ament_prefix_path.sh
+[3.434s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/learn_pkg/share/learn_pkg/environment/ament_prefix_path.dsv
+[3.434s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/learn_pkg/share/learn_pkg/environment/path.sh
+[3.434s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/learn_pkg/share/learn_pkg/environment/path.dsv
+[3.434s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/learn_pkg/share/learn_pkg/local_setup.bash
+[3.434s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/learn_pkg/share/learn_pkg/local_setup.sh
+[3.434s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/learn_pkg/share/learn_pkg/local_setup.zsh
+[3.434s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/learn_pkg/share/learn_pkg/local_setup.dsv
+[3.434s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/learn_pkg/share/learn_pkg/package.dsv
+[3.435s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/learn_pkg/share/ament_index/resource_index/packages/learn_pkg
+[3.435s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/learn_pkg/share/learn_pkg/cmake/learn_pkgConfig.cmake
+[3.435s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/learn_pkg/share/learn_pkg/cmake/learn_pkgConfig-version.cmake
+[3.435s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/learn_pkg/share/learn_pkg/package.xml
+[3.441s] Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/build/learn_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/build/learn_pkg

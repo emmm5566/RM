@@ -1,0 +1,10 @@
+[01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/src/opencv_video/src/video_subscriber.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/src/opencv_video/src/video_subscriber.cpp:25:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Krclcpp[m[K’
+   25 |     rclcpp::spin(node)
+      |                       [01;31m[K^[m[K
+      |                       [32m[K;[m[K
+   26 |     [32m[Krclcpp[m[K::shutdown();
+      |     [32m[K~~~~~~[m[K             
+gmake[2]: *** [CMakeFiles/video_subscriber.dir/build.make:76: CMakeFiles/video_subscriber.dir/src/video_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/video_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

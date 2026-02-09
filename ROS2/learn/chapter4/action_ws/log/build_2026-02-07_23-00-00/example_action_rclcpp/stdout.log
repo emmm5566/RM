@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target action_robot[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/action_control.dir/src/action_control.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/action_robot.dir/src/action_robot.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable action_robot[0m
+[ 80%] Built target action_robot
+[100%] [32m[1mLinking CXX executable action_control[0m
+[100%] Built target action_control
+-- Install configuration: ""
+-- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/lib/example_action_rclcpp/action_robot
+-- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/lib/example_action_rclcpp/action_robot" to ""
+-- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/lib/example_action_rclcpp/action_control
+-- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/lib/example_action_rclcpp/action_control" to ""
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_action_rclcpp
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_action_rclcpp
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/environment/path.sh
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/environment/path.dsv
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/local_setup.bash
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/local_setup.sh
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/local_setup.zsh
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/local_setup.dsv
+-- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/package.dsv
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/ament_index/resource_index/packages/example_action_rclcpp
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/cmake/example_action_rclcppConfig.cmake
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/cmake/example_action_rclcppConfig-version.cmake
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/package.xml

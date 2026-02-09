@@ -1,0 +1,26 @@
+[0.010s] Invoking command in '/home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/build/opencv_use': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/build/opencv_use -- -j12 -l12
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target my_opencv[0m
+[0.073s] [ 50%] [32mBuilding CXX object CMakeFiles/my_opencv.dir/src/my_opencv.cpp.o[0m
+[1.077s] [100%] [32m[1mLinking CXX executable my_opencv[0m
+[1.377s] [100%] Built target my_opencv
+[1.395s] Invoked command in '/home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/build/opencv_use' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/build/opencv_use -- -j12 -l12
+[1.410s] Invoking command in '/home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/build/opencv_use': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/build/opencv_use
+[1.423s] -- Install configuration: ""
+[1.423s] -- Installing: /home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/install/opencv_use/lib/opencv_use/my_opencv
+[1.424s] -- Set runtime path of "/home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/install/opencv_use/lib/opencv_use/my_opencv" to ""
+[1.424s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/install/opencv_use/share/ament_index/resource_index/package_run_dependencies/opencv_use
+[1.424s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/install/opencv_use/share/ament_index/resource_index/parent_prefix_path/opencv_use
+[1.425s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/install/opencv_use/share/opencv_use/environment/ament_prefix_path.sh
+[1.425s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/install/opencv_use/share/opencv_use/environment/ament_prefix_path.dsv
+[1.425s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/install/opencv_use/share/opencv_use/environment/path.sh
+[1.425s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/install/opencv_use/share/opencv_use/environment/path.dsv
+[1.425s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/install/opencv_use/share/opencv_use/local_setup.bash
+[1.425s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/install/opencv_use/share/opencv_use/local_setup.sh
+[1.425s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/install/opencv_use/share/opencv_use/local_setup.zsh
+[1.426s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/install/opencv_use/share/opencv_use/local_setup.dsv
+[1.426s] -- Installing: /home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/install/opencv_use/share/opencv_use/package.dsv
+[1.426s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/install/opencv_use/share/ament_index/resource_index/packages/opencv_use
+[1.426s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/install/opencv_use/share/opencv_use/cmake/opencv_useConfig.cmake
+[1.426s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/install/opencv_use/share/opencv_use/cmake/opencv_useConfig-version.cmake
+[1.426s] -- Up-to-date: /home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/install/opencv_use/share/opencv_use/package.xml
+[1.428s] Invoked command in '/home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/build/opencv_use' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/build/opencv_use

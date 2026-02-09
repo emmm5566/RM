@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3186186a75f8f9648c62.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "opencv_video",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "opencv_video_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opencv_video_uninstall-6adc1e9873a1e59c4937.json",
+					"name" : "opencv_video_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6f17e3ba35b3c9bdf75c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "video_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-video_publisher-b74a909dea72bf7d47a8.json",
+					"name" : "video_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "video_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-video_subscriber-f61baf4c8c7f7b1af478.json",
+					"name" : "video_subscriber",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/build/opencv_video",
+		"source" : "/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/src/opencv_video"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

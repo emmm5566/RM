@@ -1,0 +1,2 @@
+source;share/opencv_video/environment/ament_prefix_path.sh
+source;share/opencv_video/environment/path.sh

@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task2/build",
+  "command": "/usr/bin/g++  -I/home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task2/include -g -std=gnu++11 -o CMakeFiles/cplusplus.dir/src/Robot.cpp.o -c /home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task2/src/Robot.cpp",
+  "file": "/home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task2/src/Robot.cpp"
+},
+{
+  "directory": "/home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task2/build",
+  "command": "/usr/bin/g++  -I/home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task2/include -g -std=gnu++11 -o CMakeFiles/cplusplus.dir/src/main.cpp.o -c /home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task2/src/main.cpp",
+  "file": "/home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task2/src/main.cpp"
+}
+]

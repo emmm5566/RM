@@ -1,0 +1,4 @@
+Invoking command in '/home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/build/example_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/build/example_topic -- -j12 -l12
+Invoked command in '/home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/build/example_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/build/example_topic -- -j12 -l12
+Invoking command in '/home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/build/example_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/build/example_topic
+Invoked command in '/home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/build/example_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/scnu_rm/ROS2/task/topic_ws/build/example_topic

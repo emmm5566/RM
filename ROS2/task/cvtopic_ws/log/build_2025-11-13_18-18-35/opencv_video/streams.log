@@ -1,0 +1,22 @@
+[0.008s] Invoking command in '/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/build/opencv_video': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/build/opencv_video -- -j12 -l12
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target video_subscriber[0m
+[0.058s] [ 50%] Built target video_publisher
+[0.069s] [ 75%] [32mBuilding CXX object CMakeFiles/video_subscriber.dir/src/video_subscriber.cpp.o[0m
+[1.747s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/src/opencv_video/src/video_subscriber.cpp:[m[K In constructor ‘[01m[KVideoSubscriberNode::[01;32m[KVideoSubscriberNode[m[K(std::string)[m[K’:
+[1.748s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/src/opencv_video/src/video_subscriber.cpp:15:56:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kimage_transport::Subscriber image_transport::[01;32m[Kcreate_subscription[m[K(rclcpp::Node*, const std::string&, const Subscriber::Callback&, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions)[m[K’
+[1.748s]    15 |         img_sub_ = [01;31m[Kimage_transport::create_subscription(this, "video_frames",[m[K
+[1.748s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.748s]    16 | [01;31m[K            std::bind(&VideoSubscriberNode::img_callback, this, std::placeholders::_1))[m[K;
+[1.748s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.748s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/src/opencv_video/src/video_subscriber.cpp:2[m[K:
+[1.748s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:62:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.748s]    62 | Subscriber [01;36m[Kcreate_subscription[m[K(
+[1.748s]       |            [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.751s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/src/opencv_video/src/video_subscriber.cpp:[m[K In member function ‘[01m[Kvoid VideoSubscriberNode::[01;32m[Kimg_callback[m[K(const sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&)[m[K’:
+[1.751s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/src/opencv_video/src/video_subscriber.cpp:44:39:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[1.751s]    44 |         cv::namedWindow("Trackbars", ([01;35m[K640[m[K, 200));
+[1.751s]       |                                       [01;35m[K^~~[m[K
+[2.251s] gmake[2]: *** [CMakeFiles/video_subscriber.dir/build.make:76: CMakeFiles/video_subscriber.dir/src/video_subscriber.cpp.o] Error 1
+[2.251s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/video_subscriber.dir/all] Error 2
+[2.251s] gmake: *** [Makefile:146: all] Error 2
+[2.254s] Invoked command in '/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/build/opencv_video' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/build/opencv_video -- -j12 -l12

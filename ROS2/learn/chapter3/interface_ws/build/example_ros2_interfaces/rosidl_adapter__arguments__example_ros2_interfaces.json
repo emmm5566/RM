@@ -1,0 +1,8 @@
+{
+  "package_name": "example_ros2_interfaces",
+  "non_idl_tuples": [
+    "/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/src/example_ros2_interfaces:msg/RobotPose.msg",
+    "/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/src/example_ros2_interfaces:msg/RobotStatus.msg",
+    "/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/src/example_ros2_interfaces:srv/MoveRobot.srv"
+  ]
+}

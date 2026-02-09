@@ -1,0 +1,16 @@
+[01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/src/opencv_video/src/video_subscriber.cpp:[m[K In member function ‘[01m[Kvoid VideoSubscriberNode::[01;32m[Kimg_callback[m[K(const sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&)[m[K’:
+[01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/src/opencv_video/src/video_subscriber.cpp:89:66:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K;[m[K’ token
+   89 |             float minX = allVertices[0].x, maxX = allVertices[0].[01;31m[K;[m[K
+      |                                                                  [01;31m[K^[m[K
+[01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/src/opencv_video/src/video_subscriber.cpp:93:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kminx[m[K’ was not declared in this scope; did you mean ‘[01m[KminX[m[K’?
+   93 |                 [01;31m[Kminx[m[K = std::min(minx, allVertice.y);
+      |                 [01;31m[K^~~~[m[K
+      |                 [32m[KminX[m[K
+[01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/src/opencv_video/src/video_subscriber.cpp:94:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmaxx[m[K’ was not declared in this scope; did you mean ‘[01m[KmaxX[m[K’?
+   94 |                 [01;31m[Kmaxx[m[K = std::min(maxX, allVertice.y);
+      |                 [01;31m[K^~~~[m[K
+      |                 [32m[KmaxX[m[K
+gmake[2]: *** [CMakeFiles/video_subscriber.dir/build.make:76: CMakeFiles/video_subscriber.dir/src/video_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/video_subscriber.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

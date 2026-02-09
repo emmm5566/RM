@@ -1,0 +1,53 @@
+[0.008s] Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp': AMENT_PREFIX_PATH=/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp -- -j12 -l12
+[0.032s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.156s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.179s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.181s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.187s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.194s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.204s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.230s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.232s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.321s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.366s] -- Found rclcpp_action: 16.0.17 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.389s] -- Found robot_control_interfaces: 0.0.0 (/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake)
+[0.399s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.411s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.465s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.465s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/src/example_action_rclcpp/include>
+[0.465s] -- Configured cppcheck exclude dirs and/or files: 
+[0.466s] -- Added test 'lint_cmake' to check CMake code style
+[0.466s] -- Added test 'uncrustify' to check C / C++ code style
+[0.466s] -- Configured uncrustify additional arguments: 
+[0.466s] -- Added test 'xmllint' to check XML markup files
+[0.467s] -- Configuring done
+[0.477s] -- Generating done
+[0.481s] -- Build files have been written to: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp
+[0.507s] [35m[1mConsolidate compiler generated dependencies of target action_robot[0m
+[0.507s] [35m[1mConsolidate compiler generated dependencies of target action_control[0m
+[0.525s] [ 40%] Built target action_control
+[0.525s] [ 60%] [32mBuilding CXX object CMakeFiles/action_robot.dir/src/robot.cpp.o[0m
+[2.398s] [ 80%] [32m[1mLinking CXX executable action_robot[0m
+[2.553s] [100%] Built target action_robot
+[2.569s] Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp' returned '0': AMENT_PREFIX_PATH=/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp -- -j12 -l12
+[2.571s] Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp': AMENT_PREFIX_PATH=/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp
+[2.581s] -- Install configuration: ""
+[2.582s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/lib/example_action_rclcpp/action_robot
+[2.583s] -- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/lib/example_action_rclcpp/action_robot" to ""
+[2.584s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/lib/example_action_rclcpp/action_control
+[2.584s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_action_rclcpp
+[2.584s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_action_rclcpp
+[2.584s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/environment/ament_prefix_path.sh
+[2.584s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/environment/ament_prefix_path.dsv
+[2.584s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/environment/path.sh
+[2.584s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/environment/path.dsv
+[2.585s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/local_setup.bash
+[2.585s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/local_setup.sh
+[2.585s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/local_setup.zsh
+[2.585s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/local_setup.dsv
+[2.585s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/package.dsv
+[2.585s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/ament_index/resource_index/packages/example_action_rclcpp
+[2.585s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/cmake/example_action_rclcppConfig.cmake
+[2.585s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/cmake/example_action_rclcppConfig-version.cmake
+[2.585s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp/share/example_action_rclcpp/package.xml
+[2.588s] Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp' returned '0': AMENT_PREFIX_PATH=/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp

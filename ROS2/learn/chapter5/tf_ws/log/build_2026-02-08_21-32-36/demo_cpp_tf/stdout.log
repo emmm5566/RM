@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target static_tf_broadcaster[0m
+[35m[1mConsolidate compiler generated dependencies of target dynamic_tf_broadcaster[0m
+[ 50%] Built target static_tf_broadcaster
+[ 75%] [32mBuilding CXX object CMakeFiles/dynamic_tf_broadcaster.dir/src/dynamic_tf_broadcaster.cpp.o[0m
+[100%] [32m[1mLinking CXX executable dynamic_tf_broadcaster[0m
+[100%] Built target dynamic_tf_broadcaster
+-- Install configuration: ""
+-- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/lib/demo_cpp_tf/static_tf_broadcaster
+-- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/lib/demo_cpp_tf/static_tf_broadcaster" to ""
+-- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/lib/demo_cpp_tf/dynamic_tf_broadcaster
+-- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/lib/demo_cpp_tf/dynamic_tf_broadcaster" to ""
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/share/ament_index/resource_index/package_run_dependencies/demo_cpp_tf
+-- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/share/ament_index/resource_index/parent_prefix_path/demo_cpp_tf
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/ament_prefix_path.sh
+-- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/path.sh
+-- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/path.dsv
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.bash
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.sh
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.zsh
+-- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.dsv
+-- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/share/demo_cpp_tf/package.dsv
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/share/ament_index/resource_index/packages/demo_cpp_tf
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/share/demo_cpp_tf/cmake/demo_cpp_tfConfig.cmake
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/share/demo_cpp_tf/cmake/demo_cpp_tfConfig-version.cmake
+-- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/share/demo_cpp_tf/package.xml

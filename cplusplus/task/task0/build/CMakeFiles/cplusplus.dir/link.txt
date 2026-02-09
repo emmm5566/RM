@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/cplusplus.dir/source/Fibonacci.cpp.o CMakeFiles/cplusplus.dir/source/array.cpp.o CMakeFiles/cplusplus.dir/source/multiple.cpp.o CMakeFiles/cplusplus.dir/source/score.cpp.o CMakeFiles/cplusplus.dir/source/vector.cpp.o -o cplusplus 

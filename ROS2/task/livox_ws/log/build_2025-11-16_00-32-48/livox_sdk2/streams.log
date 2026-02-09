@@ -1,0 +1,602 @@
+[0.007s] Invoking command in '/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/build/livox_sdk2': /usr/bin/cmake /home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2 -DCMAKE_INSTALL_PREFIX=/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/install/livox_sdk2
+[0.064s] -- The C compiler identification is GNU 13.1.0
+[0.123s] -- The CXX compiler identification is GNU 13.1.0
+[0.129s] -- Detecting C compiler ABI info
+[0.197s] -- Detecting C compiler ABI info - done
+[0.204s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.204s] -- Detecting C compile features
+[0.204s] -- Detecting C compile features - done
+[0.207s] -- Detecting CXX compiler ABI info
+[0.281s] -- Detecting CXX compiler ABI info - done
+[0.291s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.291s] -- Detecting CXX compile features
+[0.291s] -- Detecting CXX compile features - done
+[0.292s] -- main project dir: /home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2
+[0.293s] -- main project dir: /home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/samples
+[0.295s] -- Configuring done
+[0.309s] -- Generating done
+[0.311s] -- Build files have been written to: /home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/build/livox_sdk2
+[0.314s] Invoked command in '/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/build/livox_sdk2' returned '0': /usr/bin/cmake /home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2 -DCMAKE_INSTALL_PREFIX=/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/install/livox_sdk2
+[0.316s] Invoking command in '/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/build/livox_sdk2': /usr/bin/cmake --build /home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/build/livox_sdk2 -- -j12 -l12
+[0.359s] [  1%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/__/3rdparty/FastCRC/FastCRCsw.cpp.o[0m
+[0.359s] [  2%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/params_check.cpp.o[0m
+[0.359s] [  3%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/livox_lidar_sdk.cpp.o[0m
+[0.359s] [  6%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/__/3rdparty/FastCRC/FastCRCsw.cpp.o[0m
+[0.360s] [  6%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/livox_lidar_sdk.cpp.o[0m
+[0.360s] [  7%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/device_manager.cpp.o[0m
+[0.360s] [  8%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/params_check.cpp.o[0m
+[0.360s] [  9%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/parse_cfg_file.cpp.o[0m
+[0.361s] [ 10%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/upgrade_manager.cpp.o[0m
+[0.361s] [ 12%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/device_manager.cpp.o[0m
+[0.362s] [ 13%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/io_loop.cpp.o[0m
+[0.365s] [ 14%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/parse_cfg_file.cpp.o[0m
+[0.457s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[0.458s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[0.458s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[0.458s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/base/logging.h:27[m[K,
+[0.458s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/livox_lidar_sdk.cpp:29[m[K:
+[0.458s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[0.458s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[0.458s]       |      [01;35m[K^~~~~~~[m[K
+[0.458s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[0.458s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[0.458s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[0.458s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/base/logging.h:27[m[K,
+[0.459s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/base/io_loop.cpp:30[m[K:
+[0.459s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[0.459s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[0.459s]       |      [01;35m[K^~~~~~~[m[K
+[0.464s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[0.464s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[0.465s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[0.465s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/base/logging.h:27[m[K,
+[0.467s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/params_check.cpp:30[m[K:
+[0.467s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[0.468s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[0.468s]       |      [01;35m[K^~~~~~~[m[K
+[0.469s] [ 15%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/upgrade_manager.cpp.o[0m
+[0.469s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[0.469s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[0.469s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[0.470s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/base/logging.h:27[m[K,
+[0.470s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/params_check.cpp:30[m[K:
+[0.470s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[0.470s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[0.470s]       |      [01;35m[K^~~~~~~[m[K
+[0.475s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[0.476s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[0.476s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[0.476s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/base/logging.h:27[m[K,
+[0.477s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/device_manager.cpp:36[m[K:
+[0.477s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[0.478s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[0.478s]       |      [01;35m[K^~~~~~~[m[K
+[0.496s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[0.496s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[0.496s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[0.497s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/base/logging.h:27[m[K,
+[0.497s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/device_manager.cpp:36[m[K:
+[0.497s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[0.497s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[0.497s]       |      [01;35m[K^~~~~~~[m[K
+[0.524s] [ 16%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/thread_base.cpp.o[0m
+[0.525s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[0.525s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[0.525s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[0.525s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/base/logging.h:27[m[K,
+[0.525s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/parse_cfg_file.cpp:25[m[K:
+[0.525s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[0.525s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[0.525s]       |      [01;35m[K^~~~~~~[m[K
+[0.530s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[0.530s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[0.531s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[0.531s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/base/logging.h:27[m[K,
+[0.531s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/livox_lidar_sdk.cpp:29[m[K:
+[0.531s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[0.531s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[0.531s]       |      [01;35m[K^~~~~~~[m[K
+[0.532s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[0.532s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[0.532s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[0.532s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/base/logging.h:27[m[K,
+[0.532s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/parse_cfg_file.cpp:25[m[K:
+[0.532s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[0.532s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[0.532s]       |      [01;35m[K^~~~~~~[m[K
+[0.921s] [ 18%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/io_loop.cpp.o[0m
+[1.035s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[1.035s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[1.036s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[1.036s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/base/logging.h:27[m[K,
+[1.036s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/base/io_loop.cpp:30[m[K:
+[1.036s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[1.036s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[1.036s]       |      [01;35m[K^~~~~~~[m[K
+[1.073s] [ 19%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/thread_base.cpp.o[0m
+[1.219s] [ 20%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/io_thread.cpp.o[0m
+[1.569s] [ 21%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/logging.cpp.o[0m
+[1.658s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[1.659s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[1.659s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[1.659s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/base/logging.h:27[m[K,
+[1.660s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/base/logging.cpp:25[m[K:
+[1.660s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[1.661s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[1.661s]       |      [01;35m[K^~~~~~~[m[K
+[2.113s] [ 22%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/io_thread.cpp.o[0m
+[2.677s] [ 24%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/logging.cpp.o[0m
+[2.814s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[2.814s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[2.815s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[2.815s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/base/logging.h:27[m[K,
+[2.816s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/base/logging.cpp:25[m[K:
+[2.816s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[2.817s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[2.817s]       |      [01;35m[K^~~~~~~[m[K
+[3.678s] [ 25%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/network/unix/network_util.cpp.o[0m
+[3.775s] [ 26%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_base.cpp.o[0m
+[4.005s] [ 27%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/network/unix/network_util.cpp.o[0m
+[4.130s] [ 28%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_base.cpp.o[0m
+[4.197s] [ 30%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_epoll.cpp.o[0m
+[4.362s] [ 31%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_select.cpp.o[0m
+[4.364s] [ 32%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_poll.cpp.o[0m
+[4.400s] [ 33%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_kqueue.cpp.o[0m
+[4.430s] [ 34%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_epoll.cpp.o[0m
+[4.463s] [ 36%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_poll.cpp.o[0m
+[4.605s] [ 37%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/wake_up/unix/wake_up_pipe.cpp.o[0m
+[4.668s] [ 38%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/comm/comm_port.cpp.o[0m
+[4.729s] [ 39%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/comm/sdk_protocol.cpp.o[0m
+[4.736s] [ 40%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/comm/generate_seq.cpp.o[0m
+[4.773s] [ 42%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_select.cpp.o[0m
+[4.795s] [ 43%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/upgrade/firmware.cpp.o[0m
+[4.819s] [ 44%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/upgrade/livox_lidar_upgrader.cpp.o[0m
+[4.846s] [ 45%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/logger_handler/logger_manager.cpp.o[0m
+[4.873s] [ 46%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_kqueue.cpp.o[0m
+[4.917s] [ 48%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/wake_up/unix/wake_up_pipe.cpp.o[0m
+[4.974s] [ 49%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/logger_handler/logger_handler.cpp.o[0m
+[5.009s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[5.012s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[5.013s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[5.013s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./base/logging.h:27[m[K,
+[5.014s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/logger_handler/logger_manager.cpp:30[m[K:
+[5.016s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[5.017s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[5.017s]       |      [01;35m[K^~~~~~~[m[K
+[5.058s] [ 50%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/logger_handler/file_manager.cpp.o[0m
+[5.059s] [ 51%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/comm/comm_port.cpp.o[0m
+[5.096s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[5.097s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[5.099s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[5.099s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./base/logging.h:27[m[K,
+[5.099s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/logger_handler/logger_handler.cpp:31[m[K:
+[5.099s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[5.100s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[5.102s]       |      [01;35m[K^~~~~~~[m[K
+[5.208s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[5.212s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[5.213s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[5.214s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./base/logging.h:27[m[K,
+[5.214s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/logger_handler/file_manager.cpp:40[m[K:
+[5.215s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[5.215s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[5.216s]       |      [01;35m[K^~~~~~~[m[K
+[5.282s] [ 53%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/data_handler/data_handler.cpp.o[0m
+[5.308s] [ 54%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/command_impl.cpp.o[0m
+[5.334s] [ 55%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/comm/sdk_protocol.cpp.o[0m
+[5.355s] [ 56%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/comm/generate_seq.cpp.o[0m
+[5.452s] [ 57%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/upgrade/firmware.cpp.o[0m
+[5.453s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[5.457s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[5.458s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[5.459s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./base/logging.h:27[m[K,
+[5.459s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/data_handler/data_handler.cpp:26[m[K:
+[5.460s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[5.460s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[5.461s]       |      [01;35m[K^~~~~~~[m[K
+[5.463s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[5.464s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[5.464s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[5.465s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./base/logging.h:27[m[K,
+[5.465s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./debug_point_cloud_handler/debug_point_cloud_handler.h:31[m[K,
+[5.466s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./debug_point_cloud_handler/debug_point_cloud_manager.h:36[m[K,
+[5.466s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/command_handler/command_impl.cpp:29[m[K:
+[5.467s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[5.467s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[5.468s]       |      [01;35m[K^~~~~~~[m[K
+[5.534s] [ 59%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/general_command_handler.cpp.o[0m
+[5.818s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[5.819s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[5.819s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[5.819s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./base/logging.h:27[m[K,
+[5.819s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./debug_point_cloud_handler/debug_point_cloud_handler.h:31[m[K,
+[5.819s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./debug_point_cloud_handler/debug_point_cloud_manager.h:36[m[K,
+[5.819s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/command_handler/general_command_handler.cpp:34[m[K:
+[5.819s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[5.819s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[5.820s]       |      [01;35m[K^~~~~~~[m[K
+[5.822s] [ 60%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/hap_command_handler.cpp.o[0m
+[5.872s] [ 61%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/mid360_command_handler.cpp.o[0m
+[5.933s] [ 62%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/upgrade/livox_lidar_upgrader.cpp.o[0m
+[5.967s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[5.967s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[5.968s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[5.968s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./base/logging.h:27[m[K,
+[5.968s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/command_handler/hap_command_handler.cpp:30[m[K:
+[5.968s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[5.968s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[5.968s]       |      [01;35m[K^~~~~~~[m[K
+[6.122s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[6.122s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[6.123s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[6.123s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./base/logging.h:27[m[K,
+[6.128s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/command_handler/mid360_command_handler.cpp:30[m[K:
+[6.128s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[6.128s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[6.128s]       |      [01;35m[K^~~~~~~[m[K
+[6.185s] [ 63%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/build_request.cpp.o[0m
+[6.334s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[6.336s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[6.337s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[6.338s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./base/logging.h:27[m[K,
+[6.338s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/command_handler/build_request.cpp:33[m[K:
+[6.339s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[6.339s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[6.340s]       |      [01;35m[K^~~~~~~[m[K
+[6.604s] [ 65%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/parse_lidar_state_info.cpp.o[0m
+[6.876s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[6.876s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[6.876s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[6.877s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./base/logging.h:27[m[K,
+[6.877s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.cpp:3[m[K:
+[6.877s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[6.877s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[6.881s]       |      [01;35m[K^~~~~~~[m[K
+[7.490s] [ 66%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/logger_handler/logger_manager.cpp.o[0m
+[7.525s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19[m[K,
+[7.525s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22[m[K,
+[7.525s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22[m[K,
+[7.525s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26[m[K,
+[7.525s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:39[m[K,
+[7.525s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.cpp:2[m[K:
+[7.525s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas-Wpragmas]8;;[m[K]
+[7.526s]   542 | #define RAPIDJSON_PRAGMA(x) [01;35m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+[7.526s]       |                             [01;35m[K^~~~~~~[m[K
+[7.526s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+[7.526s]   543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+[7.526s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[7.526s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+[7.529s]   545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+[7.529s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[7.529s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+[7.530s]    36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+[7.530s]       | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[7.541s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;36m[Knote: [m[Kdid you mean ‘[01m[K-Warray-bounds[m[K’?
+[7.542s]   542 | #define RAPIDJSON_PRAGMA(x) [01;36m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+[7.542s]       |                             [01;36m[K^~~~~~~[m[K
+[7.542s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+[7.542s]   543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+[7.542s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[7.542s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+[7.542s]   545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+[7.542s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[7.542s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+[7.542s]    36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+[7.542s]       | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[7.549s] [ 67%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/debug_point_cloud_handler/debug_point_cloud_manager.cpp.o[0m
+[7.610s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[7.610s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[7.611s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[7.611s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./base/logging.h:27[m[K,
+[7.611s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/logger_handler/logger_manager.cpp:30[m[K:
+[7.611s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[7.611s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[7.611s]       |      [01;35m[K^~~~~~~[m[K
+[7.660s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19[m[K,
+[7.660s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22[m[K,
+[7.660s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22[m[K,
+[7.660s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26[m[K,
+[7.661s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:39[m[K,
+[7.661s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/command_handler/hap_command_handler.cpp:37[m[K:
+[7.661s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas-Wpragmas]8;;[m[K]
+[7.661s]   542 | #define RAPIDJSON_PRAGMA(x) [01;35m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+[7.661s]       |                             [01;35m[K^~~~~~~[m[K
+[7.661s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+[7.661s]   543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+[7.661s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[7.661s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+[7.661s]   545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+[7.661s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[7.662s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+[7.662s]    36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+[7.662s]       | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[7.672s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;36m[Knote: [m[Kdid you mean ‘[01m[K-Warray-bounds[m[K’?
+[7.672s]   542 | #define RAPIDJSON_PRAGMA(x) [01;36m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+[7.673s]       |                             [01;36m[K^~~~~~~[m[K
+[7.673s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+[7.673s]   543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+[7.673s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[7.673s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+[7.673s]   545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+[7.673s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[7.673s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+[7.673s]    36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+[7.673s]       | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[7.787s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[7.788s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[7.789s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[7.790s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./base/logging.h:27[m[K,
+[7.790s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/debug_point_cloud_handler/debug_point_cloud_handler.h:31[m[K,
+[7.791s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/debug_point_cloud_handler/debug_point_cloud_manager.h:36[m[K,
+[7.792s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/debug_point_cloud_handler/debug_point_cloud_manager.cpp:1[m[K:
+[7.794s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[7.794s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[7.795s]       |      [01;35m[K^~~~~~~[m[K
+[8.654s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19[m[K,
+[8.660s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22[m[K,
+[8.661s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22[m[K,
+[8.661s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26[m[K,
+[8.661s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:39[m[K,
+[8.661s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/command_handler/mid360_command_handler.cpp:37[m[K:
+[8.661s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas-Wpragmas]8;;[m[K]
+[8.661s]   542 | #define RAPIDJSON_PRAGMA(x) [01;35m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+[8.661s]       |                             [01;35m[K^~~~~~~[m[K
+[8.661s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+[8.661s]   543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+[8.661s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[8.662s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+[8.662s]   545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+[8.662s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[8.662s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+[8.662s]    36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+[8.662s]       | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.669s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;36m[Knote: [m[Kdid you mean ‘[01m[K-Warray-bounds[m[K’?
+[8.670s]   542 | #define RAPIDJSON_PRAGMA(x) [01;36m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+[8.670s]       |                             [01;36m[K^~~~~~~[m[K
+[8.670s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+[8.674s]   543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+[8.674s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[8.675s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+[8.676s]   545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+[8.676s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[8.677s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+[8.677s]    36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+[8.678s]       | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[9.107s] [ 68%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/debug_point_cloud_handler/debug_point_cloud_handler.cpp.o[0m
+[9.353s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[9.354s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[9.354s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[9.354s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./base/logging.h:27[m[K,
+[9.354s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/debug_point_cloud_handler/debug_point_cloud_handler.h:31[m[K,
+[9.354s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/debug_point_cloud_handler/debug_point_cloud_handler.cpp:25[m[K:
+[9.354s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[9.354s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[9.354s]       |      [01;35m[K^~~~~~~[m[K
+[10.146s] [ 69%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/logger_handler/logger_handler.cpp.o[0m
+[10.309s] [ 71%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/logger_handler/file_manager.cpp.o[0m
+[10.352s] [ 72%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/data_handler/data_handler.cpp.o[0m
+[10.381s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[10.381s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[10.382s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[10.382s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./base/logging.h:27[m[K,
+[10.382s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/logger_handler/logger_handler.cpp:31[m[K:
+[10.382s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[10.382s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[10.382s]       |      [01;35m[K^~~~~~~[m[K
+[10.550s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[10.550s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[10.551s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[10.551s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./base/logging.h:27[m[K,
+[10.552s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/logger_handler/file_manager.cpp:40[m[K:
+[10.552s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[10.553s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[10.553s]       |      [01;35m[K^~~~~~~[m[K
+[10.612s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[10.613s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[10.613s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[10.614s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./base/logging.h:27[m[K,
+[10.614s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/data_handler/data_handler.cpp:26[m[K:
+[10.615s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[10.615s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[10.615s]       |      [01;35m[K^~~~~~~[m[K
+[12.165s] [ 73%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/command_impl.cpp.o[0m
+[12.167s] [ 74%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/general_command_handler.cpp.o[0m
+[12.197s] [ 75%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/hap_command_handler.cpp.o[0m
+[12.374s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[12.374s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[12.375s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[12.375s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./base/logging.h:27[m[K,
+[12.376s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./debug_point_cloud_handler/debug_point_cloud_handler.h:31[m[K,
+[12.377s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./debug_point_cloud_handler/debug_point_cloud_manager.h:36[m[K,
+[12.377s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/command_handler/general_command_handler.cpp:34[m[K:
+[12.378s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[12.378s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[12.379s]       |      [01;35m[K^~~~~~~[m[K
+[12.394s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[12.394s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[12.394s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[12.394s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./base/logging.h:27[m[K,
+[12.394s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/command_handler/hap_command_handler.cpp:30[m[K:
+[12.394s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[12.394s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[12.397s]       |      [01;35m[K^~~~~~~[m[K
+[12.534s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[12.534s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[12.534s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[12.534s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./base/logging.h:27[m[K,
+[12.534s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./debug_point_cloud_handler/debug_point_cloud_handler.h:31[m[K,
+[12.535s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./debug_point_cloud_handler/debug_point_cloud_manager.h:36[m[K,
+[12.535s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/command_handler/command_impl.cpp:29[m[K:
+[12.535s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[12.535s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[12.535s]       |      [01;35m[K^~~~~~~[m[K
+[12.685s] [ 77%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/mid360_command_handler.cpp.o[0m
+[12.912s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[12.912s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[12.913s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[12.913s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./base/logging.h:27[m[K,
+[12.913s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/command_handler/mid360_command_handler.cpp:30[m[K:
+[12.913s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[12.913s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[12.913s]       |      [01;35m[K^~~~~~~[m[K
+[13.173s] [ 78%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/build_request.cpp.o[0m
+[13.300s] [ 79%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/parse_lidar_state_info.cpp.o[0m
+[13.390s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[13.390s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[13.391s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[13.391s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./base/logging.h:27[m[K,
+[13.391s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/command_handler/build_request.cpp:33[m[K:
+[13.392s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[13.392s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[13.393s]       |      [01;35m[K^~~~~~~[m[K
+[13.443s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[13.443s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[13.444s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[13.447s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./base/logging.h:27[m[K,
+[13.447s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.cpp:3[m[K:
+[13.448s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[13.448s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[13.449s]       |      [01;35m[K^~~~~~~[m[K
+[13.808s] [ 80%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/debug_point_cloud_handler/debug_point_cloud_manager.cpp.o[0m
+[14.027s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[14.027s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[14.028s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[14.028s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./base/logging.h:27[m[K,
+[14.028s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/debug_point_cloud_handler/debug_point_cloud_handler.h:31[m[K,
+[14.028s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/debug_point_cloud_handler/debug_point_cloud_manager.h:36[m[K,
+[14.028s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/debug_point_cloud_handler/debug_point_cloud_manager.cpp:1[m[K:
+[14.028s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[14.028s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[14.028s]       |      [01;35m[K^~~~~~~[m[K
+[14.295s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19[m[K,
+[14.297s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22[m[K,
+[14.298s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22[m[K,
+[14.298s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26[m[K,
+[14.299s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:39[m[K,
+[14.299s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.cpp:2[m[K:
+[14.300s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas-Wpragmas]8;;[m[K]
+[14.300s]   542 | #define RAPIDJSON_PRAGMA(x) [01;35m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+[14.301s]       |                             [01;35m[K^~~~~~~[m[K
+[14.301s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+[14.302s]   543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+[14.302s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[14.303s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+[14.306s]   545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+[14.307s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[14.307s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+[14.308s]    36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+[14.308s]       | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[14.309s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;36m[Knote: [m[Kdid you mean ‘[01m[K-Warray-bounds[m[K’?
+[14.309s]   542 | #define RAPIDJSON_PRAGMA(x) [01;36m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+[14.310s]       |                             [01;36m[K^~~~~~~[m[K
+[14.311s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+[14.311s]   543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+[14.311s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[14.312s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+[14.312s]   545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+[14.313s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[14.313s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+[14.314s]    36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+[14.314s]       | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[14.497s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19[m[K,
+[14.498s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22[m[K,
+[14.499s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22[m[K,
+[14.499s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26[m[K,
+[14.500s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:39[m[K,
+[14.500s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/command_handler/hap_command_handler.cpp:37[m[K:
+[14.501s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas-Wpragmas]8;;[m[K]
+[14.502s]   542 | #define RAPIDJSON_PRAGMA(x) [01;35m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+[14.502s]       |                             [01;35m[K^~~~~~~[m[K
+[14.503s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+[14.503s]   543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+[14.504s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[14.504s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+[14.508s]   545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+[14.509s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[14.510s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+[14.510s]    36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+[14.511s]       | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[14.511s] [ 81%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/debug_point_cloud_handler/debug_point_cloud_handler.cpp.o[0m
+[14.512s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;36m[Knote: [m[Kdid you mean ‘[01m[K-Warray-bounds[m[K’?
+[14.512s]   542 | #define RAPIDJSON_PRAGMA(x) [01;36m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+[14.513s]       |                             [01;36m[K^~~~~~~[m[K
+[14.513s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+[14.514s]   543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+[14.514s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[14.515s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+[14.515s]   545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+[14.516s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[14.517s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+[14.517s]    36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+[14.518s]       | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[14.655s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21[m[K,
+[14.655s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28[m[K,
+[14.656s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12[m[K,
+[14.658s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/./base/logging.h:27[m[K,
+[14.659s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/debug_point_cloud_handler/debug_point_cloud_handler.h:31[m[K,
+[14.659s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/debug_point_cloud_handler/debug_point_cloud_handler.cpp:25[m[K:
+[14.660s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6:[m[K [01;35m[Kwarning: [m[Kidentifier ‘[01m[Kchar8_t[m[K’ is a keyword in C++20 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wc++20-compat-Wc++20-compat]8;;[m[K]
+[14.662s]   407 | enum [01;35m[Kchar8_t[m[K: unsigned char {};
+[14.662s]       |      [01;35m[K^~~~~~~[m[K
+[14.941s] In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19[m[K,
+[14.942s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22[m[K,
+[14.943s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22[m[K,
+[14.944s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26[m[K,
+[14.946s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:39[m[K,
+[14.946s]                  from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/command_handler/mid360_command_handler.cpp:37[m[K:
+[14.947s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas-Wpragmas]8;;[m[K]
+[14.948s]   542 | #define RAPIDJSON_PRAGMA(x) [01;35m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+[14.949s]       |                             [01;35m[K^~~~~~~[m[K
+[14.950s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+[14.951s]   543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+[14.952s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[14.954s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+[14.955s]   545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+[14.956s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[14.957s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+[14.958s]    36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+[14.959s]       | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[14.960s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;36m[Knote: [m[Kdid you mean ‘[01m[K-Warray-bounds[m[K’?
+[14.961s]   542 | #define RAPIDJSON_PRAGMA(x) [01;36m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+[14.963s]       |                             [01;36m[K^~~~~~~[m[K
+[14.963s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+[14.964s]   543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+[14.965s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[14.965s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+[14.967s]   545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+[14.968s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[14.968s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+[14.969s]    36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+[14.969s]       | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[15.533s] [ 83%] [32m[1mLinking CXX shared library liblivox_lidar_sdk_shared.so[0m
+[16.526s] [ 83%] Built target livox_lidar_sdk_shared
+[18.113s] [ 84%] [32m[1mLinking CXX static library liblivox_lidar_sdk_static.a[0m
+[18.442s] [ 84%] Built target livox_lidar_sdk_static
+[18.457s] [ 85%] [32mBuilding CXX object samples/logger/CMakeFiles/logger.dir/main.cpp.o[0m
+[18.457s] [ 86%] [32mBuilding CXX object samples/lidar_cmd_observer/CMakeFiles/lidar_cmd_observer.dir/main.cpp.o[0m
+[18.461s] [ 87%] [32mBuilding CXX object samples/livox_lidar_quick_start/CMakeFiles/livox_lidar_quick_start.dir/main.cpp.o[0m
+[18.462s] [ 89%] [32mBuilding CXX object samples/livox_lidar_rmc_time_sync/CMakeFiles/livox_lidar_rmc_time_sync.dir/main.cpp.o[0m
+[18.462s] [ 90%] [32mBuilding CXX object samples/livox_lidar_rmc_time_sync/CMakeFiles/livox_lidar_rmc_time_sync.dir/linux/synchro.cpp.o[0m
+[18.464s] [ 92%] [32mBuilding CXX object samples/multi_lidars_upgrade/CMakeFiles/multi_lidars_upgrade.dir/main.cpp.o[0m
+[18.464s] [ 92%] [32mBuilding CXX object samples/debug_point_cloud/CMakeFiles/debug_point_cloud.dir/main.cpp.o[0m
+[18.657s] [ 93%] [32m[1mLinking CXX executable lidar_cmd_observer[0m
+[18.720s] [ 95%] [32m[1mLinking CXX executable logger[0m
+[18.868s] [ 96%] [32m[1mLinking CXX executable livox_lidar_quick_start[0m
+[18.995s] [ 97%] [32m[1mLinking CXX executable debug_point_cloud[0m
+[19.038s] [ 98%] [32m[1mLinking CXX executable multi_lidars_upgrade[0m
+[19.076s] [100%] [32m[1mLinking CXX executable livox_lidar_rmc_time_sync[0m
+[19.328s] [100%] Built target lidar_cmd_observer
+[19.627s] [100%] Built target logger
+[19.684s] [100%] Built target livox_lidar_quick_start
+[19.744s] [100%] Built target livox_lidar_rmc_time_sync
+[19.829s] [100%] Built target debug_point_cloud
+[19.875s] [100%] Built target multi_lidars_upgrade
+[19.889s] Invoked command in '/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/build/livox_sdk2' returned '0': /usr/bin/cmake --build /home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/build/livox_sdk2 -- -j12 -l12
+[19.900s] Invoking command in '/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/build/livox_sdk2': /usr/bin/cmake --install /home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/build/livox_sdk2
+[19.909s] -- Install configuration: ""
+[19.909s] -- Installing: /home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/install/livox_sdk2/lib/liblivox_lidar_sdk_static.a
+[19.926s] -- Installing: /home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/install/livox_sdk2/include/livox_lidar_def.h
+[19.926s] -- Installing: /home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/install/livox_sdk2/include/livox_lidar_api.h
+[19.926s] -- Installing: /home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/install/livox_sdk2/include/livox_lidar_cfg.h
+[19.926s] -- Installing: /home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/install/livox_sdk2/lib/liblivox_lidar_sdk_shared.so
+[19.931s] Invoked command in '/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/build/livox_sdk2' returned '0': /usr/bin/cmake --install /home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/build/livox_sdk2

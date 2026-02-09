@@ -1,0 +1,3 @@
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_ros2_interfaces/rosidl_adapter/example_ros2_interfaces:msg/RobotPose.idl
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_ros2_interfaces/rosidl_adapter/example_ros2_interfaces:msg/RobotStatus.idl
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_ros2_interfaces/rosidl_adapter/example_ros2_interfaces:srv/MoveRobot.idl

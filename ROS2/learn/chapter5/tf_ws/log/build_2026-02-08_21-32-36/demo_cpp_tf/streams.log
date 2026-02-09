@@ -1,0 +1,30 @@
+[0.010s] Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/build/demo_cpp_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/build/demo_cpp_tf -- -j12 -l12
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target static_tf_broadcaster[0m
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target dynamic_tf_broadcaster[0m
+[0.062s] [ 50%] Built target static_tf_broadcaster
+[0.069s] [ 75%] [32mBuilding CXX object CMakeFiles/dynamic_tf_broadcaster.dir/src/dynamic_tf_broadcaster.cpp.o[0m
+[2.856s] [100%] [32m[1mLinking CXX executable dynamic_tf_broadcaster[0m
+[3.006s] [100%] Built target dynamic_tf_broadcaster
+[3.020s] Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/build/demo_cpp_tf -- -j12 -l12
+[3.035s] Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/build/demo_cpp_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/build/demo_cpp_tf
+[3.052s] -- Install configuration: ""
+[3.052s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/lib/demo_cpp_tf/static_tf_broadcaster
+[3.054s] -- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/lib/demo_cpp_tf/static_tf_broadcaster" to ""
+[3.054s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/lib/demo_cpp_tf/dynamic_tf_broadcaster
+[3.055s] -- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/lib/demo_cpp_tf/dynamic_tf_broadcaster" to ""
+[3.056s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/share/ament_index/resource_index/package_run_dependencies/demo_cpp_tf
+[3.056s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/share/ament_index/resource_index/parent_prefix_path/demo_cpp_tf
+[3.056s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/ament_prefix_path.sh
+[3.056s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/ament_prefix_path.dsv
+[3.056s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/path.sh
+[3.056s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/path.dsv
+[3.057s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.bash
+[3.057s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.sh
+[3.057s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.zsh
+[3.057s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.dsv
+[3.057s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/share/demo_cpp_tf/package.dsv
+[3.058s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/share/ament_index/resource_index/packages/demo_cpp_tf
+[3.058s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/share/demo_cpp_tf/cmake/demo_cpp_tfConfig.cmake
+[3.058s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/share/demo_cpp_tf/cmake/demo_cpp_tfConfig-version.cmake
+[3.058s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/install/demo_cpp_tf/share/demo_cpp_tf/package.xml
+[3.060s] Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/rm/ROS2/learn/chapter5/tf_ws/build/demo_cpp_tf

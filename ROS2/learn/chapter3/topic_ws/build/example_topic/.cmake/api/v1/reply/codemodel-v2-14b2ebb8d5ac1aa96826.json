@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1987611ad4173fcfd814.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "example_topic",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "example_topic_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_topic_uninstall-718f0c47a01f1db90308.json",
+					"name" : "example_topic_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "one_message_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-one_message_publisher-e2edcf2dfaf880bd269b.json",
+					"name" : "one_message_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "one_message_subscribe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-one_message_subscribe-896fe902c8811d05d148.json",
+					"name" : "one_message_subscribe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_publisher-5293d6cc9fd34df98b26.json",
+					"name" : "topic_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_subscribe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_subscribe-74c1013214a096143f6e.json",
+					"name" : "topic_subscribe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8cee5dccb675b90f9e94.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/example_topic",
+		"source" : "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/src/example_topic"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

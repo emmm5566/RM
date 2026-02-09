@@ -1,0 +1,21 @@
+[01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/src/opencv_video/src/video_subscriber.cpp:[m[K In constructor ‘[01m[KVideoSubscriberNode::[01;32m[KVideoSubscriberNode[m[K(std::string)[m[K’:
+[01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/src/opencv_video/src/video_subscriber.cpp:15:56:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kimage_transport::Subscriber image_transport::[01;32m[Kcreate_subscription[m[K(rclcpp::Node*, const std::string&, const Subscriber::Callback&, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions)[m[K’
+   15 |         img_sub_ = [01;31m[Kimage_transport::create_subscription(this, "video_frames",[m[K
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+   16 | [01;31m[K            std::bind(&VideoSubscriberNode::img_callback, this, std::placeholders::_1))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/src/opencv_video/src/video_subscriber.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:62:12:[m[K [01;36m[Knote: [m[Kdeclared here
+   62 | Subscriber [01;36m[Kcreate_subscription[m[K(
+      |            [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/src/opencv_video/src/video_subscriber.cpp:[m[K In member function ‘[01m[Kvoid VideoSubscriberNode::[01;32m[Kimg_callback[m[K(const sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&)[m[K’:
+[01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/src/opencv_video/src/video_subscriber.cpp:44:39:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   44 |         cv::namedWindow("Trackbars", ([01;35m[K640[m[K, 200));
+      |                                       [01;35m[K^~~[m[K
+[01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/src/opencv_video/src/video_subscriber.cpp:46:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kthreashold[m[K’ is not a member of ‘[01m[Kcv[m[K’; did you mean ‘[01m[Kthreshold[m[K’?
+   46 |         cv::[01;31m[Kthreashold[m[K(channels[2], binary, Threashold, 255, 0);
+      |             [01;31m[K^~~~~~~~~~[m[K
+      |             [32m[Kthreshold[m[K
+gmake[2]: *** [CMakeFiles/video_subscriber.dir/build.make:76: CMakeFiles/video_subscriber.dir/src/video_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/video_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

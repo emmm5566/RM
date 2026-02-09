@@ -1,0 +1,4 @@
+Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/fastcdr': /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/fastcdr -- -j12 -l12
+Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/fastcdr' returned '0': /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/fastcdr -- -j12 -l12
+Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/fastcdr': /usr/bin/cmake --install /home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/fastcdr
+Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/fastcdr' returned '0': /usr/bin/cmake --install /home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/fastcdr

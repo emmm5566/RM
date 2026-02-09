@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target video_publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o[0m
+[01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/src/opencv_video/src/video_publisher.cpp:[m[K In constructor ‘[01m[KVideoPublisherNode::[01;32m[KVideoPublisherNode[m[K(std::string)[m[K’:
+[01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/src/opencv_video/src/video_publisher.cpp:19:89:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   19 |         cap_.open("/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/img/task2_video.mp4",[01;31m[K)[m[K;
+      |                                                                                         [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/video_publisher.dir/build.make:76: CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/video_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

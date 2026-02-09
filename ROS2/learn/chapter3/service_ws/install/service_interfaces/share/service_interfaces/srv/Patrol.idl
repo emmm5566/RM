@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from service_interfaces/srv/Patrol.srv
+// generated code does not contain a copyright notice
+
+
+module service_interfaces {
+  module srv {
+    struct Patrol_Request {
+      @verbatim (language="comment", text=
+        "目标x值")
+      float target_x;
+
+      @verbatim (language="comment", text=
+        "目标y值")
+      float target_y;
+    };
+    module Patrol_Response_Constants {
+      @verbatim (language="comment", text=
+        "定义常量，表示成功 （大写常量）")
+      const int8 SUCCESS = 1;
+      @verbatim (language="comment", text=
+        "定义常量，表示失败")
+      const int8 FAIL = 0;
+    };
+    struct Patrol_Response {
+      @verbatim (language="comment", text=
+        "处理结果，SUCCESS / FAIL 取其一 （小写变量）")
+      int8 result;
+    };
+  };
+};

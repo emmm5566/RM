@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target one_message_subscribe[0m
+[ 25%] Built target topic_publisher
+[ 50%] Built target topic_subscribe
+[ 62%] [32mBuilding CXX object CMakeFiles/one_message_publisher.dir/src/one_message_publisher.cpp.o[0m
+[ 87%] Built target one_message_subscribe

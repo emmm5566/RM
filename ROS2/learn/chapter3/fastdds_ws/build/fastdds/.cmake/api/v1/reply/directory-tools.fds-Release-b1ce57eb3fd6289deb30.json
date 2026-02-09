@@ -1,0 +1,56 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"tools/fds/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 102,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "discovery",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"tools/fds/fast-discovery-server-1.0.1"
+			],
+			"targetId" : "fast-discovery-server::@23e66d161d9fc6ae77c4",
+			"targetIndex" : 28,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "discovery",
+			"type" : "code"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tools/fds",
+		"source" : "tools/fds"
+	}
+}

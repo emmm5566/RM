@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "example_ros2_interfaces__py",
+		"source" : "/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_ros2_interfaces/example_ros2_interfaces__py"
+	}
+}

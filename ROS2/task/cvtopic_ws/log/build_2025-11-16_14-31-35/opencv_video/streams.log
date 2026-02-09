@@ -1,0 +1,13 @@
+[0.009s] Invoking command in '/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/build/opencv_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/build/opencv_video -- -j12 -l12
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target video_subscriber[0m
+[0.087s] [ 50%] Built target video_publisher
+[0.088s] [ 75%] [32mBuilding CXX object CMakeFiles/video_subscriber.dir/src/video_subscriber.cpp.o[0m
+[1.770s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/src/opencv_video/src/video_subscriber.cpp:[m[K In member function ‘[01m[Kvoid VideoSubscriberNode::[01;32m[Kimg_callback[m[K(const sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr&)[m[K’:
+[1.770s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/src/opencv_video/src/video_subscriber.cpp:93:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kminx[m[K’ was not declared in this scope; did you mean ‘[01m[KminX[m[K’?
+[1.770s]    93 |                 minX = std::min([01;31m[Kminx[m[K, allVertice.x);
+[1.770s]       |                                 [01;31m[K^~~~[m[K
+[1.770s]       |                                 [32m[KminX[m[K
+[2.282s] gmake[2]: *** [CMakeFiles/video_subscriber.dir/build.make:76: CMakeFiles/video_subscriber.dir/src/video_subscriber.cpp.o] Error 1
+[2.282s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/video_subscriber.dir/all] Error 2
+[2.282s] gmake: *** [Makefile:146: all] Error 2
+[2.284s] Invoked command in '/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/build/opencv_video' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/build/opencv_video -- -j12 -l12

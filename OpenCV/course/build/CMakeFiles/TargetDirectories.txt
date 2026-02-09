@@ -1,0 +1,16 @@
+/home/emmm/Desktop/scnu_rm/OpenCV/course/build/CMakeFiles/EnableImage.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/course/build/CMakeFiles/EnableVideo.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/course/build/CMakeFiles/EnableCamera.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/course/build/CMakeFiles/BasicFunctions.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/course/build/CMakeFiles/ResizeAndCrop.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/course/build/CMakeFiles/DrawShapesAndText.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/course/build/CMakeFiles/WarpImage.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/course/build/CMakeFiles/ColorDetection.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/course/build/CMakeFiles/ShapesDetection.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/course/build/CMakeFiles/FaceDetection.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/course/build/CMakeFiles/VirtualPaint.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/course/build/CMakeFiles/ColorPicker.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/course/build/CMakeFiles/DocumentScanner.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/course/build/CMakeFiles/LicensePlateDetector.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/course/build/CMakeFiles/edit_cache.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/course/build/CMakeFiles/rebuild_cache.dir

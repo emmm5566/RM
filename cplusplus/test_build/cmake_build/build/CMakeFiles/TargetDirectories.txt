@@ -1,0 +1,3 @@
+/home/emmm/Desktop/rm/cplusplus/test_build/cmake_build/build/CMakeFiles/main.dir
+/home/emmm/Desktop/rm/cplusplus/test_build/cmake_build/build/CMakeFiles/edit_cache.dir
+/home/emmm/Desktop/rm/cplusplus/test_build/cmake_build/build/CMakeFiles/rebuild_cache.dir

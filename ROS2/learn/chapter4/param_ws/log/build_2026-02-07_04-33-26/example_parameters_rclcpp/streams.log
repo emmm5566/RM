@@ -1,0 +1,26 @@
+[0.010s] Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp -- -j12 -l12
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target parameters_basic[0m
+[0.078s] [ 50%] [32mBuilding CXX object CMakeFiles/parameters_basic.dir/src/parameters_basic.cpp.o[0m
+[2.096s] [100%] [32m[1mLinking CXX executable parameters_basic[0m
+[2.187s] [100%] Built target parameters_basic
+[2.198s] Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp -- -j12 -l12
+[2.213s] Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp
+[2.223s] -- Install configuration: ""
+[2.224s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/lib/example_parameters_rclcpp/parameters_basic
+[2.224s] -- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/lib/example_parameters_rclcpp/parameters_basic" to ""
+[2.224s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_parameters_rclcpp
+[2.225s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_parameters_rclcpp
+[2.225s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/environment/ament_prefix_path.sh
+[2.225s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/environment/ament_prefix_path.dsv
+[2.225s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/environment/path.sh
+[2.225s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/environment/path.dsv
+[2.225s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/local_setup.bash
+[2.225s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/local_setup.sh
+[2.225s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/local_setup.zsh
+[2.225s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/local_setup.dsv
+[2.225s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/package.dsv
+[2.225s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/share/ament_index/resource_index/packages/example_parameters_rclcpp
+[2.225s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/cmake/example_parameters_rclcppConfig.cmake
+[2.225s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/cmake/example_parameters_rclcppConfig-version.cmake
+[2.226s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/package.xml
+[2.228s] Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp

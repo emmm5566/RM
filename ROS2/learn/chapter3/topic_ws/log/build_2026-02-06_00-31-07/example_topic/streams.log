@@ -1,0 +1,32 @@
+[0.009s] Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/example_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/example_topic -- -j12 -l12
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target one_message_subscribe[0m
+[0.100s] [ 25%] Built target one_message_publisher
+[0.103s] [ 75%] Built target topic_publisher
+[0.103s] [ 75%] Built target topic_subscribe
+[0.111s] [ 87%] [32mBuilding CXX object CMakeFiles/one_message_subscribe.dir/src/one_message_subscribe.cpp.o[0m
+[5.380s] [100%] [32m[1mLinking CXX executable one_message_subscribe[0m
+[5.653s] [100%] Built target one_message_subscribe
+[5.671s] Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/example_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/example_topic -- -j12 -l12
+[5.684s] Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/example_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/example_topic
+[5.695s] -- Install configuration: ""
+[5.695s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/lib/example_topic/topic_publisher
+[5.695s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/lib/example_topic/topic_subscribe
+[5.695s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/lib/example_topic/one_message_publisher
+[5.695s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/lib/example_topic/one_message_subscribe
+[5.697s] -- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/lib/example_topic/one_message_subscribe" to ""
+[5.697s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/share/ament_index/resource_index/package_run_dependencies/example_topic
+[5.698s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/share/ament_index/resource_index/parent_prefix_path/example_topic
+[5.698s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/share/example_topic/environment/ament_prefix_path.sh
+[5.698s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/share/example_topic/environment/ament_prefix_path.dsv
+[5.698s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/share/example_topic/environment/path.sh
+[5.698s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/share/example_topic/environment/path.dsv
+[5.698s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/share/example_topic/local_setup.bash
+[5.698s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/share/example_topic/local_setup.sh
+[5.698s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/share/example_topic/local_setup.zsh
+[5.699s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/share/example_topic/local_setup.dsv
+[5.699s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/share/example_topic/package.dsv
+[5.699s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/share/ament_index/resource_index/packages/example_topic
+[5.699s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/share/example_topic/cmake/example_topicConfig.cmake
+[5.699s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/share/example_topic/cmake/example_topicConfig-version.cmake
+[5.699s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/install/example_topic/share/example_topic/package.xml
+[5.700s] Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/example_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/rm/ROS2/learn/chapter3/topic_ws/build/example_topic

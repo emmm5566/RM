@@ -1,0 +1,79 @@
+Livox 驱动有自己特殊的构建方式，不要使用 colcon build：
+cd ../livox_ws
+# 使用 Livox 官方的构建脚本
+./src/livox_ros_driver2/build.sh humble
+
+
+mkdir -p ws_livox/src
+cd ws_livox/src
+git clone git@github.com:Livox-SDK/livox_ros_driver2.git
+# 1. 进入工作空间
+cd ~/Desktop/scnu_rm/ROS2/task/livox_ws
+# 2. 检查目录结构
+echo "当前目录结构："
+ls -la
+echo "src目录内容："
+ls src/
+# 3. 使用colcon构建（标准ROS2方式）
+source /opt/ros/humble/setup.sh
+colcon build --symlink-install
+# 4. 验证构建是否成功
+source install/setup.bash
+ros2 pkg list | grep livox
+
+
+//Livox-SDK2 是更新的版本，可能兼容性更好，使用Livox-SDK2 
+# 进入工作空间 src 目录
+cd ~/Desktop/scnu_rm/ROS2/task/livox_ws/src
+# 删除旧的 Livox-SDK（如果存在）
+rm -rf Livox-SDK
+# 使用 SSH 克隆 Livox-SDK2
+git clone git@github.com:Livox-SDK/Livox-SDK2.git
+# 进入目录并编译
+cd Livox-SDK2
+mkdir build && cd build
+cmake .. && make -j
+sudo make install
+sudo ldconfig
+
+
+
+//头文件缺失问题
+cd ~/Desktop/scnu_rm/ROS2/task/livox_ws/src/Livox-SDK2
+# 1. 修复 file_manager.h
+echo "修复 file_manager.h..."
+sed -i '1i #include <cstdint>' sdk_core/logger_handler/file_manager.h
+# 2. 修复其他可能缺失的文件
+echo "检查其他文件..."
+find sdk_core -name "*.h" -exec grep -l "uint[0-9]*_t" {} \; | while read file; do
+    if ! grep -q "#include.*cstdint" "$file"; then
+        echo "修复: $file"
+        sed -i '1i #include <cstdint>' "$file"
+    fi
+done
+# 3. 重新编译
+cd build
+make
+# 4. 如果成功，安装
+sudo make install
+sudo ldconfig
+
+
+
+# 1. 进入安装目录
+cd /home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/install/livox_ros_driver2/share/livox_ros_driver2
+# 2. 创建 launch 目录并复制所有文件
+rm -rf launch
+mkdir -p launch
+cp launch_ROS2/*.py launch/
+# 3. 可选：重命名文件以符合ROS2命名约定
+cd launch
+for file in *_launch.py; do
+    new_name="${file%_launch.py}.launch.py"
+    cp "$file" "$new_name"
+done
+# 4. 回到工作空间
+cd ~/Desktop/scnu_rm/ROS2/task/livox_ws
+source install/setup.bash
+# 5. 现在应该可以正常启动了
+ros2 launch livox_ros_driver2 msg_MID360.launch.py

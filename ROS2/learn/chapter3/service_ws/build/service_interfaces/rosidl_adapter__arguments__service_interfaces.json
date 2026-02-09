@@ -1,0 +1,6 @@
+{
+  "package_name": "service_interfaces",
+  "non_idl_tuples": [
+    "/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/src/service_interfaces:srv/Patrol.srv"
+  ]
+}

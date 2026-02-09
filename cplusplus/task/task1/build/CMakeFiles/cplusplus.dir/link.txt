@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/cplusplus.dir/source/add.cpp.o CMakeFiles/cplusplus.dir/source/ball.cpp.o CMakeFiles/cplusplus.dir/source/main.cpp.o -o cplusplus 

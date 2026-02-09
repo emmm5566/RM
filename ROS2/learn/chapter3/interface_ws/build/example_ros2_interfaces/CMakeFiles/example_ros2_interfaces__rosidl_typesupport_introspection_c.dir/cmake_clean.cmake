@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/example_ros2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/example_ros2_interfaces/msg/detail/robot_pose__type_support.c.o"
+  "CMakeFiles/example_ros2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/example_ros2_interfaces/msg/detail/robot_pose__type_support.c.o.d"
+  "CMakeFiles/example_ros2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/example_ros2_interfaces/msg/detail/robot_status__type_support.c.o"
+  "CMakeFiles/example_ros2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/example_ros2_interfaces/msg/detail/robot_status__type_support.c.o.d"
+  "CMakeFiles/example_ros2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/example_ros2_interfaces/srv/detail/move_robot__type_support.c.o"
+  "CMakeFiles/example_ros2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/example_ros2_interfaces/srv/detail/move_robot__type_support.c.o.d"
+  "libexample_ros2_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libexample_ros2_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/example_ros2_interfaces/msg/detail/robot_pose__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/example_ros2_interfaces/msg/detail/robot_pose__type_support.c"
+  "rosidl_typesupport_introspection_c/example_ros2_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/example_ros2_interfaces/msg/detail/robot_status__type_support.c"
+  "rosidl_typesupport_introspection_c/example_ros2_interfaces/srv/detail/move_robot__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/example_ros2_interfaces/srv/detail/move_robot__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/example_ros2_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

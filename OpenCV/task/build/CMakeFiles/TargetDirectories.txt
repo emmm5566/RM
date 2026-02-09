@@ -1,0 +1,8 @@
+/home/emmm/Desktop/scnu_rm/OpenCV/task/build/CMakeFiles/main.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/task/build/CMakeFiles/task.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/task/build/CMakeFiles/pnp.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/task/build/CMakeFiles/solvepnp.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/task/build/CMakeFiles/solvePnP.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/task/build/CMakeFiles/armor_detect.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/task/build/CMakeFiles/edit_cache.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/task/build/CMakeFiles/rebuild_cache.dir

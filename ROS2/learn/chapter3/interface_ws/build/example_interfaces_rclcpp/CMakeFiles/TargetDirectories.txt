@@ -1,0 +1,11 @@
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_interfaces_rclcpp/CMakeFiles/uninstall.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_interfaces_rclcpp/CMakeFiles/example_interfaces_rclcpp_uninstall.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_interfaces_rclcpp/CMakeFiles/example_interfaces_robot.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_interfaces_rclcpp/CMakeFiles/example_interfaces_control.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_interfaces_rclcpp/CMakeFiles/test.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_interfaces_rclcpp/CMakeFiles/edit_cache.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_interfaces_rclcpp/CMakeFiles/rebuild_cache.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_interfaces_rclcpp/CMakeFiles/list_install_components.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_interfaces_rclcpp/CMakeFiles/install.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_interfaces_rclcpp/CMakeFiles/install/local.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_interfaces_rclcpp/CMakeFiles/install/strip.dir

@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.4"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DDSHelloFishRos",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "DDSHelloFishRosPublisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DDSHelloFishRosPublisher-9c8521494ea4d8e8f2ba.json",
+					"name" : "DDSHelloFishRosPublisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DDSHelloFishRosSubscribe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DDSHelloFishRosSubscribe-904f1da0631d23102176.json",
+					"name" : "DDSHelloFishRosSubscribe",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/DDSHelloFishRos",
+		"source" : "/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/dds_tutorial/examples/01-hellofishros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

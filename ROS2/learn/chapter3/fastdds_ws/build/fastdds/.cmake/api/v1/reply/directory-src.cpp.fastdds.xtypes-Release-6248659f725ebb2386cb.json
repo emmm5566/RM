@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "src/cpp/fastdds/xtypes",
+		"source" : "src/cpp/fastdds/xtypes"
+	}
+}

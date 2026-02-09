@@ -1,0 +1,25 @@
+echo   #打印
+echo $ROS_VERSION   #打印ros版本号, $查找环境变量
+echo $ROS_DISTRO   #打印ros发行版本, distro-distribution
+printenv   #查看所有环境变量列表 
+printenv | grep XXX   #打印带有XXX的环境变量
+#grep过滤，Global Regular Expression Print按“模式（正则表达式）”搜索并打印匹配行
+export var_name[=value]   #把“普通变量”变成“环境变量”,输入时无[],此修改仅在当前终端中生效
+
+/PATH/*   #要把path下全部文件打印出来记得加/*
+
+~/.bashrc   #默认脚本
+#在Linux中，以.开头的文件或文件夹，是隐藏文件
+
+#更新环境变量
+source install/setup.bash 
+. install/setup.bash   #source或.直接运行
+#命令一般都是只对当前终端有效，所以每次build编译完都最好source一下
+
+#运行时通过环境变量中找到可执行文件，并执行相关文件
+AMENT_PREFIX_PATH=/opt/ros/humble
+lib/package_name/executable_name
+
+# 运行节点本质上是运行可执行文件，node_name是节点的可执行文件
+ros2 run pkg_name node_name   #使用ros2命令
+./node_name   #直接运行

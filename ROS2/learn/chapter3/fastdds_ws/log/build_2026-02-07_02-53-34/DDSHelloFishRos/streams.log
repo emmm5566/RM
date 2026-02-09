@@ -1,0 +1,48 @@
+[0.011s] Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/DDSHelloFishRos': CMAKE_PREFIX_PATH=/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/install/fastcdr LD_LIBRARY_PATH=/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/install/fastcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/DDSHelloFishRos -- -j12 -l12
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target DDSHelloFishRosPublisher[0m
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target DDSHelloFishRosSubscribe[0m
+[0.077s] [ 12%] [32mBuilding CXX object CMakeFiles/DDSHelloFishRosPublisher.dir/src/idl_generate/HelloFishRosPubSubTypes.cxx.o[0m
+[0.078s] [ 25%] [32mBuilding CXX object CMakeFiles/DDSHelloFishRosSubscribe.dir/src/idl_generate/HelloFishRosPubSubTypes.cxx.o[0m
+[0.544s] [01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/dds_tutorial/examples/01-hellofishros/src/idl_generate/HelloFishRosPubSubTypes.cxx:[m[K In member function ‘[01m[Kvirtual bool HelloWorldPubSubType::serialize(void*, SerializedPayload_t*)[m[K’:
+[0.544s] [01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/dds_tutorial/examples/01-hellofishros/src/idl_generate/HelloFishRosPubSubTypes.cxx:61:108:[m[K [01;31m[Kerror: [m[K‘[01m[KDDS_CDR[m[K’ is not a member of ‘[01m[Keprosima::fastcdr::Cdr[m[K’
+[0.544s]    61 | rosima::fastcdr::Cdr::DEFAULT_ENDIAN, eprosima::fastcdr::Cdr::[01;31m[KDDS_CDR[m[K);
+[0.544s]       |                                                               [01;31m[K^~~~~~~[m[K
+[0.544s] 
+[0.544s] [01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/dds_tutorial/examples/01-hellofishros/src/idl_generate/HelloFishRosPubSubTypes.cxx:77:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass eprosima::fastcdr::Cdr[m[K’ has no member named ‘[01m[KgetSerializedDataLength[m[K’; did you mean ‘[01m[Kget_serialized_data_length[m[K’?
+[0.545s]    77 |     payload->length = static_cast<uint32_t>(ser.[01;31m[KgetSerializedDataLength[m[K());
+[0.545s]       |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.545s]       |                                                 [32m[Kget_serialized_data_length[m[K
+[0.545s] [01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/dds_tutorial/examples/01-hellofishros/src/idl_generate/HelloFishRosPubSubTypes.cxx:[m[K In member function ‘[01m[Kvirtual bool HelloWorldPubSubType::deserialize(SerializedPayload_t*, void*)[m[K’:
+[0.545s] [01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/dds_tutorial/examples/01-hellofishros/src/idl_generate/HelloFishRosPubSubTypes.cxx:92:110:[m[K [01;31m[Kerror: [m[K‘[01m[KDDS_CDR[m[K’ is not a member of ‘[01m[Keprosima::fastcdr::Cdr[m[K’
+[0.545s]    92 | rosima::fastcdr::Cdr::DEFAULT_ENDIAN, eprosima::fastcdr::Cdr::[01;31m[KDDS_CDR[m[K);
+[0.545s]       |                                                               [01;31m[K^~~~~~~[m[K
+[0.545s] 
+[0.546s] [01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/dds_tutorial/examples/01-hellofishros/src/idl_generate/HelloFishRosPubSubTypes.cxx:[m[K In member function ‘[01m[Kvirtual bool HelloWorldPubSubType::getKey(void*, InstanceHandle_t*, bool)[m[K’:
+[0.546s] [01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/dds_tutorial/examples/01-hellofishros/src/idl_generate/HelloFishRosPubSubTypes.cxx:154:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass eprosima::fastcdr::Cdr[m[K’ has no member named ‘[01m[KgetSerializedDataLength[m[K’; did you mean ‘[01m[Kget_serialized_data_length[m[K’?
+[0.546s]   154 |     m_md5.update(m_keyBuffer, static_cast<unsigned int>(ser.[01;31m[KgetSerializedDataLength[m[K()));
+[0.546s]       |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.546s]       |                                                             [32m[Kget_serialized_data_length[m[K
+[0.647s] [01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/dds_tutorial/examples/01-hellofishros/src/idl_generate/HelloFishRosPubSubTypes.cxx:[m[K In member function ‘[01m[Kvirtual bool HelloWorldPubSubType::serialize(void*, SerializedPayload_t*)[m[K’:
+[0.647s] [01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/dds_tutorial/examples/01-hellofishros/src/idl_generate/HelloFishRosPubSubTypes.cxx:61:108:[m[K [01;31m[Kerror: [m[K‘[01m[KDDS_CDR[m[K’ is not a member of ‘[01m[Keprosima::fastcdr::Cdr[m[K’
+[0.647s]    61 |     eprosima::fastcdr::Cdr ser(fastbuffer, eprosima::fastcdr::Cdr::DEFAULT_ENDIAN, eprosima::fastcdr::Cdr::[01;31m[KDDS_CDR[m[K);
+[0.647s]       |                                                                                                            [01;31m[K^~~~~~~[m[K
+[0.647s] [01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/dds_tutorial/examples/01-hellofishros/src/idl_generate/HelloFishRosPubSubTypes.cxx:77:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass eprosima::fastcdr::Cdr[m[K’ has no member named ‘[01m[KgetSerializedDataLength[m[K’; did you mean ‘[01m[Kget_serialized_data_length[m[K’?
+[0.647s]    77 |     payload->length = static_cast<uint32_t>(ser.[01;31m[KgetSerializedDataLength[m[K());
+[0.647s]       |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.647s]       |                                                 [32m[Kget_serialized_data_length[m[K
+[0.648s] [01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/dds_tutorial/examples/01-hellofishros/src/idl_generate/HelloFishRosPubSubTypes.cxx:[m[K In member function ‘[01m[Kvirtual bool HelloWorldPubSubType::deserialize(SerializedPayload_t*, void*)[m[K’:
+[0.648s] [01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/dds_tutorial/examples/01-hellofishros/src/idl_generate/HelloFishRosPubSubTypes.cxx:92:110:[m[K [01;31m[Kerror: [m[K‘[01m[KDDS_CDR[m[K’ is not a member of ‘[01m[Keprosima::fastcdr::Cdr[m[K’
+[0.648s]    92 |     eprosima::fastcdr::Cdr deser(fastbuffer, eprosima::fastcdr::Cdr::DEFAULT_ENDIAN, eprosima::fastcdr::Cdr::[01;31m[KDDS_CDR[m[K);
+[0.648s]       |                                                                                                              [01;31m[K^~~~~~~[m[K
+[0.649s] [01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/dds_tutorial/examples/01-hellofishros/src/idl_generate/HelloFishRosPubSubTypes.cxx:[m[K In member function ‘[01m[Kvirtual bool HelloWorldPubSubType::getKey(void*, InstanceHandle_t*, bool)[m[K’:
+[0.649s] [01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/dds_tutorial/examples/01-hellofishros/src/idl_generate/HelloFishRosPubSubTypes.cxx:154:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass eprosima::fastcdr::Cdr[m[K’ has no member named ‘[01m[KgetSerializedDataLength[m[K’; did you mean ‘[01m[Kget_serialized_data_length[m[K’?
+[0.649s]   154 |         m_md5.update(m_keyBuffer, static_cast<unsigned int>(ser.[01;31m[KgetSerializedDataLength[m[K()));
+[0.649s]       |                                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.649s]       |                                                                 [32m[Kget_serialized_data_length[m[K
+[0.781s] gmake[2]: *** [CMakeFiles/DDSHelloFishRosPublisher.dir/build.make:104: CMakeFiles/DDSHelloFishRosPublisher.dir/src/idl_generate/HelloFishRosPubSubTypes.cxx.o] Error 1
+[0.781s] gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/DDSHelloFishRosPublisher.dir/all] Error 2
+[0.781s] gmake[1]: *** Waiting for unfinished jobs....
+[0.875s] gmake[2]: *** [CMakeFiles/DDSHelloFishRosSubscribe.dir/build.make:104: CMakeFiles/DDSHelloFishRosSubscribe.dir/src/idl_generate/HelloFishRosPubSubTypes.cxx.o] Error 1
+[0.876s] gmake[1]: *** [CMakeFiles/Makefile2:111: CMakeFiles/DDSHelloFishRosSubscribe.dir/all] Error 2
+[0.876s] gmake: *** [Makefile:91: all] Error 2
+[0.879s] Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/DDSHelloFishRos' returned '2': CMAKE_PREFIX_PATH=/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/install/fastcdr LD_LIBRARY_PATH=/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/install/fastcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/DDSHelloFishRos -- -j12 -l12

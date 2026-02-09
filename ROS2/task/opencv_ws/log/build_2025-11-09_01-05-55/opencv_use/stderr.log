@@ -1,0 +1,17 @@
+[33mCMake Warning at CMakeLists.txt:15 (find_package):
+  By not providing "Find/usr/include/opencv4.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "/usr/include/opencv4", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "/usr/include/opencv4" with any of the following names:
+
+    /usr/include/opencv4Config.cmake
+    /usr/include/opencv4-config.cmake
+
+  Add the installation prefix of "/usr/include/opencv4" to CMAKE_PREFIX_PATH
+  or set "/usr/include/opencv4_DIR" to a directory containing one of the
+  above files.  If "/usr/include/opencv4" provides a separate development
+  package or SDK, be sure it has been installed.
+
+[0m

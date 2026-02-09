@@ -1,0 +1,9 @@
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/foonathan_memory_vendor/CMakeFiles/uninstall.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/foonathan_memory_vendor/CMakeFiles/foonathan_memory_vendor_uninstall.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/foonathan_memory_vendor/CMakeFiles/test.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/foonathan_memory_vendor/CMakeFiles/edit_cache.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/foonathan_memory_vendor/CMakeFiles/rebuild_cache.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/foonathan_memory_vendor/CMakeFiles/list_install_components.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/foonathan_memory_vendor/CMakeFiles/install.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/foonathan_memory_vendor/CMakeFiles/install/local.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/foonathan_memory_vendor/CMakeFiles/install/strip.dir

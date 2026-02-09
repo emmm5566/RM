@@ -1,0 +1,11 @@
+[0.008s] Invoking command in '/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/build/opencv_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/build/opencv_video -- -j12 -l12
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target video_publisher[0m
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o[0m
+[1.754s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/src/opencv_video/src/video_publisher.cpp:[m[K In constructor ‘[01m[KVideoPublisherNode::[01;32m[KVideoPublisherNode[m[K(std::string)[m[K’:
+[1.754s] [01m[K/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/src/opencv_video/src/video_publisher.cpp:19:89:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[1.754s]    19 |         cap_.open("/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/img/task2_video.mp4",[01;31m[K)[m[K;
+[1.754s]       |                                                                                         [01;31m[K^[m[K
+[2.271s] gmake[2]: *** [CMakeFiles/video_publisher.dir/build.make:76: CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o] Error 1
+[2.272s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/video_publisher.dir/all] Error 2
+[2.272s] gmake: *** [Makefile:146: all] Error 2
+[2.274s] Invoked command in '/home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/build/opencv_video' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/scnu_rm/ROS2/task/cvtopic_ws/build/opencv_video -- -j12 -l12

@@ -1,0 +1,21 @@
+[0.011s] Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/build/learn_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/build/learn_pkg -- -j12 -l12
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target learn_thread[0m
+[0.076s] [ 20%] Built target learn_functional
+[0.085s] [ 40%] Built target learn_auto
+[0.090s] [ 60%] Built target learn_shared_ptr
+[0.091s] [ 80%] Built target learn_lambda
+[0.092s] [ 90%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[0.812s] [01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/src/learn_pkg/src/learn_thread.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[0.812s] [01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/src/learn_pkg/src/learn_thread.cpp:55:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Download[m[K’ has no member named ‘[01m[Kstart_download[m[K’
+[0.813s]    55 |     d.[01;31m[Kstart_download[m[K("http://httpbin.org", "/ip", word_count); // 小文件测试
+[0.813s]       |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.813s] [01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/src/learn_pkg/src/learn_thread.cpp:57:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Download[m[K’ has no member named ‘[01m[Kstart_download[m[K’
+[0.813s]    57 |     d.[01;31m[Kstart_download[m[K("http://example.com", "/", word_count); // 简单网页测试
+[0.813s]       |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.813s] [01m[K/home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/src/learn_pkg/src/learn_thread.cpp:59:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Download[m[K’ has no member named ‘[01m[Kstart_download[m[K’
+[0.813s]    59 |     d.[01;31m[Kstart_download[m[K("https://jsonplaceholder.typicode.com", "/todos/1", word_count); // 小JSON数据
+[0.813s]       |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.615s] gmake[2]: *** [CMakeFiles/learn_thread.dir/build.make:76: CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o] Error 1
+[1.615s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/learn_thread.dir/all] Error 2
+[1.615s] gmake: *** [Makefile:146: all] Error 2
+[1.618s] Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/build/learn_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/build/learn_pkg -- -j12 -l12

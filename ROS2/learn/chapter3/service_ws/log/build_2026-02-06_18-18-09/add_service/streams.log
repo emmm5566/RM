@@ -1,0 +1,32 @@
+[0.008s] Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/build/add_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/build/add_service -- -j12 -l12
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target add_server[0m
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target add_client[0m
+[0.076s] [ 25%] [32mBuilding CXX object CMakeFiles/add_server.dir/src/add_server.cpp.o[0m
+[0.080s] [ 50%] [32mBuilding CXX object CMakeFiles/add_client.dir/src/add_client.cpp.o[0m
+[2.340s] [ 75%] [32m[1mLinking CXX executable add_server[0m
+[2.419s] [100%] [32m[1mLinking CXX executable add_client[0m
+[2.454s] [100%] Built target add_server
+[2.538s] [100%] Built target add_client
+[2.549s] Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/build/add_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/build/add_service -- -j12 -l12
+[2.563s] Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/build/add_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/build/add_service
+[2.572s] -- Install configuration: ""
+[2.572s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/lib/add_service/add_server
+[2.573s] -- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/lib/add_service/add_server" to ""
+[2.573s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/lib/add_service/add_client
+[2.574s] -- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/lib/add_service/add_client" to ""
+[2.574s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/share/ament_index/resource_index/package_run_dependencies/add_service
+[2.574s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/share/ament_index/resource_index/parent_prefix_path/add_service
+[2.574s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/share/add_service/environment/ament_prefix_path.sh
+[2.574s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/share/add_service/environment/ament_prefix_path.dsv
+[2.574s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/share/add_service/environment/path.sh
+[2.574s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/share/add_service/environment/path.dsv
+[2.574s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/share/add_service/local_setup.bash
+[2.574s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/share/add_service/local_setup.sh
+[2.574s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/share/add_service/local_setup.zsh
+[2.574s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/share/add_service/local_setup.dsv
+[2.575s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/share/add_service/package.dsv
+[2.575s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/share/ament_index/resource_index/packages/add_service
+[2.575s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/share/add_service/cmake/add_serviceConfig.cmake
+[2.575s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/share/add_service/cmake/add_serviceConfig-version.cmake
+[2.575s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/install/add_service/share/add_service/package.xml
+[2.576s] Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/build/add_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/rm/ROS2/learn/chapter3/service_ws/build/add_service

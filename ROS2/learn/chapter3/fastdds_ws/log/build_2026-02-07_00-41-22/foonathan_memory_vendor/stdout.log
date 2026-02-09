@@ -1,0 +1,22 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+foonathan_memory found.
+-- Found foonathan_memory
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/build/foonathan_memory_vendor
+-- Install configuration: ""
+-- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/install/foonathan_memory_vendor/share/foonathan_memory_vendor/package.xml
+-- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/install/foonathan_memory_vendor/share/foonathan_memory_vendor/cmake/foonathan_memory_vendorConfig.cmake
+-- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter3/fastdds_ws/install/foonathan_memory_vendor/share/foonathan_memory_vendor/cmake/foonathan_memory_vendorConfig-version.cmake

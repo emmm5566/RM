@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from example_ros2_interfaces/srv/MoveRobot.srv
+// generated code does not contain a copyright notice
+
+
+module example_ros2_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "前进后退的距离")
+    struct MoveRobot_Request {
+      float distance;
+    };
+    @verbatim (language="comment", text=
+      "当前的位置")
+    struct MoveRobot_Response {
+      float pose;
+    };
+  };
+};

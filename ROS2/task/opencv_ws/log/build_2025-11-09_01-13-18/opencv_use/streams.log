@@ -1,0 +1,9 @@
+[0.009s] Invoking command in '/home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/build/opencv_use': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/build/opencv_use -- -j12 -l12
+[0.027s] -- Configuring incomplete, errors occurred!
+[0.028s] See also "/home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/build/opencv_use/CMakeFiles/CMakeOutput.log".
+[0.028s] [31mCMake Error at CMakeLists.txt:15:
+[0.028s]   Parse error.  Expected a command name, got left paren with text "(".
+[0.028s] 
+[0.028s] [0m
+[0.028s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.031s] Invoked command in '/home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/build/opencv_use' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/build/opencv_use -- -j12 -l12

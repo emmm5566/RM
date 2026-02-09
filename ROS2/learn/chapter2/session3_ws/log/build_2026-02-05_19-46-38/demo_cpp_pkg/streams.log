@@ -1,0 +1,32 @@
+[0.009s] Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/build/demo_cpp_pkg -- -j12 -l12
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target person_node[0m
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.072s] [ 25%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o[0m
+[0.073s] [ 50%] [32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o[0m
+[2.066s] [ 75%] [32m[1mLinking CXX executable cpp_node[0m
+[2.084s] [100%] [32m[1mLinking CXX executable person_node[0m
+[2.164s] [100%] Built target cpp_node
+[2.185s] [100%] Built target person_node
+[2.199s] Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/build/demo_cpp_pkg -- -j12 -l12
+[2.209s] Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/build/demo_cpp_pkg
+[2.221s] -- Install configuration: ""
+[2.221s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node
+[2.222s] -- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node" to ""
+[2.222s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node
+[2.223s] -- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node" to ""
+[2.223s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[2.223s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[2.223s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[2.223s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[2.223s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[2.223s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[2.223s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[2.224s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[2.224s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[2.224s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[2.224s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[2.224s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[2.224s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[2.224s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[2.224s] -- Up-to-date: /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[2.226s] Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/rm/ROS2/learn/chapter2/session3_ws/build/demo_cpp_pkg

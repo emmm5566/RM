@@ -1,0 +1,11 @@
+/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/CMakeFiles/uninstall.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/CMakeFiles/example_action_rclcpp_uninstall.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/CMakeFiles/action_robot.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/CMakeFiles/action_control.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/CMakeFiles/test.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/CMakeFiles/edit_cache.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/CMakeFiles/rebuild_cache.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/CMakeFiles/list_install_components.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/CMakeFiles/install.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/CMakeFiles/install/local.dir
+/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/CMakeFiles/install/strip.dir

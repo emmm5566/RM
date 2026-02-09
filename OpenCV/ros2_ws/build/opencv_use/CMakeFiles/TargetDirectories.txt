@@ -1,0 +1,10 @@
+/home/emmm/Desktop/scnu_rm/OpenCV/ros2_ws/build/opencv_use/CMakeFiles/uninstall.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/ros2_ws/build/opencv_use/CMakeFiles/opencv_use_uninstall.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/ros2_ws/build/opencv_use/CMakeFiles/my_opencv.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/ros2_ws/build/opencv_use/CMakeFiles/test.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/ros2_ws/build/opencv_use/CMakeFiles/edit_cache.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/ros2_ws/build/opencv_use/CMakeFiles/rebuild_cache.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/ros2_ws/build/opencv_use/CMakeFiles/list_install_components.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/ros2_ws/build/opencv_use/CMakeFiles/install.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/ros2_ws/build/opencv_use/CMakeFiles/install/local.dir
+/home/emmm/Desktop/scnu_rm/OpenCV/ros2_ws/build/opencv_use/CMakeFiles/install/strip.dir

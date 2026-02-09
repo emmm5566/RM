@@ -1,0 +1,2 @@
+Invoking command in '/home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/build/opencv_use': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/build/opencv_use -- -j12 -l12
+Invoked command in '/home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/build/opencv_use' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/build/opencv_use -- -j12 -l12

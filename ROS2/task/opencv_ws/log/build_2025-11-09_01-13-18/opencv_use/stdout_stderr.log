@@ -1,0 +1,7 @@
+-- Configuring incomplete, errors occurred!
+See also "/home/emmm/Desktop/scnu_rm/ROS2/task/opencv_ws/build/opencv_use/CMakeFiles/CMakeOutput.log".
+[31mCMake Error at CMakeLists.txt:15:
+  Parse error.  Expected a command name, got left paren with text "(".
+
+[0m
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>service_interfaces</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="15499538+lshucheng@user.noreply.gitee.com">emmm</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rosidl_default_generators</depend>
+
+  <!-- 将当前包标记为 “包含自定义接口（.msg/.srv/.action）的包”，以便 ROS 2 的构建系统（如 ament_cmake）识别并自动处理这些接口文件
+      告诉 ROS 2 的构建系统：“这个包里面有自定义接口文件，需要触发接口编译流程” -->
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

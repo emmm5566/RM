@@ -1,0 +1,213 @@
+[0.063s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-up-to', 'example_interfaces_rclcpp']
+[0.063s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=['example_interfaces_rclcpp'], packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x78aa777d4250>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78aa779c1ab0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78aa779c1ab0>>)
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.158s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_interfaces_rclcpp) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_interfaces_rclcpp) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_interfaces_rclcpp) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_interfaces_rclcpp) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_interfaces_rclcpp) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_interfaces_rclcpp) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_interfaces_rclcpp) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_interfaces_rclcpp) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_interfaces_rclcpp) by extension 'ros'
+[0.168s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_interfaces_rclcpp' with type 'ros.ament_cmake' and name 'example_interfaces_rclcpp'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_ros2_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_ros2_interfaces) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_ros2_interfaces) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_ros2_interfaces) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_ros2_interfaces) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_ros2_interfaces) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_ros2_interfaces) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_ros2_interfaces) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_ros2_interfaces) by extension 'ros'
+[0.169s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_ros2_interfaces' with type 'ros.ament_cmake' and name 'example_ros2_interfaces'
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.183s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install
+[0.184s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 323 installed packages in /opt/ros/humble
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'example_ros2_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'example_ros2_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'example_ros2_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'example_ros2_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'example_ros2_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'example_ros2_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'example_ros2_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'example_ros2_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'example_ros2_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.216s] DEBUG:colcon.colcon_core.verb:Building package 'example_ros2_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_ros2_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces', 'merge_install': False, 'path': '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/src/example_ros2_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'example_interfaces_rclcpp' build argument 'cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'example_interfaces_rclcpp' build argument 'cmake_target' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'example_interfaces_rclcpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'example_interfaces_rclcpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'example_interfaces_rclcpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'example_interfaces_rclcpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'example_interfaces_rclcpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'example_interfaces_rclcpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'example_interfaces_rclcpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.216s] DEBUG:colcon.colcon_core.verb:Building package 'example_interfaces_rclcpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_interfaces_rclcpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp', 'merge_install': False, 'path': '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/src/example_interfaces_rclcpp', 'symlink_install': False, 'test_result_base': None}
+[0.216s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.217s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.217s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/src/example_ros2_interfaces' with build type 'ament_cmake'
+[0.217s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/src/example_ros2_interfaces'
+[0.218s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.219s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.219s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_ros2_interfaces -- -j12 -l12
+[0.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_ros2_interfaces -- -j12 -l12
+[0.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_ros2_interfaces
+[0.611s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_ros2_interfaces)
+[0.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_ros2_interfaces
+[0.615s] Level 1:colcon.colcon_core.environment:checking '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces' for CMake module files
+[0.615s] Level 1:colcon.colcon_core.environment:checking '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces' for CMake config files
+[0.616s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_ros2_interfaces', 'cmake_prefix_path')
+[0.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/hook/cmake_prefix_path.ps1'
+[0.617s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/hook/cmake_prefix_path.dsv'
+[0.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/hook/cmake_prefix_path.sh'
+[0.618s] Level 1:colcon.colcon_core.environment:checking '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/lib'
+[0.619s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_ros2_interfaces', 'ld_library_path_lib')
+[0.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/hook/ld_library_path_lib.ps1'
+[0.619s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/hook/ld_library_path_lib.dsv'
+[0.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/hook/ld_library_path_lib.sh'
+[0.620s] Level 1:colcon.colcon_core.environment:checking '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/bin'
+[0.620s] Level 1:colcon.colcon_core.environment:checking '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/lib/pkgconfig/example_ros2_interfaces.pc'
+[0.621s] Level 1:colcon.colcon_core.environment:checking '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/lib/python3.10/site-packages'
+[0.621s] Level 1:colcon.colcon_core.environment:checking '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/bin'
+[0.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/package.ps1'
+[0.622s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/package.dsv'
+[0.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/package.sh'
+[0.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/package.bash'
+[0.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/package.zsh'
+[0.624s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/share/colcon-core/packages/example_ros2_interfaces)
+[0.624s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_ros2_interfaces)
+[0.624s] Level 1:colcon.colcon_core.environment:checking '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces' for CMake module files
+[0.625s] Level 1:colcon.colcon_core.environment:checking '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces' for CMake config files
+[0.625s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_ros2_interfaces', 'cmake_prefix_path')
+[0.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/hook/cmake_prefix_path.ps1'
+[0.625s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/hook/cmake_prefix_path.dsv'
+[0.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/hook/cmake_prefix_path.sh'
+[0.626s] Level 1:colcon.colcon_core.environment:checking '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/lib'
+[0.626s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_ros2_interfaces', 'ld_library_path_lib')
+[0.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/hook/ld_library_path_lib.ps1'
+[0.626s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/hook/ld_library_path_lib.dsv'
+[0.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/hook/ld_library_path_lib.sh'
+[0.626s] Level 1:colcon.colcon_core.environment:checking '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/bin'
+[0.626s] Level 1:colcon.colcon_core.environment:checking '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/lib/pkgconfig/example_ros2_interfaces.pc'
+[0.626s] Level 1:colcon.colcon_core.environment:checking '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/lib/python3.10/site-packages'
+[0.627s] Level 1:colcon.colcon_core.environment:checking '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/bin'
+[0.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/package.ps1'
+[0.627s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/package.dsv'
+[0.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/package.sh'
+[0.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/package.bash'
+[0.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/package.zsh'
+[0.628s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces/share/colcon-core/packages/example_ros2_interfaces)
+[0.629s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/src/example_interfaces_rclcpp' with build type 'ament_cmake'
+[0.629s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/src/example_interfaces_rclcpp'
+[0.629s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.629s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_interfaces_rclcpp': CMAKE_PREFIX_PATH=/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces:/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_interfaces_rclcpp -- -j12 -l12
+[6.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_interfaces_rclcpp' returned '0': CMAKE_PREFIX_PATH=/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces:/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_interfaces_rclcpp -- -j12 -l12
+[6.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_interfaces_rclcpp': CMAKE_PREFIX_PATH=/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces:/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp:/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_interfaces_rclcpp
+[6.853s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_interfaces_rclcpp)
+[6.854s] Level 1:colcon.colcon_core.environment:checking '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp' for CMake module files
+[6.854s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_interfaces_rclcpp' returned '0': CMAKE_PREFIX_PATH=/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_ros2_interfaces:/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp:/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/build/example_interfaces_rclcpp
+[6.855s] Level 1:colcon.colcon_core.environment:checking '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp' for CMake config files
+[6.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_interfaces_rclcpp', 'cmake_prefix_path')
+[6.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/hook/cmake_prefix_path.ps1'
+[6.856s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/hook/cmake_prefix_path.dsv'
+[6.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/hook/cmake_prefix_path.sh'
+[6.857s] Level 1:colcon.colcon_core.environment:checking '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/lib'
+[6.857s] Level 1:colcon.colcon_core.environment:checking '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/bin'
+[6.857s] Level 1:colcon.colcon_core.environment:checking '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/lib/pkgconfig/example_interfaces_rclcpp.pc'
+[6.858s] Level 1:colcon.colcon_core.environment:checking '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/lib/python3.10/site-packages'
+[6.858s] Level 1:colcon.colcon_core.environment:checking '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/bin'
+[6.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/package.ps1'
+[6.859s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/package.dsv'
+[6.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/package.sh'
+[6.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/package.bash'
+[6.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/package.zsh'
+[6.861s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/colcon-core/packages/example_interfaces_rclcpp)
+[6.861s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_interfaces_rclcpp)
+[6.861s] Level 1:colcon.colcon_core.environment:checking '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp' for CMake module files
+[6.861s] Level 1:colcon.colcon_core.environment:checking '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp' for CMake config files
+[6.861s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_interfaces_rclcpp', 'cmake_prefix_path')
+[6.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/hook/cmake_prefix_path.ps1'
+[6.862s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/hook/cmake_prefix_path.dsv'
+[6.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/hook/cmake_prefix_path.sh'
+[6.862s] Level 1:colcon.colcon_core.environment:checking '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/lib'
+[6.862s] Level 1:colcon.colcon_core.environment:checking '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/bin'
+[6.862s] Level 1:colcon.colcon_core.environment:checking '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/lib/pkgconfig/example_interfaces_rclcpp.pc'
+[6.863s] Level 1:colcon.colcon_core.environment:checking '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/lib/python3.10/site-packages'
+[6.863s] Level 1:colcon.colcon_core.environment:checking '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/bin'
+[6.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/package.ps1'
+[6.863s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/package.dsv'
+[6.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/package.sh'
+[6.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/package.bash'
+[6.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/package.zsh'
+[6.864s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/example_interfaces_rclcpp/share/colcon-core/packages/example_interfaces_rclcpp)
+[6.864s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.865s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.865s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.865s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.872s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.872s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.872s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.884s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.885s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/local_setup.ps1'
+[6.886s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/_local_setup_util_ps1.py'
+[6.886s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/setup.ps1'
+[6.887s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/local_setup.sh'
+[6.888s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/_local_setup_util_sh.py'
+[6.888s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/setup.sh'
+[6.889s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/local_setup.bash'
+[6.889s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/setup.bash'
+[6.890s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/local_setup.zsh'
+[6.890s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/emmm/Desktop/rm/ROS2/learn/chapter3/interface_ws/install/setup.zsh'

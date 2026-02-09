@@ -1,0 +1,6 @@
+setup.py
+service_interfaces/__init__.py
+service_interfaces.egg-info/PKG-INFO
+service_interfaces.egg-info/SOURCES.txt
+service_interfaces.egg-info/dependency_links.txt
+service_interfaces.egg-info/top_level.txt

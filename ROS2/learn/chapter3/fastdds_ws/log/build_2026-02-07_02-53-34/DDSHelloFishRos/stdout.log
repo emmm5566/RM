@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target DDSHelloFishRosPublisher[0m
+[35m[1mConsolidate compiler generated dependencies of target DDSHelloFishRosSubscribe[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/DDSHelloFishRosPublisher.dir/src/idl_generate/HelloFishRosPubSubTypes.cxx.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/DDSHelloFishRosSubscribe.dir/src/idl_generate/HelloFishRosPubSubTypes.cxx.o[0m

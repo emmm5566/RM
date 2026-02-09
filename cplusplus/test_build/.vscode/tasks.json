@@ -1,0 +1,45 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++ build active file",
+			"command": "/usr/bin/g++",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				// "${file}",
+				// "-o",
+				// "${fileDirname}/${fileBasenameNoExtension}"
+
+				// 更改args参数
+				"-I",
+				"${workspaceFolder}/include", //添加头文件包含路径
+				"${workspaceFolder}/src/*.cpp", //指定要编译的源文件
+				"-o",
+				"${workspaceFolder}/bin/${fileBasenameNoExtension}" //指定生成的可执行文件的输出路径和名称
+			],
+			"options": {
+				//"cwd": "${fileDirname}"
+				"cwd": "${workspaceFolder}" //将任务的工作目录设置为工作区根目录
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: /usr/bin/g++"
+		}
+	]
+}
+
+
+
+
+
+//Terminal -> Configure Default Build Task ->  C/C++: g++ build active file
+
+//task.json 文件用于配置任务（Tasks），通常用于构建、运行、测试等操作
+//通常，task.json 文件用于配置构建任务，例如使用 CMake 构建项目、使用 Makefile 构建项目、运行测试等

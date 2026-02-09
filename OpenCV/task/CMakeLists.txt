@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.11)
+project(task)
+find_package(OpenCV REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
+
+add_executable(main src/mine/main.cpp)
+add_executable(task src/mine/task.cpp)
+add_executable(pnp src/mine/pnp.cpp)
+add_executable(solvepnp src/mine/solvepnp.cpp)
+add_executable(solvePnP src/mine/solvePnP.cpp)
+add_executable(armor_detect src/TJ-SuperPower/armor_detect.cpp)
+
+target_link_libraries(main ${OpenCV_LIBS})
+target_link_libraries(task ${OpenCV_LIBS})
+target_link_libraries(pnp ${OpenCV_LIBS})
+target_link_libraries(solvepnp ${OpenCV_LIBS})
+target_link_libraries(solvePnP ${OpenCV_LIBS})
+target_link_libraries(armor_detect ${OpenCV_LIBS})

@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task0/build",
+  "command": "/usr/bin/g++  -I/home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task0/include -g -std=gnu++11 -o CMakeFiles/cplusplus.dir/source/Fibonacci.cpp.o -c /home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task0/source/Fibonacci.cpp",
+  "file": "/home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task0/source/Fibonacci.cpp"
+},
+{
+  "directory": "/home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task0/build",
+  "command": "/usr/bin/g++  -I/home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task0/include -g -std=gnu++11 -o CMakeFiles/cplusplus.dir/source/array.cpp.o -c /home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task0/source/array.cpp",
+  "file": "/home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task0/source/array.cpp"
+},
+{
+  "directory": "/home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task0/build",
+  "command": "/usr/bin/g++  -I/home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task0/include -g -std=gnu++11 -o CMakeFiles/cplusplus.dir/source/multiple.cpp.o -c /home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task0/source/multiple.cpp",
+  "file": "/home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task0/source/multiple.cpp"
+},
+{
+  "directory": "/home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task0/build",
+  "command": "/usr/bin/g++  -I/home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task0/include -g -std=gnu++11 -o CMakeFiles/cplusplus.dir/source/score.cpp.o -c /home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task0/source/score.cpp",
+  "file": "/home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task0/source/score.cpp"
+},
+{
+  "directory": "/home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task0/build",
+  "command": "/usr/bin/g++  -I/home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task0/include -g -std=gnu++11 -o CMakeFiles/cplusplus.dir/source/vector.cpp.o -c /home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task0/source/vector.cpp",
+  "file": "/home/emmm/Desktop/vision_mission_submit/LiangShuCheng/task0/source/vector.cpp"
+}
+]

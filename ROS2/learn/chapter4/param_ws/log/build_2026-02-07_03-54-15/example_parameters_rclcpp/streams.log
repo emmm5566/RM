@@ -1,0 +1,68 @@
+[0.007s] Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/src/example_parameters_rclcpp -DCMAKE_INSTALL_PREFIX=/home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp
+[0.073s] -- The C compiler identification is GNU 11.4.0
+[0.134s] -- The CXX compiler identification is GNU 11.4.0
+[0.140s] -- Detecting C compiler ABI info
+[0.222s] -- Detecting C compiler ABI info - done
+[0.232s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.232s] -- Detecting C compile features
+[0.232s] -- Detecting C compile features - done
+[0.235s] -- Detecting CXX compiler ABI info
+[0.328s] -- Detecting CXX compiler ABI info - done
+[0.333s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.334s] -- Detecting CXX compile features
+[0.334s] -- Detecting CXX compile features - done
+[0.335s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.454s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.532s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.570s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.573s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.578s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.585s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.595s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.632s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.634s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.739s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.763s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.794s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.802s] -- Looking for pthread.h
+[0.898s] -- Looking for pthread.h - found
+[0.899s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.979s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.980s] -- Found Threads: TRUE  
+[1.040s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.099s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.099s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/src/example_parameters_rclcpp/include>
+[1.099s] -- Configured cppcheck exclude dirs and/or files: 
+[1.099s] -- Added test 'lint_cmake' to check CMake code style
+[1.100s] -- Added test 'uncrustify' to check C / C++ code style
+[1.100s] -- Configured uncrustify additional arguments: 
+[1.100s] -- Added test 'xmllint' to check XML markup files
+[1.101s] -- Configuring done
+[1.107s] -- Generating done
+[1.112s] -- Build files have been written to: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp
+[1.120s] Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/src/example_parameters_rclcpp -DCMAKE_INSTALL_PREFIX=/home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp
+[1.123s] Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp -- -j12 -l12
+[1.188s] [ 50%] [32mBuilding CXX object CMakeFiles/parameters_basic.dir/src/parameters_basic.cpp.o[0m
+[2.973s] [100%] [32m[1mLinking CXX executable parameters_basic[0m
+[3.062s] [100%] Built target parameters_basic
+[3.074s] Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp -- -j12 -l12
+[3.088s] Invoking command in '/home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp
+[3.098s] -- Install configuration: ""
+[3.098s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/lib/example_parameters_rclcpp/parameters_basic
+[3.098s] -- Set runtime path of "/home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/lib/example_parameters_rclcpp/parameters_basic" to ""
+[3.099s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_parameters_rclcpp
+[3.099s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_parameters_rclcpp
+[3.099s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/environment/ament_prefix_path.sh
+[3.099s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/environment/ament_prefix_path.dsv
+[3.099s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/environment/path.sh
+[3.099s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/environment/path.dsv
+[3.100s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/local_setup.bash
+[3.100s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/local_setup.sh
+[3.100s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/local_setup.zsh
+[3.100s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/local_setup.dsv
+[3.100s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/package.dsv
+[3.100s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/share/ament_index/resource_index/packages/example_parameters_rclcpp
+[3.100s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/cmake/example_parameters_rclcppConfig.cmake
+[3.100s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/cmake/example_parameters_rclcppConfig-version.cmake
+[3.101s] -- Installing: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/package.xml
+[3.103s] Invoked command in '/home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp
