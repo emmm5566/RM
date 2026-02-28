@@ -1,0 +1,17 @@
+/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/lib/cpp_action/demo_action_server
+/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/lib/cpp_action/demo_action_client
+/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/ament_index/resource_index/package_run_dependencies/cpp_action
+/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/ament_index/resource_index/parent_prefix_path/cpp_action
+/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/environment/ament_prefix_path.sh
+/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/environment/ament_prefix_path.dsv
+/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/environment/path.sh
+/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/environment/path.dsv
+/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/local_setup.bash
+/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/local_setup.sh
+/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/local_setup.zsh
+/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/local_setup.dsv
+/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/package.dsv
+/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/ament_index/resource_index/packages/cpp_action
+/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/cmake/cpp_actionConfig.cmake
+/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/cmake/cpp_actionConfig-version.cmake
+/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/package.xml

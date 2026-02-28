@@ -1,0 +1,34 @@
+[0.008s] Invoking command in '/home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/build/cpp_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/build/cpp_param -- -j12 -l12
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target demo_param_client[0m
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target demo_param_server[0m
+[0.084s] [ 16%] [32mBuilding CXX object CMakeFiles/demo_param.dir/src/demo_param.cpp.o[0m
+[0.085s] [ 33%] [32mBuilding CXX object CMakeFiles/demo_param_server.dir/src/demo_param_server.cpp.o[0m
+[0.086s] [ 66%] Built target demo_param_client
+[1.995s] [ 83%] [32m[1mLinking CXX executable demo_param_server[0m
+[2.006s] [100%] [32m[1mLinking CXX executable demo_param[0m
+[2.080s] [100%] Built target demo_param_server
+[2.093s] [100%] Built target demo_param
+[2.102s] Invoked command in '/home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/build/cpp_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/build/cpp_param -- -j12 -l12
+[2.110s] Invoking command in '/home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/build/cpp_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/build/cpp_param
+[2.116s] -- Install configuration: ""
+[2.117s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/lib/cpp_param/demo_param
+[2.117s] -- Set runtime path of "/home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/lib/cpp_param/demo_param" to ""
+[2.117s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/lib/cpp_param/demo_param_server
+[2.117s] -- Set runtime path of "/home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/lib/cpp_param/demo_param_server" to ""
+[2.117s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/lib/cpp_param/demo_param_client
+[2.117s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/share/ament_index/resource_index/package_run_dependencies/cpp_param
+[2.117s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/share/ament_index/resource_index/parent_prefix_path/cpp_param
+[2.117s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/share/cpp_param/environment/ament_prefix_path.sh
+[2.117s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/share/cpp_param/environment/ament_prefix_path.dsv
+[2.117s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/share/cpp_param/environment/path.sh
+[2.117s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/share/cpp_param/environment/path.dsv
+[2.117s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/share/cpp_param/local_setup.bash
+[2.117s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/share/cpp_param/local_setup.sh
+[2.117s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/share/cpp_param/local_setup.zsh
+[2.117s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/share/cpp_param/local_setup.dsv
+[2.117s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/share/cpp_param/package.dsv
+[2.117s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/share/ament_index/resource_index/packages/cpp_param
+[2.117s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/share/cpp_param/cmake/cpp_paramConfig.cmake
+[2.118s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/share/cpp_param/cmake/cpp_paramConfig-version.cmake
+[2.118s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/share/cpp_param/package.xml
+[2.119s] Invoked command in '/home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/build/cpp_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/build/cpp_param

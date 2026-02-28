@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/src/robot_control_interfaces
+CMAKE_SOURCE_DIR = /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/src/robot_control_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces
+CMAKE_BINARY_DIR = /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces
 
 # Utility rule file for ament_cmake_python_build_robot_control_interfaces_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_robot_control_interfaces_egg.dir/com
 include CMakeFiles/ament_cmake_python_build_robot_control_interfaces_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_robot_control_interfaces_egg:
-	cd /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces/ament_cmake_python/robot_control_interfaces && /usr/bin/python3 setup.py egg_info
+	cd /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces/ament_cmake_python/robot_control_interfaces && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_robot_control_interfaces_egg: CMakeFiles/ament_cmake_python_build_robot_control_interfaces_egg
 ament_cmake_python_build_robot_control_interfaces_egg: CMakeFiles/ament_cmake_python_build_robot_control_interfaces_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_robot_control_interfaces_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_robot_control_interfaces_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_robot_control_interfaces_egg.dir/depend:
-	cd /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/src/robot_control_interfaces /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/src/robot_control_interfaces /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces/CMakeFiles/ament_cmake_python_build_robot_control_interfaces_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/src/robot_control_interfaces /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/src/robot_control_interfaces /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces/CMakeFiles/ament_cmake_python_build_robot_control_interfaces_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_robot_control_interfaces_egg.dir/depend
 

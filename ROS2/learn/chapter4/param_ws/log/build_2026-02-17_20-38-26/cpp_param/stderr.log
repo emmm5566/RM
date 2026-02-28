@@ -1,0 +1,11 @@
+[01m[K/home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/src/cpp_param/src/demo_param_client.cpp:[m[K In constructor ‘[01m[KParamClient::ParamClient()[m[K’:
+[01m[K/home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/src/cpp_param/src/demo_param_client.cpp:41:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   41 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/src/cpp_param/src/demo_param_client.cpp:[m[K In member function ‘[01m[Kbool ParamClient::connect_server()[m[K’:
+[01m[K/home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/src/cpp_param/src/demo_param_client.cpp:51:5:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   51 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/demo_param_client.dir/build.make:76: CMakeFiles/demo_param_client.dir/src/demo_param_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/demo_param_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,56 @@
+[0.015s] Invoking command in '/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/cpp_action': CMAKE_PREFIX_PATH=/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/base_interfaces_demo:/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action:/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp:/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/base_interfaces_demo/lib:/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/cpp_action -- -j12 -l12
+[0.076s] [35m[1mConsolidate compiler generated dependencies of target demo_action_client[0m
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target demo_action_server[0m
+[0.094s] [ 25%] [32mBuilding CXX object CMakeFiles/demo_action_client.dir/src/demo_action_client.cpp.o[0m
+[0.100s] [ 50%] [32mBuilding CXX object CMakeFiles/demo_action_server.dir/src/demo_action_server.cpp.o[0m
+[1.842s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.843s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.843s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.843s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.843s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.843s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.843s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.843s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.843s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.843s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.843s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.844s]                  from [01m[K/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/src/cpp_action/src/demo_action_client.cpp:19[m[K:
+[1.844s] [01m[K/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/src/cpp_action/src/demo_action_client.cpp:[m[K In member function ‘[01m[Kvoid ProgressActionClient::result_callback(const rclcpp_action::ClientGoalHandle<base_interfaces_demo::action::Progress>::WrappedResult&)[m[K’:
+[1.844s] [01m[K/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/src/cpp_action/src/demo_action_client.cpp:108:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kbase_interfaces_demo::action::Progress_Result_<std::allocator<void> >::_sum_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.844s]   108 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"最终结果:%d"[m[K, [32m[Kresult.result->sum[m[K);
+[1.844s]       |                                         [01;35m[K^~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~[m[K
+[1.844s]       |                                                                       [32m[K|[m[K
+[1.844s]       |                                                                       [32m[Kbase_interfaces_demo::action::Progress_Result_<std::allocator<void> >::_sum_type {aka long int}[m[K
+[1.844s] [01m[K/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/src/cpp_action/src/demo_action_client.cpp:108:52:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.844s]   108 |         RCLCPP_INFO(this->get_logger(), "最终结果:[01;36m[K%d[m[K", result.result->sum);
+[1.844s]       |                                                   [01;36m[K~^[m[K
+[1.844s]       |                                                    [01;36m[K|[m[K
+[1.845s]       |                                                    [01;36m[Kint[m[K
+[1.845s]       |                                                   [32m[K%ld[m[K
+[2.776s] [ 75%] [32m[1mLinking CXX executable demo_action_server[0m
+[2.835s] [100%] [32m[1mLinking CXX executable demo_action_client[0m
+[2.899s] [100%] Built target demo_action_server
+[2.960s] [100%] Built target demo_action_client
+[2.969s] Invoked command in '/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/cpp_action' returned '0': CMAKE_PREFIX_PATH=/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/base_interfaces_demo:/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action:/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp:/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/base_interfaces_demo/lib:/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/cpp_action -- -j12 -l12
+[2.979s] Invoking command in '/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/cpp_action': CMAKE_PREFIX_PATH=/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/base_interfaces_demo:/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action:/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp:/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/base_interfaces_demo/lib:/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/cpp_action
+[2.985s] -- Install configuration: ""
+[2.985s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/lib/cpp_action/demo_action_server
+[2.986s] -- Set runtime path of "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/lib/cpp_action/demo_action_server" to ""
+[2.986s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/lib/cpp_action/demo_action_client
+[2.986s] -- Set runtime path of "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/lib/cpp_action/demo_action_client" to ""
+[2.986s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/ament_index/resource_index/package_run_dependencies/cpp_action
+[2.986s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/ament_index/resource_index/parent_prefix_path/cpp_action
+[2.986s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/environment/ament_prefix_path.sh
+[2.986s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/environment/ament_prefix_path.dsv
+[2.987s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/environment/path.sh
+[2.987s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/environment/path.dsv
+[2.987s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/local_setup.bash
+[2.987s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/local_setup.sh
+[2.987s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/local_setup.zsh
+[2.987s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/local_setup.dsv
+[2.987s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/package.dsv
+[2.987s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/ament_index/resource_index/packages/cpp_action
+[2.987s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/cmake/cpp_actionConfig.cmake
+[2.987s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/cmake/cpp_actionConfig-version.cmake
+[2.988s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/package.xml
+[2.989s] Invoked command in '/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/cpp_action' returned '0': CMAKE_PREFIX_PATH=/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/base_interfaces_demo:/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action:/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp:/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/base_interfaces_demo/lib:/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/cpp_action

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-129c524062e2d6539ec8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp_action",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_action_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_action_uninstall-8a95f00bbde9340e5fb3.json",
+					"name" : "cpp_action_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo_action_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo_action_client-be6515cca5c608244c65.json",
+					"name" : "demo_action_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo_action_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo_action_server-714b00fb819e27eb2f51.json",
+					"name" : "demo_action_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0f003086ca8b4c9df5de.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/cpp_action",
+		"source" : "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/src/cpp_action"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

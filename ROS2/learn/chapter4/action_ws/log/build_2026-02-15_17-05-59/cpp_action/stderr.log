@@ -1,0 +1,10 @@
+[01m[K/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/src/cpp_action/src/demo_action_server.cpp:[m[K In member function ‘[01m[Kvoid ProgressActionServer::handle_accepted(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Progress> >)[m[K’:
+[01m[K/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/src/cpp_action/src/demo_action_server.cpp:79:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   79 | [01;35m[KerverGoalHandle<Progress>> goal_handle[m[K) {
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+
+[01m[K/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/src/cpp_action/src/demo_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse ProgressActionServer::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Progress> >)[m[K’:
+[01m[K/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/src/cpp_action/src/demo_action_server.cpp:87:106:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   87 | [01;35m[KerverGoalHandle<Progress>> goal_handle[m[K) {
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+

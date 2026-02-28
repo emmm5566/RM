@@ -1,9 +1,9 @@
 {
   "package_name": "robot_control_interfaces",
-  "output_dir": "/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces/rosidl_generator_cpp/robot_control_interfaces",
+  "output_dir": "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces/rosidl_generator_cpp/robot_control_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces/rosidl_adapter/robot_control_interfaces:action/MoveRobot.idl"
+    "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces/rosidl_adapter/robot_control_interfaces:action/MoveRobot.idl"
   ],
   "ros_interface_dependencies": [
     "action_msgs:/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
@@ -30,7 +30,7 @@
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
-    "/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces/rosidl_adapter/robot_control_interfaces/action/MoveRobot.idl",
+    "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces/rosidl_adapter/robot_control_interfaces/action/MoveRobot.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatus.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl",

@@ -1,8 +1,8 @@
-# Install script for directory: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/src/example_action_rclcpp
+# Install script for directory: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/src/example_action_rclcpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp")
+  set(CMAKE_INSTALL_PREFIX "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/example_action_rclcpp")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,12 +49,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_action_rclcpp/action_robot"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/example_action_rclcpp" TYPE EXECUTABLE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/action_robot")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/example_action_rclcpp" TYPE EXECUTABLE FILES "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/action_robot")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_action_rclcpp/action_robot" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_action_rclcpp/action_robot")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_action_rclcpp/action_robot"
-         OLD_RPATH "/opt/ros/humble/lib:/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_action_rclcpp/action_robot")
@@ -69,12 +69,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_action_rclcpp/action_control"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/example_action_rclcpp" TYPE EXECUTABLE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/action_control")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/example_action_rclcpp" TYPE EXECUTABLE FILES "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/action_control")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_action_rclcpp/action_control" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_action_rclcpp/action_control")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_action_rclcpp/action_control"
-         OLD_RPATH "/opt/ros/humble/lib:/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_action_rclcpp/action_control")
@@ -83,11 +83,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/example_action_rclcpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/example_action_rclcpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/example_action_rclcpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/example_action_rclcpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -95,7 +95,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_action_rclcpp/environment" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_action_rclcpp/environment" TYPE FILE FILES "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -103,42 +103,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_action_rclcpp/environment" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_action_rclcpp/environment" TYPE FILE FILES "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_action_rclcpp" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_action_rclcpp" TYPE FILE FILES "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_action_rclcpp" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_action_rclcpp" TYPE FILE FILES "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_action_rclcpp" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_action_rclcpp" TYPE FILE FILES "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_action_rclcpp" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_action_rclcpp" TYPE FILE FILES "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_action_rclcpp" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_action_rclcpp" TYPE FILE FILES "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/ament_cmake_index/share/ament_index/resource_index/packages/example_action_rclcpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/ament_cmake_index/share/ament_index/resource_index/packages/example_action_rclcpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_action_rclcpp/cmake" TYPE FILE FILES
-    "/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/ament_cmake_core/example_action_rclcppConfig.cmake"
-    "/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/ament_cmake_core/example_action_rclcppConfig-version.cmake"
+    "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/ament_cmake_core/example_action_rclcppConfig.cmake"
+    "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/ament_cmake_core/example_action_rclcppConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_action_rclcpp" TYPE FILE FILES "/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/src/example_action_rclcpp/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_action_rclcpp" TYPE FILE FILES "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/src/example_action_rclcpp/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -149,5 +149,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/example_action_rclcpp/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

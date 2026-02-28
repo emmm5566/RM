@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/src/example_parameters_rclcpp
+CMAKE_SOURCE_DIR = /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/src/example_parameters_rclcpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp
+CMAKE_BINARY_DIR = /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp
 
 # Include any dependencies generated for this target.
 include CMakeFiles/parameters_basic.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/parameters_basic.dir/progress.make
 include CMakeFiles/parameters_basic.dir/flags.make
 
 CMakeFiles/parameters_basic.dir/src/parameters_basic.cpp.o: CMakeFiles/parameters_basic.dir/flags.make
-CMakeFiles/parameters_basic.dir/src/parameters_basic.cpp.o: /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/src/example_parameters_rclcpp/src/parameters_basic.cpp
+CMakeFiles/parameters_basic.dir/src/parameters_basic.cpp.o: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/src/example_parameters_rclcpp/src/parameters_basic.cpp
 CMakeFiles/parameters_basic.dir/src/parameters_basic.cpp.o: CMakeFiles/parameters_basic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/parameters_basic.dir/src/parameters_basic.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/parameters_basic.dir/src/parameters_basic.cpp.o -MF CMakeFiles/parameters_basic.dir/src/parameters_basic.cpp.o.d -o CMakeFiles/parameters_basic.dir/src/parameters_basic.cpp.o -c /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/src/example_parameters_rclcpp/src/parameters_basic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/parameters_basic.dir/src/parameters_basic.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/parameters_basic.dir/src/parameters_basic.cpp.o -MF CMakeFiles/parameters_basic.dir/src/parameters_basic.cpp.o.d -o CMakeFiles/parameters_basic.dir/src/parameters_basic.cpp.o -c /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/src/example_parameters_rclcpp/src/parameters_basic.cpp
 
 CMakeFiles/parameters_basic.dir/src/parameters_basic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/parameters_basic.dir/src/parameters_basic.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/src/example_parameters_rclcpp/src/parameters_basic.cpp > CMakeFiles/parameters_basic.dir/src/parameters_basic.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/src/example_parameters_rclcpp/src/parameters_basic.cpp > CMakeFiles/parameters_basic.dir/src/parameters_basic.cpp.i
 
 CMakeFiles/parameters_basic.dir/src/parameters_basic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/parameters_basic.dir/src/parameters_basic.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/src/example_parameters_rclcpp/src/parameters_basic.cpp -o CMakeFiles/parameters_basic.dir/src/parameters_basic.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/src/example_parameters_rclcpp/src/parameters_basic.cpp -o CMakeFiles/parameters_basic.dir/src/parameters_basic.cpp.s
 
 # Object files for target parameters_basic
 parameters_basic_OBJECTS = \
@@ -147,7 +147,7 @@ parameters_basic: /opt/ros/humble/lib/librcutils.so
 parameters_basic: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 parameters_basic: /opt/ros/humble/lib/libtracetools.so
 parameters_basic: CMakeFiles/parameters_basic.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable parameters_basic"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable parameters_basic"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/parameters_basic.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -159,6 +159,6 @@ CMakeFiles/parameters_basic.dir/clean:
 .PHONY : CMakeFiles/parameters_basic.dir/clean
 
 CMakeFiles/parameters_basic.dir/depend:
-	cd /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/src/example_parameters_rclcpp /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/src/example_parameters_rclcpp /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp/CMakeFiles/parameters_basic.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/src/example_parameters_rclcpp /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/src/example_parameters_rclcpp /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp/CMakeFiles/parameters_basic.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/parameters_basic.dir/depend
 

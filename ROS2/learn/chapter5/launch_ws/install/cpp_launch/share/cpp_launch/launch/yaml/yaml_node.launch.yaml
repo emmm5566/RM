@@ -1,0 +1,34 @@
+launch:
+  - node:
+      pkg: "turtlesim"
+      exec: "turtlesim_node"
+      name: "t1"
+      namespace: "t1_ns"
+      exec_name: "t1_label"
+      respawn: "false"
+  - node:
+      pkg: "turtlesim"
+      exec: "turtlesim_node"
+      name: "t2"
+      param:
+        # -
+        #   name: "background_r"
+        #   value: 255
+        # -
+        #   name: "background_g"
+        #   value: 255
+        # -
+        #   name: "background_b"
+        #   value: 255
+        - from: "$(find-pkg-share cpp_launch)/config/t2.yaml"
+  - node:
+      pkg: "turtlesim"
+      exec: "turtlesim_node"
+      remap:
+        -
+          from: "/turtle1/cmd_vel"
+          to: "/cmd_vel"
+  - node:
+      pkg: "turtlesim"
+      exec: "turtlesim_node"
+      ros_args: "--ros-args --remap __name:=t4 --remap __ns:=/t4"

@@ -1,8 +1,8 @@
-# Install script for directory: /home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces/robot_control_interfaces__py
+# Install script for directory: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces/robot_control_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/emmm/Desktop/rm/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

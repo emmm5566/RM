@@ -1,0 +1,232 @@
+[0.008s] Invoking command in '/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/src/robot_control_interfaces -DCMAKE_INSTALL_PREFIX=/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.111s] -- The CXX compiler identification is GNU 11.4.0
+[0.117s] -- Detecting C compiler ABI info
+[0.188s] -- Detecting C compiler ABI info - done
+[0.201s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.201s] -- Detecting C compile features
+[0.202s] -- Detecting C compile features - done
+[0.206s] -- Detecting CXX compiler ABI info
+[0.309s] -- Detecting CXX compiler ABI info - done
+[0.316s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.316s] -- Detecting CXX compile features
+[0.316s] -- Detecting CXX compile features - done
+[0.318s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.446s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.521s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.523s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.528s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.553s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.869s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.039s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.288s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.310s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.312s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.345s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.345s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.345s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.345s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.373s] -- Found PythonExtra: .so  
+[1.423s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.435s] -- Added test 'lint_cmake' to check CMake code style
+[1.436s] -- Added test 'xmllint' to check XML markup files
+[1.437s] -- Configuring done
+[1.456s] -- Generating done
+[1.464s] -- Build files have been written to: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces
+[1.471s] Invoked command in '/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/src/robot_control_interfaces -DCMAKE_INSTALL_PREFIX=/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces
+[1.471s] Invoking command in '/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces -- -j12 -l12
+[1.517s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.526s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.536s] [  6%] Built target ament_cmake_python_copy_robot_control_interfaces
+[1.709s] running egg_info
+[1.709s] creating robot_control_interfaces.egg-info
+[1.709s] writing robot_control_interfaces.egg-info/PKG-INFO
+[1.709s] writing dependency_links to robot_control_interfaces.egg-info/dependency_links.txt
+[1.710s] writing top-level names to robot_control_interfaces.egg-info/top_level.txt
+[1.710s] writing manifest file 'robot_control_interfaces.egg-info/SOURCES.txt'
+[1.712s] reading manifest file 'robot_control_interfaces.egg-info/SOURCES.txt'
+[1.712s] writing manifest file 'robot_control_interfaces.egg-info/SOURCES.txt'
+[1.745s] [  6%] Built target ament_cmake_python_build_robot_control_interfaces_egg
+[2.048s] [  9%] [32mBuilding C object CMakeFiles/robot_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_control_interfaces/action/detail/move_robot__functions.c.o[0m
+[2.107s] [  9%] Built target robot_control_interfaces__cpp
+[2.115s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.118s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.118s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.167s] [ 22%] [32m[1mLinking C shared library librobot_control_interfaces__rosidl_generator_c.so[0m
+[2.216s] [ 22%] Built target robot_control_interfaces__rosidl_generator_c
+[2.225s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.225s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.238s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.451s] [ 35%] [32mBuilding CXX object CMakeFiles/robot_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_control_interfaces/action/move_robot__type_support.cpp.o[0m
+[2.618s] [ 38%] [32mBuilding CXX object CMakeFiles/robot_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_control_interfaces/action/move_robot__type_support.cpp.o[0m
+[2.630s] [ 41%] [32mBuilding CXX object CMakeFiles/robot_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_control_interfaces/action/detail/move_robot__type_support.cpp.o[0m
+[2.673s] [ 45%] [32m[1mLinking CXX shared library librobot_control_interfaces__rosidl_typesupport_c.so[0m
+[2.743s] [ 45%] Built target robot_control_interfaces__rosidl_typesupport_c
+[2.797s] [ 48%] [32mBuilding CXX object CMakeFiles/robot_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_control_interfaces/action/detail/move_robot__type_support_c.cpp.o[0m
+[2.856s] [ 51%] [32mBuilding CXX object CMakeFiles/robot_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_control_interfaces/action/detail/dds_fastrtps/move_robot__type_support.cpp.o[0m
+[2.909s] [ 54%] [32mBuilding C object CMakeFiles/robot_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_control_interfaces/action/detail/move_robot__type_support.c.o[0m
+[2.973s] [ 58%] [32m[1mLinking C shared library librobot_control_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.013s] [ 58%] Built target robot_control_interfaces__rosidl_typesupport_introspection_c
+[3.091s] [ 61%] [32m[1mLinking CXX shared library librobot_control_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.101s] [ 64%] [32m[1mLinking CXX shared library librobot_control_interfaces__rosidl_typesupport_cpp.so[0m
+[3.163s] [ 64%] Built target robot_control_interfaces__rosidl_typesupport_cpp
+[3.212s] [ 64%] Built target robot_control_interfaces__rosidl_typesupport_fastrtps_c
+[3.265s] [ 67%] [32m[1mLinking CXX shared library librobot_control_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.340s] [ 67%] Built target robot_control_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.366s] [ 70%] [32m[1mLinking CXX shared library librobot_control_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.449s] [ 70%] Built target robot_control_interfaces__rosidl_typesupport_introspection_cpp
+[3.474s] [ 70%] Built target robot_control_interfaces
+[3.497s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.198s] [ 74%] Built target robot_control_interfaces__py
+[4.220s] [ 77%] [32mBuilding C object CMakeFiles/robot_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_control_interfaces/action/_move_robot_s.c.o[0m
+[4.320s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/robot_control_interfaces/librobot_control_interfaces__rosidl_generator_py.so[0m
+[4.366s] [ 80%] Built target robot_control_interfaces__rosidl_generator_py
+[4.385s] [ 83%] [32mBuilding C object CMakeFiles/robot_control_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_control_interfaces/_robot_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.387s] [ 87%] [32mBuilding C object CMakeFiles/robot_control_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_control_interfaces/_robot_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.391s] [ 90%] [32mBuilding C object CMakeFiles/robot_control_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_control_interfaces/_robot_control_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.470s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.499s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.512s] [ 96%] Built target robot_control_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.537s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.546s] [100%] Built target robot_control_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.589s] [100%] Built target robot_control_interfaces__rosidl_typesupport_c__pyext
+[4.604s] Invoked command in '/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces -- -j12 -l12
+[4.606s] Invoking command in '/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces
+[4.616s] -- Install configuration: ""
+[4.616s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_control_interfaces
+[4.616s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces
+[4.617s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg
+[4.617s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.617s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action
+[4.617s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/move_robot.h
+[4.617s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail
+[4.617s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__functions.c
+[4.617s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__functions.h
+[4.617s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__type_support.h
+[4.617s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__struct.h
+[4.617s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/library_path.sh
+[4.618s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/library_path.dsv
+[4.618s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_generator_c.so
+[4.618s] -- Set runtime path of "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_generator_c.so" to ""
+[4.618s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces
+[4.618s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg
+[4.618s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.618s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action
+[4.618s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail
+[4.618s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__rosidl_typesupport_fastrtps_c.h
+[4.618s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.618s] -- Set runtime path of "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.619s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces
+[4.619s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg
+[4.619s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.619s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action
+[4.619s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail
+[4.619s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__rosidl_typesupport_introspection_c.h
+[4.619s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__type_support.c
+[4.619s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_introspection_c.so
+[4.619s] -- Set runtime path of "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.619s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_c.so
+[4.620s] -- Set runtime path of "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_c.so" to ""
+[4.620s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces
+[4.620s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg
+[4.620s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.620s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action
+[4.620s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/move_robot.hpp
+[4.620s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail
+[4.620s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__type_support.hpp
+[4.620s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__traits.hpp
+[4.620s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__builder.hpp
+[4.620s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__struct.hpp
+[4.621s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces
+[4.621s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg
+[4.621s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.621s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action
+[4.621s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail
+[4.621s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__rosidl_typesupport_fastrtps_cpp.hpp
+[4.621s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/dds_fastrtps
+[4.621s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.621s] -- Set runtime path of "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.622s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces
+[4.622s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action
+[4.622s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail
+[4.622s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__rosidl_typesupport_introspection_cpp.hpp
+[4.622s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/action/detail/move_robot__type_support.cpp
+[4.622s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.622s] -- Set runtime path of "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.622s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_cpp.so
+[4.622s] -- Set runtime path of "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.622s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/pythonpath.sh
+[4.622s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/pythonpath.dsv
+[4.622s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces-0.0.0-py3.10.egg-info
+[4.622s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.622s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.623s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.623s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.623s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces
+[4.623s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/_robot_control_interfaces_s.ep.rosidl_typesupport_c.c
+[4.623s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.623s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/_robot_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.623s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/librobot_control_interfaces__rosidl_generator_py.so
+[4.623s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/action
+[4.623s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/action/_move_robot_s.c
+[4.623s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/action/_move_robot.py
+[4.623s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/action/__init__.py
+[4.623s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.623s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/_robot_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.624s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/__init__.py
+[4.624s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.674s] Listing '/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces'...
+[4.674s] Compiling '/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/__init__.py'...
+[4.674s] Listing '/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/action'...
+[4.674s] Compiling '/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/action/__init__.py'...
+[4.674s] Compiling '/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/action/_move_robot.py'...
+[4.680s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.680s] -- Set runtime path of "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.681s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.681s] -- Set runtime path of "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.681s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.682s] -- Set runtime path of "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.682s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_generator_py.so
+[4.682s] -- Set runtime path of "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_generator_py.so" to ""
+[4.682s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/action/MoveRobot.idl
+[4.682s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/action/MoveRobot.action
+[4.683s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_control_interfaces
+[4.683s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_control_interfaces
+[4.683s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/ament_prefix_path.sh
+[4.683s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/ament_prefix_path.dsv
+[4.683s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/path.sh
+[4.683s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/path.dsv
+[4.684s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/local_setup.bash
+[4.684s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/local_setup.sh
+[4.684s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/local_setup.zsh
+[4.684s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/local_setup.dsv
+[4.684s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/package.dsv
+[4.684s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/ament_index/resource_index/packages/robot_control_interfaces
+[4.685s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_generator_cExport.cmake
+[4.685s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.685s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.685s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.685s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.685s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.686s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_cExport.cmake
+[4.686s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.686s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_generator_cppExport.cmake
+[4.686s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.686s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.686s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.687s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.687s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_cppExport.cmake
+[4.687s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.687s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_generator_pyExport.cmake
+[4.687s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.687s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.688s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.688s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.688s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.688s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.688s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.688s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.688s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfacesConfig.cmake
+[4.689s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfacesConfig-version.cmake
+[4.689s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/robot_control_interfaces/share/robot_control_interfaces/package.xml
+[4.691s] Invoked command in '/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/build/robot_control_interfaces

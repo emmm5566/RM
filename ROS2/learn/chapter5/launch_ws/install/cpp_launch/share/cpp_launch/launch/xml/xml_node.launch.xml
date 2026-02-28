@@ -1,0 +1,48 @@
+<launch>
+    <!-- 演示 node 的使用 -->
+    <node 
+        pkg="turtlesim"
+        exec="turtlesim_node"
+        name="t1"
+        namespace="t1_ns"
+        exec_name="t1_label"
+        respawn="true"
+    />
+    <node pkg="turtlesim" exec="turtlesim_node" name="t2">
+        <!-- 方式1:设置单个参数 -->
+        <!-- <param name="background_r" value="255" />
+        <param name="background_g" value="255" />
+        <param name="background_b" value="255" /> -->
+        <!-- 方式2:从yaml文件加载配置参数 -->
+        <param from="$(find-pkg-share cpp_launch)/config/t2.yaml" />
+    </node>
+    <node pkg="turtlesim" exec="turtlesim_node" name="t3">
+        <remap from="/turtle1/cmd_vel" to="/cmd_vel" />
+    </node>
+    <node 
+        pkg="turtlesim" 
+        exec="turtlesim_node" 
+        ros_args="--remap __name:=t3 --remap __ns:=/group_2" 
+    />
+
+</launch>
+
+<!-- 
+    node 标签用于表示节点,其属性包含:
+        pkg:功能包;
+        exec:可执行文件;
+        name:节点名称;
+        namespace:命名空间;
+        exec_name:流程标签;
+        respawn:节点关闭后是否重启;
+        args:调用指令时的参数列表;
+        ros_args:相当于 args 前缀 
+    node 标签的子级标签包含:
+        param,设置参数的标签,其属性包含:
+            name:参数名称;
+            value:参数值;
+            from:参数文件路径;
+        remap,话题重映射标签,其属性包含:
+            from:原话题名称;
+            to:新话题名称
+-->

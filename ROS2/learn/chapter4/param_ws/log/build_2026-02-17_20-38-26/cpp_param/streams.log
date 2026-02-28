@@ -1,0 +1,19 @@
+[0.010s] Invoking command in '/home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/build/cpp_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/build/cpp_param -- -j12 -l12
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target demo_param_server[0m
+[0.073s] [ 33%] Built target demo_param
+[0.076s] [ 50%] [32mBuilding CXX object CMakeFiles/demo_param_client.dir/src/demo_param_client.cpp.o[0m
+[0.077s] [ 66%] [32mBuilding CXX object CMakeFiles/demo_param_server.dir/src/demo_param_server.cpp.o[0m
+[2.071s] [01m[K/home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/src/cpp_param/src/demo_param_client.cpp:[m[K In constructor ‘[01m[KParamClient::ParamClient()[m[K’:
+[2.071s] [01m[K/home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/src/cpp_param/src/demo_param_client.cpp:41:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[2.071s]    41 |     [01;31m[K}[m[K
+[2.071s]       |     [01;31m[K^[m[K
+[2.165s] [ 83%] [32m[1mLinking CXX executable demo_param_server[0m
+[2.261s] [ 83%] Built target demo_param_server
+[2.349s] [01m[K/home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/src/cpp_param/src/demo_param_client.cpp:[m[K In member function ‘[01m[Kbool ParamClient::connect_server()[m[K’:
+[2.349s] [01m[K/home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/src/cpp_param/src/demo_param_client.cpp:51:5:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[2.349s]    51 |     [01;35m[K}[m[K
+[2.349s]       |     [01;35m[K^[m[K
+[2.364s] gmake[2]: *** [CMakeFiles/demo_param_client.dir/build.make:76: CMakeFiles/demo_param_client.dir/src/demo_param_client.cpp.o] Error 1
+[2.364s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/demo_param_client.dir/all] Error 2
+[2.364s] gmake: *** [Makefile:146: all] Error 2
+[2.367s] Invoked command in '/home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/build/cpp_param' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/build/cpp_param -- -j12 -l12

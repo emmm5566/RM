@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7021d36abb3da8dc8b19.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp_param",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_param_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_param_uninstall-10b72a4b6ca3177d61da.json",
+					"name" : "cpp_param_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo_param::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo_param-1184b9442b909ec2acaa.json",
+					"name" : "demo_param",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo_param_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo_param_client-65ecafadf630b4332b0c.json",
+					"name" : "demo_param_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo_param_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo_param_server-68a22530d25d8d9e1c9f.json",
+					"name" : "demo_param_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-57139cd00460a208e839.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/build/cpp_param",
+		"source" : "/home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/src/cpp_param"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

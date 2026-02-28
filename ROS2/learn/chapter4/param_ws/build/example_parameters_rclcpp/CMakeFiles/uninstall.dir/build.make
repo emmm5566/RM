@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/src/example_parameters_rclcpp
+CMAKE_SOURCE_DIR = /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/src/example_parameters_rclcpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp
+CMAKE_BINARY_DIR = /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/src/example_parameters_rclcpp /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/src/example_parameters_rclcpp /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp /home/emmm/Desktop/rm/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/src/example_parameters_rclcpp /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/src/example_parameters_rclcpp /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/build/example_parameters_rclcpp/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

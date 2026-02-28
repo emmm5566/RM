@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:include filename="$(find fishbot_description)/urdf/fishbot/common_inertia.xacro" />
+
+    <xacro:macro name="camera_xacro" params="xyz">
+        <!-- 机器人的相机部件 -->
+        <link name="camera_link">
+            <!-- 外观属性 -->
+            <visual>
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <geometry>
+                    <box size="0.02 0.10 0.02"/>
+                </geometry>
+                <material name="black">
+                    <color rgba="0.0 0.0 0.0 0.5"/>                
+                </material>
+            </visual> 
+
+            <!-- 碰撞属性 -->
+            <collision>
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <geometry>
+                    <box size="0.02 0.10 0.02"/>
+                </geometry>
+                <material name="black">
+                    <color rgba="0.0 0.0 0.0 0.5"/>                
+                </material>                
+            </collision>
+
+            <!-- 质量和惯性属性 -->
+            <xacro:box_inertia m="0.1" w="0.02" h="0.10" d="0.02" />
+        </link>
+
+        <!-- 深度相机默认前方是z轴,添加虚拟部件调整方位 -->
+        <link name="camera_optical_link"></link>
+
+        <!-- 机器人的关节 -->
+        <joint name="camera_joint" type="fixed"> 
+            <parent link="base_link"/>
+            <child link="camera_link"/>
+            <origin xyz="${xyz}" rpy="0.0 0.0 0.0"/>
+        </joint>
+        
+        <joint name="camera_optical_joint" type="fixed"> 
+            <parent link="camera_link"/>
+            <child link="camera_optical_link"/>
+            <!-- rpy=(-π/2, 0, -π/2):将camera_link的X前/Y左/Z上 转为 光学系X右/Y下/Z前 -->
+            <origin xyz="0 0 0" rpy="${-math.pi/2} 0.0 ${-math.pi/2}"/>
+        </joint>
+    </xacro:macro>
+</robot>

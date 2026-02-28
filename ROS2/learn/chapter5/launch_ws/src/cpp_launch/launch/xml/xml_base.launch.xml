@@ -1,0 +1,6 @@
+<!-- 根标签 launch -->
+<launch> 
+    <!-- 节点 功能包 可执行文件 节点名字 -->
+    <node pkg="turtlesim" exec="turtlesim_node" name="t1" />
+    <node pkg="turtlesim" exec="turtlesim_node" name="t2" />
+</launch>

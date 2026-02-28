@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!-- 声明使用xacro -->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="first_robot">
+
+    <!-- 使用xacro的宏 -->
+    <xacro:macro name="base_link" params="length radius">
+        <!-- 机器人身体部分 -->
+        <link name="base_link">
+            <visual>
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <geometry>
+                    <cylinder radius="${radius}" length="${length}"/>
+                </geometry>
+                <material name="white">
+                    <color rgba="1.0 1.0 1.0 0.5"/>                
+                </material>
+            </visual> 
+        </link>
+    </xacro:macro>
+
+    <xacro:macro name="imu_link" params="imu_name xyz">
+        <!-- 机器人IMU部件 -->
+        <link name="${imu_name}_link">
+            <visual>
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <geometry>
+                    <box size="0.02 0.02 0.02"/>
+                </geometry>
+                <material name="black">
+                    <color rgba="0.0 0.0 0.0 0.5"/>                
+                </material>
+            </visual> 
+        </link>
+
+        <!-- 机器人的关节 -->
+        <joint name="${imu_name}_joint" type="fixed"> 
+            <parent link="base_link"/>
+            <child link="${imu_name}_link"/>
+            <origin xyz="${xyz}" rpy="0.0 0.0 0.0"/>
+        </joint>
+    </xacro:macro>
+
+    <!-- 传递参数调用模块 -->
+    <!-- 注意：部件的名字唯一 -->
+    <!-- 注意：<link name="link_name"></link>相当于<link name="link_name"/>,缩写要加/ -->
+    <xacro:base_link length="0.12" radius="0.1" />
+    <xacro:imu_link imu_name="imu_up" xyz="0.0 0.0 0.03" />
+    <xacro:imu_link imu_name="imu_down" xyz="0.0 0.0 -0.03" />
+
+</robot>
+
+<!-- 安装xacro -->
+<!-- sudo apt install ros-$ROS_DISTRO-xacro -->
+<!-- 解析xacro文件，将它转换成urdf格式 -->
+<!-- xacro /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/src/fishbot_description/urdf/first_robot.xacro -->

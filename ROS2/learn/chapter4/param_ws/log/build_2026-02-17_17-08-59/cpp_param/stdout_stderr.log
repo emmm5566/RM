@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target demo_param[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/demo_param.dir/src/demo_param.cpp.o[0m
+[01m[K/home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/src/cpp_param/src/demo_param.cpp:43:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   43 |   }
+      |    [01;31m[K^[m[K
+      |    [32m[K;[m[K
+[01m[K/home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/src/cpp_param/src/demo_param.cpp:44:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   44 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/demo_param.dir/build.make:76: CMakeFiles/demo_param.dir/src/demo_param.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo_param.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

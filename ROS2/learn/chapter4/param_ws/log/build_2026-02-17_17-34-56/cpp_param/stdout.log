@@ -1,0 +1,50 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/src/cpp_param/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/build/cpp_param
+[35m[1mConsolidate compiler generated dependencies of target demo_param[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/demo_param_client.dir/src/demo_param_client.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/demo_param_server.dir/src/demo_param_server.cpp.o[0m
+[ 66%] Built target demo_param
+[ 83%] [32m[1mLinking CXX executable demo_param_client[0m
+[100%] [32m[1mLinking CXX executable demo_param_server[0m
+[100%] Built target demo_param_client
+[100%] Built target demo_param_server
+-- Install configuration: ""
+-- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/lib/cpp_param/demo_param
+-- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/lib/cpp_param/demo_param_server
+-- Set runtime path of "/home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/lib/cpp_param/demo_param_server" to ""
+-- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/lib/cpp_param/demo_param_client
+-- Set runtime path of "/home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/lib/cpp_param/demo_param_client" to ""
+-- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/share/ament_index/resource_index/package_run_dependencies/cpp_param
+-- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/share/ament_index/resource_index/parent_prefix_path/cpp_param
+-- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/share/cpp_param/environment/ament_prefix_path.sh
+-- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/share/cpp_param/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/share/cpp_param/environment/path.sh
+-- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/share/cpp_param/environment/path.dsv
+-- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/share/cpp_param/local_setup.bash
+-- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/share/cpp_param/local_setup.sh
+-- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/share/cpp_param/local_setup.zsh
+-- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/share/cpp_param/local_setup.dsv
+-- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/share/cpp_param/package.dsv
+-- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/share/ament_index/resource_index/packages/cpp_param
+-- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/share/cpp_param/cmake/cpp_paramConfig.cmake
+-- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/share/cpp_param/cmake/cpp_paramConfig-version.cmake
+-- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/install/cpp_param/share/cpp_param/package.xml

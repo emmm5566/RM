@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:macro name="fishbot_ros2_control">
+        <!-- ros2_control 系统配置 -->
+        <ros2_control name="FishBotGazeboSystem" type="system">
+            <!-- 硬件接口配置 -->
+            <hardware>
+                <!--设置驱动库的名字-->
+                <plugin>gazebo_ros2_control/GazeboSystem</plugin>  
+            </hardware>
+
+            <!-- 左轮关节接口配置 -->
+            <joint name="left_wheel_joint">  <!-- 关节名字要和机器人一致 -->
+                <!-- 命令接口(执行器) -->
+                <command_interface name="velocity">  <!-- 速度(转速) -->
+                    <param name="min">-1</param>  <!-- 最小值,1弧度/s -->
+                    <param name="max">1</param>  <!-- 最大值 -->
+                </command_interface>
+                <command_interface name="effort">  <!-- 力矩 -->
+                    <param name="min">-0.1</param>  <!-- 最小值,0.1N*m/s -->
+                    <param name="max">0.1</param>  <!-- 最大值 -->
+                </command_interface>
+                <!-- 状态接口(传感器) -->
+                <state_interface name="position" />  <!-- 位置 -->
+                <state_interface name="velocity" />  <!-- 速度(转速 -->
+                <state_interface name="effort" />  <!-- 力矩 -->
+            </joint>
+
+            <!-- 右轮关节接口配置 -->
+            <joint name="right_wheel_joint">
+                <command_interface name="velocity">
+                    <param name="min">-1</param>
+                    <param name="max">1</param>
+                </command_interface>
+                <command_interface name="effort">
+                    <param name="min">-0.1</param>
+                    <param name="max">0.1</param>
+                </command_interface>
+                <state_interface name="position" />
+                <state_interface name="velocity" />
+                <state_interface name="effort" />
+            </joint>
+        </ros2_control>
+
+        <!-- gazebo-ros2_control 桥接插件配置 -->
+        <gazebo>
+            <!-- 加载 gazebo 插件 -->
+            <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">  
+                <parameters>$(find fishbot_description)/config/fishbot_ros2_controller.yaml</parameters>
+                <ros>
+                    <remapping>/fishbot_diff_drive_controller/cmd_vel_unstamped:=/cmd_vel</remapping>
+                    <remapping>/fishbot_diff_drive_controller/odom:=/odom</remapping>
+                </ros>
+            </plugin>
+        </gazebo>
+    </xacro:macro>
+</robot>

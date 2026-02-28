@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target demo_action_server[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/demo_action_server.dir/src/demo_action_server.cpp.o[0m
+[ 75%] Built target demo_action_client
+[100%] [32m[1mLinking CXX executable demo_action_server[0m
+[100%] Built target demo_action_server
+-- Install configuration: ""
+-- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/lib/cpp_action/demo_action_server
+-- Set runtime path of "/home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/lib/cpp_action/demo_action_server" to ""
+-- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/lib/cpp_action/demo_action_client
+-- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/ament_index/resource_index/package_run_dependencies/cpp_action
+-- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/ament_index/resource_index/parent_prefix_path/cpp_action
+-- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/environment/ament_prefix_path.sh
+-- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/environment/path.sh
+-- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/environment/path.dsv
+-- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/local_setup.bash
+-- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/local_setup.sh
+-- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/local_setup.zsh
+-- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/local_setup.dsv
+-- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/package.dsv
+-- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/ament_index/resource_index/packages/cpp_action
+-- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/cmake/cpp_actionConfig.cmake
+-- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/cmake/cpp_actionConfig-version.cmake
+-- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter4/action_ws/install/cpp_action/share/cpp_action/package.xml

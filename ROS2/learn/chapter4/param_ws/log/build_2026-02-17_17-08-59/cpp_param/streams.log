@@ -1,0 +1,14 @@
+[0.013s] Invoking command in '/home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/build/cpp_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/build/cpp_param -- -j12 -l12
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target demo_param[0m
+[0.061s] [ 50%] [32mBuilding CXX object CMakeFiles/demo_param.dir/src/demo_param.cpp.o[0m
+[1.467s] [01m[K/home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/src/cpp_param/src/demo_param.cpp:43:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[1.467s]    43 |   }
+[1.467s]       |    [01;31m[K^[m[K
+[1.467s]       |    [32m[K;[m[K
+[1.469s] [01m[K/home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/src/cpp_param/src/demo_param.cpp:44:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[1.469s]    44 | [01;31m[K}[m[K;
+[1.469s]       | [01;31m[K^[m[K
+[1.742s] gmake[2]: *** [CMakeFiles/demo_param.dir/build.make:76: CMakeFiles/demo_param.dir/src/demo_param.cpp.o] Error 1
+[1.742s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo_param.dir/all] Error 2
+[1.742s] gmake: *** [Makefile:146: all] Error 2
+[1.745s] Invoked command in '/home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/build/cpp_param' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/RM/ROS2/learn/chapter4/param_ws/build/cpp_param -- -j12 -l12

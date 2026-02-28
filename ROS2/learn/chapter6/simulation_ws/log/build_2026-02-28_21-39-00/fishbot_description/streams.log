@@ -1,0 +1,56 @@
+[0.011s] Invoking command in '/home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/build/fishbot_description -- -j12 -l12
+[0.055s] Invoked command in '/home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/build/fishbot_description -- -j12 -l12
+[0.068s] Invoking command in '/home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/build/fishbot_description
+[0.076s] -- Install configuration: ""
+[0.076s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/launch
+[0.076s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/launch/gazebo_sim.launch.py
+[0.076s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/launch/display_robot.launch.py
+[0.077s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/launch/__pycache__
+[0.077s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/launch/__pycache__/display_robot.launch.cpython-310.pyc
+[0.077s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/urdf
+[0.077s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.urdf
+[0.077s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot
+[0.077s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/base.urdf.xacro
+[0.077s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor
+[0.077s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/laser.urdf.xacro
+[0.077s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/imu.urdf.xacro
+[0.077s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/camera.urdf.xacro
+[0.078s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins
+[0.078s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins/gazebo_control_plugin.xacro
+[0.078s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins/gazebo_sensor_plugin.xacro
+[0.078s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.ros2_control.xacro
+[0.078s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/common_inertia.xacro
+[0.078s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.urdf.xacro
+[0.078s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator
+[0.078s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator/wheel.urdf.xacro
+[0.078s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator/caster.urdf.xacro
+[0.078s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.xacro
+[0.078s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.gv
+[0.078s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.pdf
+[0.078s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/config
+[0.078s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/config/rviz
+[0.079s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/config/rviz/gazebo_sensor_plugin.rviz
+[0.079s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/config/rviz/gazebo_control_plugin.rviz
+[0.079s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/config/rviz/display_robot_model.rviz
+[0.079s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/config/fishbot_ros2_controller.yaml
+[0.079s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/world
+[0.079s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/world/room
+[0.079s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/world/room/model.config
+[0.079s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/world/room/model.sdf
+[0.079s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/world/custom_room.world
+[0.079s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/ament_index/resource_index/package_run_dependencies/fishbot_description
+[0.079s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/ament_index/resource_index/parent_prefix_path/fishbot_description
+[0.079s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.sh
+[0.079s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.dsv
+[0.079s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/environment/path.sh
+[0.079s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/environment/path.dsv
+[0.079s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/local_setup.bash
+[0.079s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/local_setup.sh
+[0.080s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/local_setup.zsh
+[0.080s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/local_setup.dsv
+[0.080s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/package.dsv
+[0.080s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/ament_index/resource_index/packages/fishbot_description
+[0.080s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig.cmake
+[0.080s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig-version.cmake
+[0.080s] -- Up-to-date: /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/install/fishbot_description/share/fishbot_description/package.xml
+[0.080s] Invoked command in '/home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/RM/ROS2/learn/chapter6/simulation_ws/build/fishbot_description
