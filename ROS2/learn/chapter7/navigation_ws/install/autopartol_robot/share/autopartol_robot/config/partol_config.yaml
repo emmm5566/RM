@@ -1,0 +1,12 @@
+/partol_node:
+  ros__parameters:
+    # 冒号后面必加空格 列表中元素逗号后面必有空格
+    initial_point: [0.0, 0.0, 0.0]
+    target_points: [
+      0.0, 0.0, 0.0,
+      1.0, 2.0, 3.14,
+      -4.5, 1.5, 1.57,
+      -8.0, -5.0, 1.57,
+      1.0, -5.0, 3.14
+    ]
+    use_sim_time: false

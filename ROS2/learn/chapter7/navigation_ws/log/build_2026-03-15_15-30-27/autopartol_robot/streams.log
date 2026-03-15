@@ -1,0 +1,40 @@
+[0.911s] Invoking command in '/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/src/autopartol_robot': PYTHONPATH=/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/autopartol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopartol_robot build --build-base /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/autopartol_robot/build install --record /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/autopartol_robot/install.log --single-version-externally-managed install_data
+[1.150s] running egg_info
+[1.150s] creating ../../build/autopartol_robot/autopartol_robot.egg-info
+[1.151s] writing ../../build/autopartol_robot/autopartol_robot.egg-info/PKG-INFO
+[1.151s] writing dependency_links to ../../build/autopartol_robot/autopartol_robot.egg-info/dependency_links.txt
+[1.151s] writing entry points to ../../build/autopartol_robot/autopartol_robot.egg-info/entry_points.txt
+[1.151s] writing requirements to ../../build/autopartol_robot/autopartol_robot.egg-info/requires.txt
+[1.151s] writing top-level names to ../../build/autopartol_robot/autopartol_robot.egg-info/top_level.txt
+[1.151s] writing manifest file '../../build/autopartol_robot/autopartol_robot.egg-info/SOURCES.txt'
+[1.153s] reading manifest file '../../build/autopartol_robot/autopartol_robot.egg-info/SOURCES.txt'
+[1.153s] adding license file 'LICENSE'
+[1.154s] writing manifest file '../../build/autopartol_robot/autopartol_robot.egg-info/SOURCES.txt'
+[1.154s] running build
+[1.154s] running build_py
+[1.154s] creating /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/autopartol_robot/build
+[1.154s] creating /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/autopartol_robot/build/lib
+[1.154s] creating /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/autopartol_robot/build/lib/autopartol_robot
+[1.154s] copying autopartol_robot/partol_node.py -> /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/autopartol_robot/build/lib/autopartol_robot
+[1.154s] copying autopartol_robot/__init__.py -> /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/autopartol_robot/build/lib/autopartol_robot
+[1.155s] running install
+[1.155s] running install_lib
+[1.156s] creating /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot
+[1.156s] copying /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/autopartol_robot/build/lib/autopartol_robot/partol_node.py -> /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot
+[1.156s] copying /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/autopartol_robot/build/lib/autopartol_robot/__init__.py -> /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot
+[1.156s] byte-compiling /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot/partol_node.py to partol_node.cpython-310.pyc
+[1.157s] byte-compiling /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot/__init__.py to __init__.cpython-310.pyc
+[1.157s] running install_data
+[1.157s] creating /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/autopartol_robot/share/ament_index
+[1.157s] creating /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/autopartol_robot/share/ament_index/resource_index
+[1.157s] creating /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/autopartol_robot/share/ament_index/resource_index/packages
+[1.157s] copying resource/autopartol_robot -> /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/autopartol_robot/share/ament_index/resource_index/packages
+[1.157s] copying package.xml -> /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/autopartol_robot/share/autopartol_robot
+[1.157s] creating /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/autopartol_robot/share/autopartol_robot/config
+[1.157s] copying config/partol_config.yaml -> /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/autopartol_robot/share/autopartol_robot/config
+[1.157s] running install_egg_info
+[1.159s] Copying ../../build/autopartol_robot/autopartol_robot.egg-info to /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot-0.0.0-py3.10.egg-info
+[1.160s] running install_scripts
+[1.179s] Installing partol_node script to /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/autopartol_robot/lib/autopartol_robot
+[1.180s] writing list of installed files to '/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/autopartol_robot/install.log'
+[1.208s] Invoked command in '/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/src/autopartol_robot' returned '0': PYTHONPATH=/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/autopartol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/autopartol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopartol_robot build --build-base /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/autopartol_robot/build install --record /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/autopartol_robot/install.log --single-version-externally-managed install_data

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <!-- 引入common_inertia.xacro宏文件 -->
+    <xacro:include filename="$(find fishbot_description)/urdf/fishbot/common_inertia.xacro" />
+
+    <xacro:macro name="base_xacro" params="length radius">
+
+        <!-- 贴合地面,添加虚拟部件 -->
+        <link name="base_footprint" />
+
+        <!-- 机器人的身体部分 -->
+        <link name="base_link">
+            <!-- 部件的外观描述 -->
+            <visual>
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <geometry>
+                    <cylinder radius="${radius}" length="${length}"/>
+                </geometry>
+                <material name="white">
+                    <color rgba="1.0 1.0 1.0 0.5"/>                
+                </material>
+            </visual> 
+
+            <!-- 机器人的碰撞属性 -->
+            <collision>
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <geometry>
+                    <cylinder radius="${radius}" length="${length}"/>
+                </geometry>
+                <material name="white">
+                    <color rgba="1.0 1.0 1.0 0.5"/>                
+                </material>
+            </collision>
+
+            <!-- 机器人的质量和惯性 -->
+            <!-- 质量1.0kg 半径 高度 -->
+            <xacro:cylinder_inertia m="1.0" r="${radius}" h="${length}" />
+        </link>
+
+        <joint name="joint_name" type="fixed">
+            <!-- 距离是相对父部件的,base_link相对base_footprint在多少高度 -->
+            <!-- 机器人高度/2 + 轮子高度 - 1毫米的轻微贴合-->
+            <origin xyz="0.0 0.0 ${length/2.0+0.032-0.001}" rpy="0.0 0.0 0.0"/>
+            <parent link="base_footprint"/>
+            <child link="base_link"/>
+        </joint>
+
+    </xacro:macro>
+</robot>

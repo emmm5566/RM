@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:include filename="$(find fishbot_description)/urdf/fishbot/common_inertia.xacro" />
+
+    <xacro:macro name="wheel_xacro" params="wheel_name xyz">
+        <!-- 机器人的左右轮 -->
+        <link name="${wheel_name}_link">
+            <!-- 外观属性 -->
+            <visual>
+                <!-- 通过origin的rpy改变轮子的旋转角度,让其绕x轴旋转pi/2 -->
+                <origin xyz="0.0 0.0 0.0" rpy="1.57079 0.0 0.0"/>
+                <geometry>
+                    <cylinder radius="0.032" length="0.04"/>
+                </geometry>
+                <material name="yellow">
+                    <color rgba="1.0 1.0 0.0 0.8"/>                
+                </material>
+            </visual> 
+
+            <!-- 碰撞属性 -->
+            <collision>
+                <origin xyz="0.0 0.0 0.0" rpy="1.57079 0.0 0.0"/>
+                <geometry>
+                    <cylinder radius="0.032" length="0.04"/>
+                </geometry>
+                <material name="yellow">
+                    <color rgba="1.0 1.0 0.0 0.8"/>                
+                </material>
+            </collision>
+
+            <!-- 质量和惯性属性 -->
+            <xacro:cylinder_inertia m="0.05" r="0.032" h="0.04" />
+        </link>
+
+        <!-- 机器人的关节 -->
+        <!-- continuous:旋转关节,可以绕单轴无限旋转 -->
+        <joint name="${wheel_name}_joint" type="continuous"> 
+            <parent link="base_link"/>
+            <child link="${wheel_name}_link"/>
+            <origin xyz="${xyz}" rpy="0.0 0.0 0.0"/>
+            <!-- 绕着y轴旋转 -->
+            <axis xyz="0 1 0"/>
+        </joint>
+
+        <!-- 为左右轮添加摩擦力 -->
+        <gazebo reference="${wheel_name}_link">
+            <!-- 切向摩擦系数 -->
+            <mu1 value="20.0" />
+            <!-- 法向摩擦系数 -->
+            <mu2 value="20.0" />
+            <!-- 刚度系数 -->
+            <kp value="1000000000.0" />
+            <!-- 阻尼系数 -->
+            <kd value="1.0" />
+        </gazebo>
+
+    </xacro:macro>
+</robot>

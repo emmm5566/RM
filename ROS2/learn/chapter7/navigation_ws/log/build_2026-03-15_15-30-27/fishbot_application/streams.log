@@ -1,0 +1,50 @@
+[0.846s] Invoking command in '/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/src/fishbot_application': PYTHONPATH=/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_application build --build-base /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_application/build install --record /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_application/install.log --single-version-externally-managed install_data
+[1.263s] running egg_info
+[1.264s] creating ../../build/fishbot_application/fishbot_application.egg-info
+[1.265s] writing ../../build/fishbot_application/fishbot_application.egg-info/PKG-INFO
+[1.265s] writing dependency_links to ../../build/fishbot_application/fishbot_application.egg-info/dependency_links.txt
+[1.265s] writing entry points to ../../build/fishbot_application/fishbot_application.egg-info/entry_points.txt
+[1.265s] writing requirements to ../../build/fishbot_application/fishbot_application.egg-info/requires.txt
+[1.266s] writing top-level names to ../../build/fishbot_application/fishbot_application.egg-info/top_level.txt
+[1.266s] writing manifest file '../../build/fishbot_application/fishbot_application.egg-info/SOURCES.txt'
+[1.268s] reading manifest file '../../build/fishbot_application/fishbot_application.egg-info/SOURCES.txt'
+[1.269s] adding license file 'LICENSE'
+[1.269s] writing manifest file '../../build/fishbot_application/fishbot_application.egg-info/SOURCES.txt'
+[1.270s] running build
+[1.270s] running build_py
+[1.270s] creating /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_application/build
+[1.270s] creating /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_application/build/lib
+[1.270s] creating /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_application/build/lib/fishbot_application
+[1.270s] copying fishbot_application/nav_to_pose.py -> /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_application/build/lib/fishbot_application
+[1.270s] copying fishbot_application/waypoint_follower.py -> /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_application/build/lib/fishbot_application
+[1.271s] copying fishbot_application/init_robot_pose.py -> /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_application/build/lib/fishbot_application
+[1.271s] copying fishbot_application/__init__.py -> /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_application/build/lib/fishbot_application
+[1.271s] copying fishbot_application/get_robot_pose.py -> /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_application/build/lib/fishbot_application
+[1.271s] running install
+[1.272s] running install_lib
+[1.274s] creating /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application
+[1.274s] copying /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_application/build/lib/fishbot_application/nav_to_pose.py -> /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application
+[1.274s] copying /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_application/build/lib/fishbot_application/waypoint_follower.py -> /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application
+[1.274s] copying /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_application/build/lib/fishbot_application/init_robot_pose.py -> /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application
+[1.274s] copying /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_application/build/lib/fishbot_application/__init__.py -> /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application
+[1.275s] copying /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_application/build/lib/fishbot_application/get_robot_pose.py -> /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application
+[1.275s] byte-compiling /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application/nav_to_pose.py to nav_to_pose.cpython-310.pyc
+[1.276s] byte-compiling /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application/waypoint_follower.py to waypoint_follower.cpython-310.pyc
+[1.277s] byte-compiling /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application/init_robot_pose.py to init_robot_pose.cpython-310.pyc
+[1.277s] byte-compiling /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application/__init__.py to __init__.cpython-310.pyc
+[1.277s] byte-compiling /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application/get_robot_pose.py to get_robot_pose.cpython-310.pyc
+[1.278s] running install_data
+[1.278s] creating /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application/share/ament_index
+[1.278s] creating /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application/share/ament_index/resource_index
+[1.278s] creating /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application/share/ament_index/resource_index/packages
+[1.278s] copying resource/fishbot_application -> /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application/share/ament_index/resource_index/packages
+[1.278s] copying package.xml -> /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application/share/fishbot_application
+[1.278s] running install_egg_info
+[1.281s] Copying ../../build/fishbot_application/fishbot_application.egg-info to /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application-0.0.0-py3.10.egg-info
+[1.282s] running install_scripts
+[1.312s] Installing get_robot_pose script to /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application/lib/fishbot_application
+[1.312s] Installing init_robot_pose script to /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application/lib/fishbot_application
+[1.312s] Installing nav_to_pose script to /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application/lib/fishbot_application
+[1.312s] Installing waypoint_follower script to /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application/lib/fishbot_application
+[1.312s] writing list of installed files to '/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_application/install.log'
+[1.355s] Invoked command in '/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/src/fishbot_application' returned '0': PYTHONPATH=/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_application build --build-base /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_application/build install --record /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_application/install.log --single-version-externally-managed install_data

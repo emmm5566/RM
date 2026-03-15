@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/fishbot_application/fishbot_application.egg-info/PKG-INFO
+writing dependency_links to ../../build/fishbot_application/fishbot_application.egg-info/dependency_links.txt
+writing entry points to ../../build/fishbot_application/fishbot_application.egg-info/entry_points.txt
+writing requirements to ../../build/fishbot_application/fishbot_application.egg-info/requires.txt
+writing top-level names to ../../build/fishbot_application/fishbot_application.egg-info/top_level.txt
+reading manifest file '../../build/fishbot_application/fishbot_application.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/fishbot_application/fishbot_application.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/fishbot_application/fishbot_application.egg-info to /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application-0.0.0-py3.10.egg-info
+running install_scripts
+Installing get_robot_pose script to /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application/lib/fishbot_application
+Installing init_robot_pose script to /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application/lib/fishbot_application
+Installing nav_to_pose script to /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application/lib/fishbot_application
+Installing waypoint_follower script to /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application/lib/fishbot_application
+writing list of installed files to '/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_application/install.log'

@@ -1,0 +1,79 @@
+[0.488s] Invoking command in '/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application:/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/src/fishbot_description -DCMAKE_INSTALL_PREFIX=/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description
+[0.610s] -- The C compiler identification is GNU 11.4.0
+[0.705s] -- The CXX compiler identification is GNU 11.4.0
+[0.718s] -- Detecting C compiler ABI info
+[0.818s] -- Detecting C compiler ABI info - done
+[0.829s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.830s] -- Detecting C compile features
+[0.830s] -- Detecting C compile features - done
+[0.836s] -- Detecting CXX compiler ABI info
+[0.946s] -- Detecting CXX compiler ABI info - done
+[0.959s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.959s] -- Detecting CXX compile features
+[0.960s] -- Detecting CXX compile features - done
+[0.963s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.167s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.276s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.367s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.368s] -- Added test 'lint_cmake' to check CMake code style
+[1.369s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.373s] -- Added test 'xmllint' to check XML markup files
+[1.374s] -- Configuring done
+[1.376s] -- Generating done
+[1.379s] -- Build files have been written to: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_description
+[1.381s] Invoked command in '/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application:/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/src/fishbot_description -DCMAKE_INSTALL_PREFIX=/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description
+[1.383s] Invoking command in '/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application:/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_description -- -j12 -l12
+[1.424s] Invoked command in '/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application:/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_description -- -j12 -l12
+[1.425s] Invoking command in '/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application:/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_description
+[1.434s] -- Install configuration: ""
+[1.434s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/launch
+[1.434s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/launch/gazebo_sim.launch.py
+[1.434s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/launch/display_robot.launch.py
+[1.434s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/launch/__pycache__
+[1.435s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/launch/__pycache__/display_robot.launch.cpython-310.pyc
+[1.435s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/urdf
+[1.435s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.urdf
+[1.435s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot
+[1.436s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/base.urdf.xacro
+[1.436s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor
+[1.436s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/laser.urdf.xacro
+[1.436s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/imu.urdf.xacro
+[1.436s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/camera.urdf.xacro
+[1.436s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins
+[1.436s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins/gazebo_control_plugin.xacro
+[1.437s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins/gazebo_sensor_plugin.xacro
+[1.439s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.ros2_control.xacro
+[1.439s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/common_inertia.xacro
+[1.439s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.urdf.xacro
+[1.439s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator
+[1.440s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator/wheel.urdf.xacro
+[1.440s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator/caster.urdf.xacro
+[1.440s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.xacro
+[1.440s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.gv
+[1.440s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.pdf
+[1.440s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/config
+[1.441s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/config/rviz
+[1.441s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/config/rviz/slam_toolbox_build_map.rviz
+[1.441s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/config/rviz/display_robot_model.rviz
+[1.441s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/config/fishbot_ros2_controller.yaml
+[1.442s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/world
+[1.442s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/world/room
+[1.442s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/world/room/model.config
+[1.442s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/world/room/model.sdf
+[1.442s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/world/custom_room.world
+[1.442s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/ament_index/resource_index/package_run_dependencies/fishbot_description
+[1.442s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/ament_index/resource_index/parent_prefix_path/fishbot_description
+[1.442s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.sh
+[1.442s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.dsv
+[1.442s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/environment/path.sh
+[1.442s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/environment/path.dsv
+[1.442s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/local_setup.bash
+[1.442s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/local_setup.sh
+[1.442s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/local_setup.zsh
+[1.442s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/local_setup.dsv
+[1.443s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/package.dsv
+[1.443s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/ament_index/resource_index/packages/fishbot_description
+[1.443s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig.cmake
+[1.443s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig-version.cmake
+[1.443s] -- Installing: /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_description/share/fishbot_description/package.xml
+[1.461s] Invoked command in '/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/fishbot_application:/home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/emmm/Desktop/RM/ROS2/learn/chapter7/navigation_ws/build/fishbot_description

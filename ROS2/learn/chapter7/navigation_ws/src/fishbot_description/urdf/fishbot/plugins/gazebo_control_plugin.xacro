@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <!-- 声明一个名为gazebo_control_plugin的宏,包含Gazebo插件的配置 -->
+    <xacro:macro name="gazebo_control_plugin">
+        <gazebo>
+            <!-- 插件 名字 文件名字 -->
+            <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
+                <!-- ROS 通信配置 -->
+                <ros>
+                    <namespace>/</namespace>  <!-- 机器人的命名空间 -->
+                    <remapping>cmd_vel:=cmd_vel</remapping>  <!-- 速度指令话题 -->
+                    <remapping>odom:=odom</remapping>  <!-- 里程计输出话题 -->
+                </ros>
+                <!-- 发布信息频率,30Hz -->
+                <update_rate>30</update_rate>
+                <!-- wheels -->
+                <left_joint>left_wheel_joint</left_joint>  <!--左轮关节名称-->
+                <right_joint>right_wheel_joint</right_joint>  <!--右轮关节名称-->
+                <!-- kinematics -->
+                <wheel_separation>0.2</wheel_separation>   <!-- 左右轮间距0.2米 -->
+                <wheel_diameter>0.064</wheel_diameter>  <!-- 轮子直径,半径=0.064/2=0.032 -->
+                <!-- limits -->
+                 <!-- 约束参数:防止轮子扭矩/加速度过大导致漂移 -->
+                <max_wheel_torque>20</max_wheel_torque>  <!-- 最大轮扭矩（足够大,避免卡死） -->
+                <max_wheel_acceleration>1.0</max_wheel_acceleration>  <!-- 最大轮加速度 -->
+                <!-- output -->
+                <!-- 输出配置:发布里程计和TF变换 -->
+                <publish_odom>true</publish_odom>  <!-- 发布里程计 -->
+                <publish_odom_tf>true</publish_odom_tf>  <!-- 发布里程计TF变换 -->
+                <publish_wheel_tf>true</publish_wheel_tf>  <!-- 发布轮子TF变换 -->
+
+                <odometry_frame>odom</odometry_frame>  <!-- 里程计坐标系 -->
+                <robot_base_frame>base_footprint</robot_base_frame>  <!-- 机器人基坐标系 -->
+            </plugin>
+        </gazebo>
+   </xacro:macro>
+</robot>

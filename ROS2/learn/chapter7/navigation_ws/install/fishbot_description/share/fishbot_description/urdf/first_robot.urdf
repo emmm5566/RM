@@ -1,0 +1,59 @@
+<!-- 格式声明 -->
+<?xml version="1.0"?>
+<!-- robot标签 -->
+<robot name="first_robot">
+    <!-- link子标签 -->
+
+    <!-- 机器人的身体部分 -->
+    <link name="base_link">
+        <!-- 部件的外观描述 -->
+        <visual>
+            <!-- 沿着自己几何中心的偏移和旋转量 -->
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <!-- 几何形状 -->
+            <geometry>
+                <!-- 圆柱体 radius 半径 0.10m length 高度 0.12m -->
+                <cylinder radius="0.10" length="0.12"/>
+            </geometry>
+            <!-- 材质颜色 -->
+            <material name="white">
+                <!-- 颜色 红色 绿色 蓝色 透明度 -->
+                <color rgba="1.0 1.0 1.0 0.5"/>                
+            </material>
+        </visual> 
+    </link>
+
+    <!-- 机器人的IMU部件，惯性测量传感器 -->
+    <link name="imu_link">
+        <!-- 部件的外观描述 -->
+        <visual>
+            <!-- 沿着自己几何中心的偏移和旋转量 -->
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <!-- 几何形状 -->
+            <geometry>
+                <!-- 正方体 单位m -->
+                <box size="0.02 0.02 0.02"/>
+            </geometry>
+            <!-- 材质颜色 -->
+            <material name="black">
+                <!-- 颜色 红色 绿色 蓝色 透明度 -->
+                <color rgba="0.0 0.0 0.0 0.5"/>                
+            </material>
+        </visual> 
+    </link>
+
+    <!-- 机器人的关节，用于组合机器人的部件 -->
+    <!-- imu_joint把base_link和imu_link连接起来，imu是fixed固定关节 -->
+    <joint name="imu_joint" type="fixed"> 
+        <!-- 父标签，父部件 -->
+        <parent link="base_link"/>
+        <!-- 子部件，子部件 -->
+        <child link="imu_link"/>
+        <!-- 固定的位置，把imu固定在base_link几何中心向上0.03m的位置 -->
+        <origin xyz="0.0 0.0 0.03" rpy="0.0 0.0 0.0"/>
+    </joint>
+
+</robot>
+
+<!-- 扩展插件：URDF -->
+<!-- 在urdf目录下，urdf_to_graphviz first_robot.urdf first_robot #生成pdf,查看效果 -->
