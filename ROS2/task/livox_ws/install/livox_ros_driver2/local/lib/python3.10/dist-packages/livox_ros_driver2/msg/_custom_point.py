@@ -1,1 +1,0 @@
-/home/emmm/Desktop/scnu_rm/ROS2/task/livox_ws/build/livox_ros_driver2/rosidl_generator_py/livox_ros_driver2/msg/_custom_point.py
