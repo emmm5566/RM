@@ -1,0 +1,6 @@
+# .zshrc
+# >>> Fast-DDS >>>
+source /home/emmm/Desktop/RM/ROS2/learn/chapter3/fastdds_ws/install/setup.bash
+export PATH=$PATH:/home/emmm/Desktop/RM/ROS2/learn/chapter3/fastdds_ws/gradle-6.4/bin
+export DDSGEN=/home/emmm/Desktop/RM/ROS2/learn/chapter3/fastdds_ws/src/fastddsgen/scripts
+# <<< Fast-DDS <<
